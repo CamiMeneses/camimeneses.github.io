@@ -1,16 +1,17 @@
 import React from 'react';
-import Navbar from './components/Navbar';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
 
 //components
 import MyNavbar from "./components/my-navbar/mynavbar.component";
+import MyCarousal from "./components/my-carousal/mycarousal.component";
+import TitleMessage from "./components/title-message/title-message.component"
 
 const App = () =>{
   return (
     <div>
       <MyNavbar />
-      Mi portafolio
+      <MyCarousal />
+      <TitleMessage />
     </div>
   );
 }
