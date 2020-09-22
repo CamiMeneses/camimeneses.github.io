@@ -1,0 +1,46 @@
+@import "../../themes/theme.scss";
+
+.nav-theme {
+  background: $dark-primary-color;
+  font-size: 1em;
+}
+
+.animate-navbar {
+  animation: moveDown 0.8s ease-in-out;
+}
+
+.navbar-light .navbar-nav{
+  .nav-link, .nav-link.active{
+    color: $light-primary-color;
+  }
+
+  a.nav-link.active{
+    text-shadow: 1px 1px 8px $accent-color;
+  }
+}
+
+.navbar-light:hover .navbar-nav:hover .nav-link:hover{
+  color: $primary-color;
+  text-shadow: 1px 1px 8px $dark-primary-color;
+}
+.navbar-toggler-icon, .navbar-toggler{
+  background: $divider-color;
+  border: transparent;
+}
+
+@keyframes moveDown {
+  from {
+    transform: translateY(-4rem);
+  }to{
+    transform: translateY(0rem);
+  }
+}
+
+@keyframes moveUp {
+  from {
+    transform: translateY(0rem);
+  }to{
+    transform: translateY(-4rem);
+  }
+}
+

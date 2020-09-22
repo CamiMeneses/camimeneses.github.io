@@ -1,18 +1,25 @@
-.about {
-  background-color: transparent;
+.about-container {
+  min-height: 100vh;
+  width: 100%;
+  background-image: url("../../assets/img/background/about.jpg");
+  background-repeat: no-repeat, repeat;
+  background-position: center;
+  background-size: cover;
+  margin: auto;
+  position: static;
+  display: table;
+}
+
+.about{
   font-size: 1.1em;
+  display: table;
+  display: table-cell;
+  vertical-align:middle;
 }
 
 .profile{
-  max-width: 18em;
-}
-
-.my-details{
-  background-color: rgba(255, 255, 255, 0.747);
-}
-
-.font-details {
-  font-size: 3em;
-  font-weight: 500;
-  color: #c22121;
+  margin: auto;
+  max-width:30em;
+  height: auto;
+  line-height: 100px;
 }

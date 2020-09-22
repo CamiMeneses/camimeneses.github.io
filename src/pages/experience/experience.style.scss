@@ -1,0 +1,8 @@
+@import "../../themes/theme.scss";
+
+.experience {
+  background: linear-gradient(135deg, rgba(255,255,255,1) 0%, rgba(237,237,237,1) 12%, rgba(250,250,250,1) 24%, rgba(247,247,247,1) 32%, rgba(247,247,247,1) 41%, rgba(255,255,255,1) 65%, rgba(247,247,247,1) 77%, rgba(247,247,247,1) 88%, rgba(250,250,250,1) 95%, rgba(250,250,250,1) 100%);
+  background: $background;
+  padding: 20px;
+  position: static;
+}

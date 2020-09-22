@@ -5,24 +5,24 @@ import Typewriter from 'typewriter-effect';
 const MyTitleMessage = styled.h1`
   position: absolute;
   width: 100%;
-  top: 22rem;
+  top: 25rem;
   z-index: 1;
   margin-top: -125px;
   text-align: center;
   strong{
-    font-size: 1.25em;
+    font-size: 5.25em;
   }
   div {
-    color: ${props => props.theme.textColor};
-    text-shadow: 0px 2px 5px rgba(0, 0, 0, 0,4);
-    font-weight: 100;
-    letter-spacing: 7px;
+    color: #fcecfc;
+    font-size: 80px;
+    font-weight: 900;
+    letter-spacing: 1px;
     .main {
       font-size: 50px;
     }
     .sub {
-      font-size: 27px;
-      letter-spacing: 2px;
+      font-size: 100px;
+      letter-spacing: 1px;
     }
   }
 `;
@@ -30,23 +30,17 @@ const MyTitleMessage = styled.h1`
 const TitleMessage = () => {
   return (
     <MyTitleMessage>
-      <div className="titleMessage">
-        <div className="heading">
-          <div className="main text-center mb-3">
-            Hola, Soy
-            <br />
-            <span>
-              <strong>Camila Andrea Meneses Torres</strong>
-            </span>
-          </div>
-        </div>
-      </div>
       <div className="sub">
         <Typewriter
           options={{
-          strings: ['Hola', 'Soy Camila Meneses', 'Ing. Mecatrónica', 'y Developer'],
+          strings: ['Hola! <br/> Bienvenido a mi página web ', 'Soy <br/>Camila Meneses ',
+                    'Conoce más acerca de mi ', 'Hello! <br/> Welcome to my website',
+                    "I'm <br/>Camila Meneses ", 'Know more about me',],
           autoStart: true,
           loop: true,
+          delay: 90,
+          cursor: ':)',
+          deleteSpeed: 1
           }}
         />
       </div>

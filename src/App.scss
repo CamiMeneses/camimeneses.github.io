@@ -1,0 +1,65 @@
+@import "./themes/theme.scss";
+
+hr{
+  border: 0;
+  height: 1px;
+}
+
+.cursive{
+  font-family: 'Lobster', cursive;
+}
+
+.app{
+  position: 'relative';
+}
+
+.container-box{
+  width: 80%;
+  position: relative;
+  z-index: 9 ;
+}
+
+.particles-box{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.description{
+  margin: 2px;
+  background-color: $background-description;
+  font-weight: 100;
+  color: $primary-text;
+  padding: 1em;
+  height: auto;
+  border-radius: 3px;
+}
+
+h1 {
+  color: $primary-color;
+  padding: 40px 10px 15px 10px;
+  text-align: center;
+}
+
+h3{
+  color: $secondary-text;
+}
+
+h4{
+  color: $text-icons-color;
+}
+
+.text-subtitle{
+  font-weight: 600;
+  color: $divider-color;
+  padding-left: 15px;
+}
+
+.text-description{
+  font-weight: 500;
+  color: $dark-primary-color;
+  padding-left: 15px;
+}

@@ -1,0 +1,23 @@
+@import "../../themes/theme.scss";
+
+.contact {
+  position: static;
+  margin: 0;
+  width: 0;
+  height: 0vw;
+  border: none;
+  border-bottom: 40vw solid $primary-color;
+  border-right: 50vw solid transparent;
+  border-left: 50vw solid transparent;
+  background: $background;
+  ;
+}
+
+.info {
+  padding-top: 20vw;
+  position: initial;
+  width: 40vw;
+  height: 10vw;
+  text-align: left;
+  color: rgb(9, 29, 212);/* just aesthetic */
+}
