@@ -4,17 +4,16 @@ import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Image from 'react-bootstrap/Image'
 import Profile from '../../assets/img/profile/profile.jpg'
-import Button from 'react-bootstrap/Button'
 import Fade from 'react-reveal/Fade'
 
-import './about.style.css'
+import './about.style.scss'
 
 const About = () => {
   return (
     <div className='about-container'>
-      <div className='about'>
+      <div id='about' className='section'>
+        <h1>ABOUT ME</h1>
         <Container>
-          <h1>ABOUT ME</h1>
           <Row className='pt-3 pb-5 align-items-center'>
             {/*Profile Photo*/}
             <Col xs={12} sm={12} md={12} lg={6}>
@@ -28,7 +27,7 @@ const About = () => {
             {/*Description*/}
             <Col xs={12} sm={12} md={12} lg={6}>
               <Fade right>
-                <Row className=' align-items-start description rounded cursive'>
+                <Row className=' align-items-start rounded cursive'>
 
                   Hola! Soy Camila Meneses de Colombia<br />
                   <br />
@@ -46,27 +45,8 @@ const About = () => {
                   <br />
                   Me gustan los ambientes alegres, tranquilos y respetuosos,
                   en donde las personas puedan compartir sus ideas, conocimientos y experiencias. <br />
-
                 </Row>
               </Fade>
-{/*
-              <Fade bottom>
-              <Row>
-                  <Col className='d-flex justify-content-center flex-wrap'>
-                    <div>
-                      <a href='#contact'>
-                        <Button className= 'm-2' variant='outline-success'>Contáctame</Button>
-                      </a>
-                    </div>
-                    <div>
-                      <a href='#linkedin'>
-                        <Button className= 'm-2' variant='outline-info'>LinkedIn</Button>
-                      </a>
-                    </div>
-                  </Col>
-              </Row>
-              </Fade>
-*/}
             </Col>
           </Row>
         </Container>

@@ -1,24 +1,36 @@
-$colors: 40px, 50px, 80px;
+$dark: #3B4C60;
+$light: #ffffff;
+$text-shadow: 1px 1px 2px #000000;
+$box-shadow: 0px 1px 1.5px 1px #DDDDDD;
 
-/*
-#FFEDA4   AMARILLO CLARO
-#FDE8BD
-#D9AF85
-#6D0800
-#B4290D
-#3B4C60  AZUL OSCURO
-*/
 
-$dark-primary-color: #3B4C60;
-$light-primary-color: #0BDAA3;
+$primary-color: #fcecae; //Titulos H1
+$secondary-text:  #ff4a62; // Titulos H3
 
-$primary-color: #FFEDA4;
-$text-icons-color: #f5e59f; //Subtitulos H4
+$text-icons-color: #69B5B5; //Subtitulos H4
+$text-icons-color:#6BE0E8;
+$divider-color: #86aeaf; //Subtitulos
 
-$accent-color: #F8E9A1;
-$primary-text: #382000;
-$secondary-text: #8ad8c9; // Titulos H1
-$divider-color: #7a1908;
 
-$background: $dark-primary-color;
-$background-description: $light-primary-color;
+$accent-color: #ff4a62;
+
+$primary-text: #281D28;
+
+
+$background: $dark;
+$background-description: $light;
+
+:export {
+  dark: $dark;
+  light: $light;
+  textshadow: $text-shadow;
+  boxshadow: $box-shadow;
+
+  primarycolor: $primary-color;
+  secondarytext: $secondary-text;
+  texticonscolor: $text-icons-color;
+  dividercolor: $divider-color;
+
+  accentcolor: $accent-color;
+  primarytext: $primary-text;
+}

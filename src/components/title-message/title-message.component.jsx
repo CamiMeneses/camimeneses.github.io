@@ -2,7 +2,7 @@ import React from 'react'
 import styled from "styled-components";
 import Typewriter from 'typewriter-effect';
 
-const MyTitleMessage = styled.h1`
+const MyTitleMessage = styled.h6`
   position: absolute;
   width: 100%;
   top: 25rem;

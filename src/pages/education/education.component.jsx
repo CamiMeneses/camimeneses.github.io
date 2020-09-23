@@ -1,15 +1,18 @@
 import React from 'react'
 import './education.style.scss'
 import Container from 'react-bootstrap/Container'
+import Fade from 'react-reveal/Fade'
 
 const Education = () => {
   return (
-    <div className='education'>
+    <div id='education' className= 'section'>
+      <h1>EDUCATION</h1>
       <Container>
-        <h1>EDUCATION</h1>
-        <Bachelor />
-        <Courses />
-        <Languages />
+        <Fade bottom>
+          <Bachelor />
+          <Courses />
+          <Languages />
+        </Fade>
       </Container>
     </div>
   )
@@ -18,7 +21,7 @@ const Education = () => {
 const Bachelor = () => {
   return (
     <div className='description'>
-    <h3>Education</h3>
+    <h3>EDUCATION</h3>
       <h4>Bachelor of Mechatronics Engineering</h4>
       <div className='text-subtitle'><b>Universidad Piloto de Colombia</b></div>
       <div className='text-subtitle'>Bogotá | 2017</div>
@@ -32,7 +35,7 @@ const Bachelor = () => {
 const Courses = () => {
   return (
   <div className='description'>
-    <h3>Courses</h3>
+    <h3>COURSES</h3>
     <h4>Fullstack Bootcamp</h4>
     <div className='text-subtitle'><b>Bogotá Dev. Bootcamp & Dev Shop</b></div>
     <div className='text-subtitle'>Bogotá | 2019</div>
@@ -52,7 +55,7 @@ const Courses = () => {
 const Languages = () => {
   return(
     <div className='description'>
-      <h3>Languages</h3>
+      <h3>LANGUAGES</h3>
       <h4>Spanish</h4>
       <div className='text-subtitle'><b>Native</b></div>
 

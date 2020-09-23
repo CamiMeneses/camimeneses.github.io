@@ -1,7 +1,7 @@
 @import "../../themes/theme.scss";
 
 .nav-theme {
-  background: $dark-primary-color;
+  background: black;
   font-size: 1em;
 }
 
@@ -11,7 +11,7 @@
 
 .navbar-light .navbar-nav{
   .nav-link, .nav-link.active{
-    color: $light-primary-color;
+    color: $light;
   }
 
   a.nav-link.active{
@@ -21,7 +21,7 @@
 
 .navbar-light:hover .navbar-nav:hover .nav-link:hover{
   color: $primary-color;
-  text-shadow: 1px 1px 8px $dark-primary-color;
+  text-shadow: 1px 1px 8px $dark;
 }
 .navbar-toggler-icon, .navbar-toggler{
   background: $divider-color;

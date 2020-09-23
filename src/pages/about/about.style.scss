@@ -1,0 +1,21 @@
+@import "../../themes/theme.scss";
+
+.about-container {
+  height: 100vh;
+  width: 100%;
+  position: static;
+  display: table;
+}
+
+.about{
+  font-size: 1.1em;
+  display: table;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.profile{
+  margin: 5em;
+  max-width: 25em;
+  height: auto;
+}

@@ -1,15 +1,25 @@
 import React from 'react'
+import { Container } from 'react-bootstrap'
 import './contact.style.scss'
 
-
-const Contact = () => {
+export default function Contact(props) {
   return (
-    <div id="contact" className="contact">
-      <div className="info">
-        <h1>CONTACT</h1>
+    <div style={{backgroundColor:"transparent", position:"relative"}}>
+      <div id="contact">
+      <div className="title">CONTACT</div>
+        <Container>
+          <div className='text-subtitle'>
+            <p>
+              Camila Andrea Meneses Torres<br />
+              Ing. Mecatrónica | Web Developer<br />
+              kam_1095@live.com<br />
+              Bogota - Colombia<br />
+            </p>
+          </div>
+        </Container>
+          {props.children}
       </div>
     </div>
-  )
+  );
 }
 
-export default Contact
