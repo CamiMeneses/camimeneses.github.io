@@ -5,16 +5,18 @@ $text-shadow-yellow: 2px 2px 0px #fcf9607e, 2px 2px 0px rgba(252, 237, 104, 0.57
 $text-shadow-blue: 2px 2px 0px #55f6fc91, 2px 2px 0px #40f8fe6c, -1px 1px 0px #fcf9607e, 2px 2px 0px #fa1dd560, -3px 5px 0px #8769b2;
 
 $box-shadow: 0px 1px 1.5px 1px #2c252521;
-$box-shadow-blue-titles: 0px 0px 5em 3em rgba(86, 219, 224, 0.616);
 
+$size-shadow: 0px 0px 30vh 40vh;
+$box-shadow-blue-titles: $size-shadow #1b1c1d6c;
+$box-shadow-white-titles: $size-shadow #ebf5f0b9;
 
-$primary-color: #FB08D3; //Titulos H1
-$secondary-text:  #f79b9b; // Titulos H3
+$primary-color: #E4265A; //Titulos H1
+$secondary-text:  #5b2dff; // Titulos H3
 
 $text-icons-color: #fc824a; //Subtitulos H4
 $divider-color: #b3ab1b; //Subtitulos
 
-$accent-color: #5b2dff;
+$accent-color: #017BFF;
 
 $primary-text: #281D28;
 

@@ -5,30 +5,30 @@
   width: 100%;
   position: static;
   display: table;
-  background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(255,180,180,0.38) 89%, rgba(255,171,171,0.7) 100%);
-
+  background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(201, 236, 236, 0.38) 89%, #bce6ddd3 100%);
 }
 
 #about{
-  font-size: 1.2em;
+  font-size: 2vh;
   font-weight: 900;
   display: table;
   display: table-cell;
   vertical-align: middle;
-  //background: url('./../../assets/icons/women.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  //opacity: 0.5;
+}
 
+.profile-text{
+  padding-left: 1.5vh;
 }
 
 #about-img{
-  background: rgba(255, 255, 255, 0.644);
-
+  background: rgba(240, 239, 239, 0.712);
 }
+
 .profile{
-  margin: 5em;
-  max-width: 25em;
+  margin: 2em;
+  max-width: 50vh;
   height: auto;
 }

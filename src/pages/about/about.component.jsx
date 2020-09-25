@@ -28,7 +28,7 @@ const About = () => {
             {/*Description*/}
             <Col xs={12} sm={12} md={12} lg={6}>
               <Fade right>
-                <Row className=' align-items-start rounded'>
+                <Row className=' align-items-start rounded profile-text'>
 
                   Hi! I'm Camila from Colombia<br />
                   <br />

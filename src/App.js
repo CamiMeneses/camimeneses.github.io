@@ -26,7 +26,7 @@ const App = () =>{
       <Parallax
         bgImage={require('./assets/img/background/colors/welcome.png')}
         bgImageAlt="about"
-        strength={1000}
+        strength={500}
       >
         <MyNavbar />
         <Welcome />
@@ -43,9 +43,9 @@ const App = () =>{
         </Parallax>
 
         <Parallax
-          bgImage={require('./assets/img/background/colors/hologram.png')}
+          bgImage={require('./assets/img/background/colors/welcome3.jpg')}
           bgImageAlt="about"
-          strength={1000}
+          strength={500}
         >
             <div id="background-woman">
               <Experience />
@@ -57,7 +57,7 @@ const App = () =>{
       <Parallax
         bgImage={require('./assets/img/croquis-gris.png')}
         bgImageAlt="about"
-        strength={1000}
+        strength={800}
       >
         <div id="background-papel">
           <Education />

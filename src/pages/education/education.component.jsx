@@ -5,6 +5,10 @@ import Fade from 'react-reveal/Fade'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 
+import Overlay from 'react-bootstrap/Overlay'
+import OverlayTrigger from 'react-bootstrap/OverlayTrigger'
+import Tooltip from 'react-bootstrap/Tooltip'
+
 const Education = () => {
   return (
     <div id='education' className= 'section'>
@@ -44,33 +48,88 @@ const Education = () => {
 }
 
 const Bachelor = () => {
+  let msg = "About this university";
+  let projectMsg = "About this project";
+  let whatIs= "What's Mechatronics?"
   return (
     <div className='description' id='university'>
-      <h4>Bachelor of Mechatronics Engineering</h4>
-      <div className='text-subtitle'><b>Universidad Piloto de Colombia</b></div>
+      <OverlayTrigger placement="bottom" delay={{ show: 250, hide: 400 }}
+        overlay={
+        <Tooltip> {whatIs} </Tooltip>
+        }
+      >
+        <a href='https://www.mtu.edu/mechatronics/what-is/' target='_blank' rel='noopener noreferrer'>
+          <h4>Bachelor of Mechatronics Engineering</h4>
+        </a>
+      </OverlayTrigger>
+
+      <OverlayTrigger placement="bottom" delay={{ show: 250, hide: 400 }}
+        overlay={
+        <Tooltip> {msg} </Tooltip>
+        }
+      >
+        <div className='text-subtitle'>
+          <a href='https://www.unipiloto.edu.co/' target='_blank' rel='noopener noreferrer'>
+            <b>Universidad Piloto de Colombia</b>
+          </a>
+        </div>
+      </OverlayTrigger>
       <div className='text-subtitle'>Bogotá | 2017</div>
-      <div className='text-description'>
-        <b>Project:</b> Sistema de Monitoreo en la Nube para Medir los Riesgos Ambientales Basados en Sensores de Bajo Costo.
-      </div>
+
+      <OverlayTrigger placement="bottom" delay={{ show: 250, hide: 400 }}
+        overlay={
+        <Tooltip> {projectMsg} </Tooltip>
+        }
+      >
+        <a href='http://polux.unipiloto.edu.co:8080/00003994.pdf' target='_blank' rel='noopener noreferrer'>
+          <div className='text-description'>
+            <b>Project:</b> Sistema de Monitoreo en la Nube para Medir los Riesgos Ambientales Basados en Sensores de Bajo Costo.
+          </div>
+        </a>
+      </OverlayTrigger>
     </div>
   )
 }
 
 const Courses = () => {
+  let bootcamp = "About this bootcamp"
+  let miriada = "Certification"
   return (
   <div className='description'>
     <h3>COURSES</h3>
     <h4>Fullstack Bootcamp</h4>
-    <div className='text-subtitle'><b>Bogotá Dev. Bootcamp & Dev Shop</b></div>
+    <div className='text-subtitle'>
+      <OverlayTrigger placement="bottom" delay={{ show: 250, hide: 400 }}
+          overlay={
+          <Tooltip> {bootcamp} </Tooltip>
+          }
+        >
+        <a href='https://www.bogotabootcamp.com/' target='_blank' rel='noopener noreferrer'>
+          <b>Bogotá Dev. Bootcamp & Dev Shop</b>
+        </a>
+      </OverlayTrigger>
+    </div>
     <div className='text-subtitle'>Bogotá | 2019</div>
     <div className='text-description'>
       Ruby, Rails, HTML, CSS, Javascript, Jquery, GitHub, Rspec, React.js
     </div>
     <div className='text-description'><b>Duration:</b> 10 weeks | day</div>
     <hr />
-    <h4> Desarrollo en HTML5, CSS y Javascript de  Apps Web, Android, Ios(7ed.)</h4>
-    <div className='text-subtitle'><b>Universidad Politécnica de Madrid - Virtual</b></div>
-    <div className='text-subtitle'>2017</div>
+
+    <OverlayTrigger placement="bottom" delay={{ show: 250, hide: 400 }}
+      overlay={
+      <Tooltip> {miriada} </Tooltip>
+      }
+    >
+      <a href='https://miriadax.net/files/10132/badge/c258b12f-2d9e-484b-9440-5aa65334e43f.pdf' target='_blank' rel='noopener noreferrer'>
+        <h4>Desarrollo en HTML5, CSS y Javascript de  Apps Web, Android, Ios(7ed.)</h4>
+        <div className='text-subtitle'>
+          <b>Miriada X | Universidad Politécnica de Madrid <br />
+            Virtual 2017
+          </b>
+        </div>
+      </a>
+    </OverlayTrigger>
     <div className='text-description'><b>Duration:</b> 5 weeks | 50 study hours</div>
   </div>
   )
