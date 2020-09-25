@@ -13,6 +13,7 @@ const About = () => {
     <div className='about-container'>
       <div id='about' className='section'>
         <h1>ABOUT ME</h1>
+        <div id='about-img'>
         <Container>
           <Row className='pt-3 pb-5 align-items-center'>
             {/*Profile Photo*/}
@@ -27,29 +28,34 @@ const About = () => {
             {/*Description*/}
             <Col xs={12} sm={12} md={12} lg={6}>
               <Fade right>
-                <Row className=' align-items-start rounded cursive'>
+                <Row className=' align-items-start rounded'>
 
-                  Hola! Soy Camila Meneses de Colombia<br />
+                  Hi! I'm Camila from Colombia<br />
                   <br />
 
-                  Soy una persona muy alegre y amistosa, a quien
-                  le gusta aprender sobre culaquier tema, viajar y conocer otras culturas.<br />
-
-                  Para mi son muy importantes las personas con las que me rodeo a diario,
-                  ya que es inevitable no llevarte un poquito de cada una ellas.<br />
+                  I'm glad you came to my website. Let's talk about me...<br />
                   <br />
 
-                  Por algo dicen: <br />
-                  "Quien con lobos anda, aprende a aullar"<br />
-
+                  I'm mechatronics engineer and FullStack developer. <br />
+                  I have 1 year of experience working with Ruby on Rails, <br />
+                  HTML and CSS. I had follwed Scrum Methodology <br />
+                  and used host places like Github and Bitbucket. <br />
                   <br />
-                  Me gustan los ambientes alegres, tranquilos y respetuosos,
-                  en donde las personas puedan compartir sus ideas, conocimientos y experiencias. <br />
+
+                  I want to continue learning about this world of development <br />
+                  and for this, I'm studying JS and its frameworks <br />
+                  like React JS, which I'm using here!<br />
+                  <br />
+
+                  Check out my website, learn more about me <br />
+                  and feel free to contact me. <br />
+                  <br />
                 </Row>
               </Fade>
             </Col>
           </Row>
         </Container>
+        </div>
       </div>
     </div>
   )

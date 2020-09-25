@@ -4,15 +4,19 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: 'Poppins', sans-serif;
+  font-family: 'Titillium Web', sans-serif;
 
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#959595+0,0d0d0d+46,010101+50,0a0a0a+53,4e4e4e+76,383838+87,1b1b1b+100;Black+Gloss+Pipe */
   /* Add the blur effect */
-  background: black;
+  background: transparent;
 
   /* Full height */
   height: 100%;
 
   /* Center and scale the image nicely */
+  background-repeat: repeat;
+  background-position: center;
+  background-size: cover;
   /*
 
   background-position: center;

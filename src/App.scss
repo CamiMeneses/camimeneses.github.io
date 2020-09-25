@@ -1,10 +1,5 @@
 @import "./themes/theme.scss";
 
-hr{
-  border: 0;
-  height: 1px;
-}
-
 .cursive{
   font-family: 'Lobster', cursive;
 }
@@ -29,7 +24,6 @@ hr{
 }
 
 .description{
-  margin: 2em;
   background-color: $background-description;
   font-weight: 100;
   color: $primary-text;
@@ -40,23 +34,30 @@ hr{
 }
 
 h1 {
-  color: $primary-color;
   padding-top: 0.5em;
   padding-bottom: 0.25em;
   margin-top: 0.5em;
   text-align: center;
-  text-shadow: $text-shadow;
-  background: black;
-  font-size: 5em;
-  box-shadow: 0em 0em 3em 1.5em black;
+  font-size: 4em;
+  font-weight: bolder;
+  box-shadow: 0em 0em 5em 5em $light;
+  font-size: 72px;
+  background: -webkit-linear-gradient(#FB08D3 20%, rgba(255,225,76,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: $text-shadow-pink;
+  box-shadow: 0px 0px 300px 200px rgba(255,255,255,1);
 }
+
 
 h3{
   color: $secondary-text;
+  text-shadow: 1px 1px 1px #FB08D3;
 }
 
 h4{
   color: $text-icons-color;
+  text-shadow: 1px 1px 0px #ff4a4a;
 }
 
 .text-subtitle{
@@ -76,5 +77,33 @@ h4{
   min-height: 100vh;
   position: static;
   padding-top: 3em;
-  background: linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(0,0,0,0.3) 31%, rgba(0,0,0,0) 55%, rgba(0,0,0,0.5) 77%, rgba(0,0,0,1) 100%);
+  padding-bottom: 3em;
+}
+
+.woman{
+  position: absolute;
+  top: 79em;
+  right: 0px;
+  min-height: 100%;
+  max-height: 50vh;
+}
+
+.woman-experience{
+  position: absolute;
+  top: 130em;
+  left: 0px;
+  min-height: 200vh;
+  opacity: 0.95;
+}
+
+#background-woman{
+  background: url('./assets/img/woman-experience3.png');
+  background-repeat: repeat;
+  background-position: center;
+}
+
+#background-skills{
+  background: url('./assets/img/girl-power.png');
+  background-repeat: repeat;
+  background-position: center;
 }

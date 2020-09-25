@@ -18,7 +18,7 @@ const Experience = () => {
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             date="Mar - Jul 2020"
-            iconStyle={{ background: color.accentcolor, color: '#b52a08' }}
+            iconStyle={{ background: color.primarycolor, color: '#b52a08' }}
           >
             <h3 className="vertical-timeline-element-title">INTERMEDIATE DEVELOPER</h3>
             <h4 className="vertical-timeline-element-subtitle">2Transfair | FINTECH | Bogota, CO | Partly remote</h4>
@@ -40,7 +40,7 @@ const Experience = () => {
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             date="May - Dec 2019"
-            iconStyle={{ background: color.accentcolor, color: '#fff' }}
+            iconStyle={{ background: color.primarycolor, color: '#fff' }}
           >
             <h3 className="vertical-timeline-element-title">IT TRAINEE</h3>
             <h4 className="vertical-timeline-element-subtitle">Youse Colombia - CNPX | INSURTECH | Bogota, CO</h4>
@@ -62,7 +62,7 @@ const Experience = () => {
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             date="Mar - May 2019"
-            iconStyle={{ background: color.accentcolor, color: '#fff' }}
+            iconStyle={{ background: color.primarycolor, color: '#fff' }}
           >
             <h3 className="vertical-timeline-element-title">FREELANCE WEB DEVELOPER</h3>
             <h4 className="vertical-timeline-element-subtitle">Bogota Dev. Bootcamp & Dev Shop | Bogota, CO</h4>
@@ -75,7 +75,7 @@ const Experience = () => {
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             date="Nov - Dec 2017"
-            iconStyle={{ background: color.accentcolor, color: '#fff' }}
+            iconStyle={{ background: color.primarycolor, color: '#fff' }}
           >
             <h3 className="vertical-timeline-element-title">TECNICO 1 DATA QUIALITY</h3>
             <h4 className="vertical-timeline-element-subtitle">Unión temporal proceso unidad para la atención y reparación integral a las victimas 2017 | Bogota, CO</h4>
@@ -84,7 +84,7 @@ const Experience = () => {
           <VerticalTimelineElement
             className="vertical-timeline-element--education"
             date="April 2013"
-            iconStyle={{ background: color.accentcolor, color: '#fff' }}
+            iconStyle={{ background: color.primarycolor, color: '#fff' }}
           >
             <h3 className="vertical-timeline-element-title"> STUDENT RESEARCHER | INTERN</h3>
             <h4 className="vertical-timeline-element-subtitle">Universidad Distrital Francisco José de Caldas | Universidad Piloto de Colombia | Bogota, CO</h4>

@@ -1,1 +1,28 @@
 @import "../../themes/theme.scss";
+
+#skills{
+  position: static;
+  background: linear-gradient(to bottom, rgba(184,64,110,0.6) 0%, rgba(219,154,148,0.2) 51%, rgba(237,202,168,0.2) 78%, rgba(252,241,184,0.6) 100%);
+
+  h1{
+    box-shadow: 0em 0em 5em 5em #c933856e;
+    text-shadow: $text-shadow-blue;
+    box-shadow: $box-shadow-blue-titles;
+  }
+
+  p {
+    font-size: 1.1em;
+    color: $dark;
+  }
+}
+
+#skills-box{
+  //border: 5px solid rgb(175, 6, 6);
+  background: transparent;
+  align-self: center;
+  padding: 2em 0em 2em 0em;
+
+  width: 960px;
+  position: relative;
+  margin:auto;
+}

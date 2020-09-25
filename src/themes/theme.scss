@@ -1,29 +1,32 @@
 $dark: #3B4C60;
-$light: #ffffff;
-$text-shadow: 1px 1px 2px #000000;
-$box-shadow: 0px 1px 1.5px 1px #DDDDDD;
+$light: #fdf4a04b;
+$text-shadow-pink: 2px 2px 0px #fb08d265, 3px 3px 0px rgba(255, 225, 76, 0.575), -2px 2px 0px #fb08d26e, -3px 3px 0px rgba(255, 225, 76, 0.829), -6px 5px 0px #8769b2;
+$text-shadow-yellow: 2px 2px 0px #fcf9607e, 2px 2px 0px rgba(252, 237, 104, 0.575), -2px 2px 0px #fb08d263, 2px 2px 0px #fa1dd560, -3px 5px 0px #8769b2;
+$text-shadow-blue: 2px 2px 0px #55f6fc91, 2px 2px 0px #40f8fe6c, -1px 1px 0px #fcf9607e, 2px 2px 0px #fa1dd560, -3px 5px 0px #8769b2;
+
+$box-shadow: 0px 1px 1.5px 1px #2c252521;
+$box-shadow-blue-titles: 0px 0px 5em 3em rgba(86, 219, 224, 0.616);
 
 
-$primary-color: #fcecae; //Titulos H1
-$secondary-text:  #ff4a62; // Titulos H3
+$primary-color: #FB08D3; //Titulos H1
+$secondary-text:  #f79b9b; // Titulos H3
 
-$text-icons-color: #69B5B5; //Subtitulos H4
-$text-icons-color:#6BE0E8;
-$divider-color: #86aeaf; //Subtitulos
+$text-icons-color: #fc824a; //Subtitulos H4
+$divider-color: #b3ab1b; //Subtitulos
 
-
-$accent-color: #ff4a62;
+$accent-color: #5b2dff;
 
 $primary-text: #281D28;
 
 
 $background: $dark;
-$background-description: $light;
+$background-description: white;
 
 :export {
   dark: $dark;
   light: $light;
-  textshadow: $text-shadow;
+  textshadowpink: $text-shadow-pink;
+  textshadowpink: $text-shadow-yellow;
   boxshadow: $box-shadow;
 
   primarycolor: $primary-color;

@@ -5,15 +5,28 @@
   width: 100%;
   position: static;
   display: table;
+  background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(255,180,180,0.38) 89%, rgba(255,171,171,0.7) 100%);
+
 }
 
-.about{
-  font-size: 1.1em;
+#about{
+  font-size: 1.2em;
+  font-weight: 900;
   display: table;
   display: table-cell;
   vertical-align: middle;
+  //background: url('./../../assets/icons/women.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  //opacity: 0.5;
+
 }
 
+#about-img{
+  background: rgba(255, 255, 255, 0.644);
+
+}
 .profile{
   margin: 5em;
   max-width: 25em;

@@ -1,11 +1,9 @@
 import React from 'react';
 import './App.scss';
 import { Parallax }  from "react-parallax";
-import Container from 'react-bootstrap/Container'
-import ParticlesBg from "particles-bg";
+
 //components
 import MyNavbar from './components/my-navbar/mynavbar.component';
-import MyCarousal from './components/my-carousal/mycarousal.component';
 import Particles from './components/particles/particles.component';
 
 import Welcome from './pages/welcome/welcome.component';
@@ -15,16 +13,18 @@ import Links from './components/links/links.component';
 
 import Education from './pages/education/education.component';
 import Experience from './pages/experience/experience.component';
+import Skills from './pages/skills/skills.component';
 
 import Contact from './pages/contact/contact.component';
 
-import icon from "./assets/icons/icon.jpg";
+import Woman from './assets/img/woman.png'
+import WomanExperience from './assets/img/woman-experience.png'
 
 const App = () =>{
   return (
     <div className='App'>
       <Parallax
-        bgImage={require('./assets/img/background/welcome.jpg')}
+        bgImage={require('./assets/img/background/colors/welcome.png')}
         bgImageAlt="about"
         strength={1000}
       >
@@ -33,34 +33,50 @@ const App = () =>{
         <TitleMessage />
       </Parallax>
 
+      <div className="imagenes">
+        <Parallax
+          bgImage={require('./assets/img/background/colors/about.jpg')}
+          bgImageAlt="about"
+          strength={1000}
+        >
+          <About />
+        </Parallax>
+
+        <Parallax
+          bgImage={require('./assets/img/background/colors/hologram.png')}
+          bgImageAlt="about"
+          strength={1000}
+        >
+            <div id="background-woman">
+              <Experience />
+            </div>
+        </Parallax>
+        <img className='woman' alt='woman' src={Woman}/>
+      </div>
+
       <Parallax
-        bgImage={require('./assets/img/background/about.jpg')}
+        bgImage={require('./assets/img/croquis-gris.png')}
         bgImageAlt="about"
         strength={1000}
       >
-        <About />
+        <div id="background-papel">
+          <Education />
+        </div>
       </Parallax>
 
       <Parallax
-        bgImage={require('./assets/img/background/experience.jpg')}
+        bgImage={require('./assets/img/background/colors/skills.png')}
         bgImageAlt="about"
         strength={1000}
       >
-        <Experience />
-      </Parallax>
-      <Parallax
-        bgImage={require('./assets/img/background/education.jpg')}
-        bgImageAlt="about"
-        strength={1000}
-      >
-        <Education />
+        <div id="background-skills">
+          <Skills />
+        </div>
       </Parallax>
 
       <Contact>
           <Particles />
       </Contact>
-      {/*<MyCarousal />*/}
-
       <Links />
     </div>
 

@@ -1,7 +1,17 @@
 @import "../../themes/theme.scss";
 
 #experience {
-  //background: linear-gradient(to bottom, rgba(35,81,99,0.9) 0%, rgba(39,85,104,0.9) 4%, rgba(58,103,126,0.6) 22%, rgba(88,131,163,0.5) 51%, rgba(90,133,165,0.51) 53%, rgba(182,190,192,0.7) 81%, rgba(222,215,203,0.7) 93%);
-  padding: 20px;
   position: static;
+  background: linear-gradient(to bottom, rgba(184,64,110,0.6) 0%, rgba(219,154,148,0.2) 51%, rgba(237,202,168,0.2) 78%, rgba(252,241,184,0.6) 100%);
+
+  h1{
+    box-shadow: 0em 0em 5em 5em #c933856e;
+    text-shadow: $text-shadow-blue;
+    box-shadow: $box-shadow-blue-titles;
+  }
+
+  p {
+    font-size: 1.1em;
+    color: $dark;
+  }
 }

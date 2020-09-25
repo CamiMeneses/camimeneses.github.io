@@ -1,21 +1,27 @@
 @import "../../themes/theme.scss";
 
 #contact {
-  padding-bottom: 7em;
+  padding-bottom: 10em;
   text-align: center;
-  max-height: 50vh;
+  max-height: 100vh;
   background-color: transparent;
   .text-subtitle{
-    color:$primary-color;
+    color: $text-icons-color;
   }
 }
 
+
+#contact-box{
+  //border: 5px solid rgb(175, 6, 6);
+  background: transparent;
+  margin: 1em 30em 1em 30em;
+  align-self: center;
+ //border-style: dotted;
+}
+
 .title{
-  color: white;
-  padding-top: 0.5em;
-  padding-bottom: 0.25em;
-  margin-top: 0.5em;
+  color: rgb(255, 255, 255);
   text-align: center;
-  text-shadow: $text-shadow;
+  text-shadow: $text-shadow-pink;
   font-size: 3em;
 }

@@ -1,7 +1,7 @@
 @import "../../themes/theme.scss";
 
 .nav-theme {
-  background: black;
+  background: transparent;
   font-size: 1em;
 }
 
@@ -11,17 +11,19 @@
 
 .navbar-light .navbar-nav{
   .nav-link, .nav-link.active{
-    color: $light;
+    color: $secondary-text;
+    text-shadow: 1px 1px 1px rgb(168, 168, 168),-1px 1px 1px rgb(164, 241, 255),-1px -1px 1px rgb(185, 253, 227), 1px -1px 1px rgb(26, 163, 255);
   }
 
   a.nav-link.active{
-    text-shadow: 1px 1px 8px $accent-color;
+    color: $accent-color;
+    text-shadow: 2px 2px 1px rgb(164, 241, 255);
   }
 }
 
 .navbar-light:hover .navbar-nav:hover .nav-link:hover{
   color: $primary-color;
-  text-shadow: 1px 1px 8px $dark;
+  text-shadow: 1px 1px 2px rgb(250, 255, 181), -1px -1px 2px rgb(250, 255, 181), 1px -1px 2px rgb(250, 255, 181), -1px 1px 2px rgb(250, 255, 181);
 }
 .navbar-toggler-icon, .navbar-toggler{
   background: $divider-color;
