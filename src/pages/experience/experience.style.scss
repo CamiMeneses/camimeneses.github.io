@@ -10,7 +10,7 @@
   }
 
   p {
-    font-size: 1em;
+    font-size: 0.9em;
     font-weight: 200;
     color: $dark;
   }
@@ -18,9 +18,15 @@
 
 .vertical-timeline-element-date{
   color: white;
-  text-shadow: 1px 1px 3px rgb(252, 252, 252);
   font-weight: 900;
-  background: rgb(255, 0, 85);
+  background: #DD68CE;
   border-radius: 10px;
-  padding: 1em;
+  text-align: center !important;
+  margin: 0;
+  padding: 0;
+}
+
+.nospace{
+  margin: 0;
+  padding: 0;
 }

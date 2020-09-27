@@ -1,9 +1,9 @@
 import React from 'react'
 import './education.style.scss'
 import Container from 'react-bootstrap/Container'
-import Fade from 'react-reveal/Fade'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
+import Fade from 'react-reveal/Fade'
 
 import Overlay from 'react-bootstrap/Overlay'
 import OverlayTrigger from 'react-bootstrap/OverlayTrigger'

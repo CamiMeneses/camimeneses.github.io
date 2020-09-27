@@ -26,7 +26,7 @@
     color: black;
     font-variant: small-caps;
     font-weight: 400;
-    font-size: 2.5vh;
+    font-size: 2em;
   }
 
   h3{
@@ -34,7 +34,7 @@
     font-variant: small-caps;
     color: black;
     font-weight: 500;
-    font-size: 5vh;
+    font-size: 2.5em;
     text-shadow: none;
   }
 
@@ -43,18 +43,11 @@
   }
 }
 
-
-.nospace{
-  margin: 0;
-  padding: 0;
-}
-
 .languages{
   .row{
     margin:1vh;
   }
 }
-
 
 .course{
   .logo{

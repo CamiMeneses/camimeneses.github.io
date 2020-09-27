@@ -33,7 +33,7 @@ h1 {
   text-align: center;
   font-weight: bolder;
   box-shadow: 0em 0em 5em 5em $light;
-  font-size: 5vh;
+  font-size: 3em;
   background: -webkit-linear-gradient(#DD68CE 20%, rgba(255,225,76,1) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -45,7 +45,7 @@ $h3-shadow: #205f553a;
 h3{
   color: rgb(15, 152, 216);
   text-shadow: 1px 1px .5px $h3-shadow, -1px 1px .5px $h3-shadow, 1px -1px .5px $h3-shadow, -1px -1px .5px $h3-shadow;
-  font-size: 1.2em;
+  font-size: 1.1em;
   font-weight: 300;
 }
 
@@ -53,7 +53,7 @@ $h4-shadow: #2c2c2c00;
 h4{
   color: rgb(68, 60, 105);
   text-shadow: 1px 1px .5px $h4-shadow, -1px 1px .5px $h4-shadow, 1px -1px .5px $h4-shadow, -1px -1px .5px $h4-shadow;;
-  font-size: 1.1em;
+  font-size: 1em;
   font-weight: 300;
 }
 

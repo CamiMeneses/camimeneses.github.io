@@ -10,7 +10,7 @@ const MyTitleMessage = styled.h6`
   text-align: center;
   text-shadow: 2px 4px 0px #ff4a4a, 4px 6px 0px rgba(255, 225, 76, 0.733);
   strong{
-    font-size: 5.25em;
+    font-size: 5em;
   }
   div {
     color: #FFFFFF;
