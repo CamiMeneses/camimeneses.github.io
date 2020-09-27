@@ -10,13 +10,13 @@ const MyNavbar = () => {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ml-auto">
-            <Nav.Link href="#welcome">Home</Nav.Link>
-            <Nav.Link href="#about">About Me</Nav.Link>
-            <Nav.Link href="#skills">Skills</Nav.Link>
-            <Nav.Link href="#education">Education</Nav.Link>
-            <Nav.Link href="#experience">Experience</Nav.Link>
-            <Nav.Link href="#projects">Projects</Nav.Link>
-            <Nav.Link href="#contact">Contact</Nav.Link>
+            <Nav.Link href="#welcome">HOME</Nav.Link>
+            <Nav.Link href="#about">ABOUT ME</Nav.Link>
+            <Nav.Link href="#experience">EXPERIENCE</Nav.Link>
+            <Nav.Link href="#education">EDUCATION</Nav.Link>
+            <Nav.Link href="#skills">SKILLS</Nav.Link>
+            <Nav.Link href="#projects">PROJECTS</Nav.Link>
+            <Nav.Link href="#contact">CONTACT</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

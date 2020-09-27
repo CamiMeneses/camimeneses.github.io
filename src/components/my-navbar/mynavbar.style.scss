@@ -7,6 +7,8 @@
 
 .animate-navbar {
   animation: moveDown 0.8s ease-in-out;
+  background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 38%, rgba(255,255,255,0.39) 62%, rgba(255,255,255,0.59) 85%, rgba(255,255,255,0.59) 100%);
+  padding: 0;
 }
 
 .navbar-light .navbar-nav{
@@ -16,14 +18,14 @@
   }
 
   a.nav-link.active{
-    color: $accent-color;
-    text-shadow: 2px 2px 1px rgb(164, 241, 255);
+    color: #ffbea4;
+    text-shadow: 1px 1px 1px #faa780, -1px 1px 1px #faa780, 1px -1px 1px #faa780, -1px -1px 1px #faa780;
   }
 }
 
 .navbar-light:hover .navbar-nav:hover .nav-link:hover{
-  color: $primary-color;
-  text-shadow: 1px 1px 2px rgb(250, 255, 181), -1px -1px 2px rgb(250, 255, 181), 1px -1px 2px rgb(250, 255, 181), -1px 1px 2px rgb(250, 255, 181);
+  color: rgb(22, 138, 247);
+  text-shadow: 1px 1px 1px rgb(0, 66, 248), -1px -1px 1px rgb(81, 69, 241), 1px -1px 1px rgb(99, 109, 247), -1px 1px 1px rgb(19, 59, 238);
 }
 .navbar-toggler-icon, .navbar-toggler{
   background: $divider-color;

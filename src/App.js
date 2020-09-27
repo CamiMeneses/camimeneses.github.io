@@ -19,68 +19,94 @@ import Contact from './pages/contact/contact.component';
 
 import Woman from './assets/img/woman.png'
 import WomanExperience from './assets/img/woman-experience.png'
+import { Container } from 'react-bootstrap';
 
 const App = () =>{
   return (
     <div className='App'>
-      <Parallax
+        <MyNavbar />
+        <WelcomeSection />
+        <AboutSection />
+        <ExperienceSection />
+        <img className='woman' alt='woman' src={Woman}/>
+        <EducationSection />
+        <SkillsSection />
+        <Contact>
+            <Particles />
+        </Contact>
+        <Links />
+      </div>
+  );
+}
+
+const WelcomeSection = () =>{
+  return (
+    <Parallax
         bgImage={require('./assets/img/background/colors/welcome.png')}
         bgImageAlt="about"
         strength={500}
       >
-        <MyNavbar />
         <Welcome />
         <TitleMessage />
-      </Parallax>
+    </Parallax>
+  )
+}
 
-      <div className="imagenes">
-        <Parallax
-          bgImage={require('./assets/img/background/colors/about.jpg')}
-          bgImageAlt="about"
-          strength={1000}
-        >
-          <About />
-        </Parallax>
+const AboutSection = () =>{
+  return (
+    <Parallax
+    bgImage={require('./assets/img/background/colors/about.jpg')}
+    bgImageAlt="about"
+    strength={1000}
+    >
+      <About />
+    </Parallax>
+  )
+}
 
-        <Parallax
+const EducationSection = () =>{
+  return (
+    <Parallax
+    bgImage={require('./assets/img/croquis-gris.png')}
+    bgImageAlt="about"
+    strength={800}
+  >
+    <div id="background-papel">
+      <Education />
+    </div>
+  </Parallax>
+  )
+}
+
+const ExperienceSection = () =>{
+  return (
+    <Parallax
           bgImage={require('./assets/img/background/colors/welcome3.jpg')}
           bgImageAlt="about"
           strength={500}
         >
-            <div id="background-woman">
-              <Experience />
-            </div>
-        </Parallax>
-        <img className='woman' alt='woman' src={Woman}/>
-      </div>
-
-      <Parallax
-        bgImage={require('./assets/img/croquis-gris.png')}
-        bgImageAlt="about"
-        strength={800}
-      >
-        <div id="background-papel">
-          <Education />
-        </div>
-      </Parallax>
-
-      <Parallax
-        bgImage={require('./assets/img/background/colors/skills.png')}
-        bgImageAlt="about"
-        strength={1000}
-      >
-        <div id="background-skills">
-          <Skills />
-        </div>
-      </Parallax>
-
-      <Contact>
-          <Particles />
-      </Contact>
-      <Links />
-    </div>
-
-  );
+          <div id="background-woman">
+            <Experience />
+          </div>
+    </Parallax>
+  )
 }
+
+const SkillsSection = () =>{
+  return (
+    <Parallax
+    bgImage={require('./assets/img/background/colors/skills.png')}
+    bgImageAlt="about"
+    strength={1000}
+  >
+    <div id="background-skills">
+      <Skills />
+    </div>
+  </Parallax>
+
+  )
+}
+
+
 
 export default App;

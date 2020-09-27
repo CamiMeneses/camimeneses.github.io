@@ -1,17 +1,12 @@
 @import "./themes/theme.scss";
 
-.cursive{
-  font-family: 'Lobster', cursive;
-}
-
 .app{
-  position: 'relative';
+  position: relative;
 }
 
 .container-box{
-  width: 80%;
   position: relative;
-  z-index: 9 ;
+  margin: 0vh 2vh 0vh 2vh;
 }
 
 .particles-box{
@@ -35,7 +30,6 @@
 h1 {
   padding-top: 0.5em;
   padding-bottom: 0.25em;
-  margin-top: 0.5em;
   text-align: center;
   font-weight: bolder;
   box-shadow: 0em 0em 5em 5em $light;
@@ -47,52 +41,94 @@ h1 {
   box-shadow: $box-shadow-white-titles;
 }
 
+$h3-shadow: #205f553a;
 h3{
-  color: $secondary-text;
-  text-shadow: 1px 1px 1px #FB08D3;
+  color: rgb(15, 152, 216);
+  text-shadow: 1px 1px .5px $h3-shadow, -1px 1px .5px $h3-shadow, 1px -1px .5px $h3-shadow, -1px -1px .5px $h3-shadow;
   font-size: 1.2em;
+  font-weight: 300;
 }
 
+$h4-shadow: #2c2c2c00;
 h4{
-  color: $text-icons-color;
-  text-shadow: 1px 1px 0px #ff4a4a;
+  color: rgb(68, 60, 105);
+  text-shadow: 1px 1px .5px $h4-shadow, -1px 1px .5px $h4-shadow, 1px -1px .5px $h4-shadow, -1px -1px .5px $h4-shadow;;
   font-size: 1.1em;
+  font-weight: 300;
 }
 
 .text-subtitle{
-  font-weight: 600;
+  font-weight: 400;
   color: $divider-color;
   padding-left: 15px;
 }
 
 .text-description{
-  font-weight: 500;
+  font-weight: 300;
   color: $dark;
   padding-left: 15px;
 }
 
 .section{
   width: 100%;
-  min-height: 100vh;
   position: static;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
 }
 
-@media screen and (min-width: 601px) {
+.woman{
+  right: 0px;
+  position: absolute;
+}
+//Large sreen
+@media screen and (min-width: 900px) {
   .woman{
-    position: absolute;
-    top: 150vh;
-    right: 0px;
-    height: 70vh;
+    top: 180vh;
+    height: 65vh;
+  }
+
+  .section{
+    min-height: 100vh;
   }
 }
 
+//Medium plus screen
 /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 750px) and (max-width: 899px){
   .woman{
-    position: absolute;
-    top: 208vh;
-    right: 0px;
-    height: 29vh;
+    top: 220vh;
+    height: 45vh;
+  }
+
+  .section{
+    min-height: 100vh;
+  }
+}
+
+//Medium screen
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (min-width: 520px) and (max-width: 749px){
+  .woman{
+    top: 220vh;
+    height: 35vh;
+  }
+
+  .section{
+    min-height: 55vh;
+  }
+}
+
+//Small screen
+@media screen and (max-width: 519px) {
+  .section{
+    height: auto;
+    min-height: 35vh;
+  }
+
+  .woman{
+    top: 230vh;
+    height: 25vh;
+    opacity:0.8;
   }
 }
 

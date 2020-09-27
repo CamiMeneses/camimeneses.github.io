@@ -2,45 +2,90 @@
 
 #education {
   background: rgba(163, 163, 163, 0.425);
+  //adding-left: 3vh;
+  //padding-right: 3vh;
   h4 {
     padding-left: 10px;
+    font-weight: 500;
+  }
+  h3{
+    font-weight: 400;
+    font-size: 1.3em;
   }
 }
 
 #university {
+  border-style: solid;
+  border-color: #FF0202;
+  padding-top: 15vh;
+  padding-bottom: 15vh;
+
   h4 {
+    padding: 0;
+    font-size: auto;
+    color: black;
+    font-variant: small-caps;
+    font-weight: 400;
+    font-size: 2.5vh;
+  }
+
+  h3{
+    padding: 0;
+    font-variant: small-caps;
+    color: black;
+    font-weight: 500;
     font-size: 5vh;
+    text-shadow: none;
   }
 
   .text-subtitle{
     font-size: 2.5vh;
   }
 }
-.vertical-timeline-element-date{
-  color: white;
-  text-shadow: 1px 1px 3px rgb(252, 252, 252);
-  font-weight: 900;
-  background: rgb(255, 0, 85);
-  border-radius: 10px;
-  padding: 1em;
+
+
+.nospace{
+  margin: 0;
+  padding: 0;
 }
 
-@media screen and (max-width: 600px) {
-  .description {
-    margin: 10px;
-    width: 100%;
-    position: absolute;
-    margin-bottom: 100px;
+.languages{
+  .row{
+    margin:1vh;
+  }
+}
+
+
+.course{
+  .logo{
+    width: 80%;
+  }
+  .row{
+    margin: 1vh;
+  }
+  .col{
+    margin: 0;
+    padding: 0;
+    .text-subtitle{
+      padding: 0;
+    }
   }
 }
 
 .education-box{
-  height: 60vh;
+  height: auto;
   width: 100%;
   margin: 0px;
 }
 
-#university{
-  border-style: dotted;
-  border-color: rgb(255, 0, 98);
+.description{
+  width: 100%;
+}
+
+.logo{
+  width: 100%;
+}
+
+.lang{
+  display: flex;
 }

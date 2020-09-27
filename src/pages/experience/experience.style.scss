@@ -2,7 +2,7 @@
 
 #experience {
   position: static;
-  background: rgba(0, 0, 0, 0.486);
+  background: rgba(0, 0, 0, 0.671);
 
   h1{
     text-shadow: $text-shadow-blue;
@@ -11,6 +11,16 @@
 
   p {
     font-size: 1em;
+    font-weight: 200;
     color: $dark;
   }
+}
+
+.vertical-timeline-element-date{
+  color: white;
+  text-shadow: 1px 1px 3px rgb(252, 252, 252);
+  font-weight: 900;
+  background: rgb(255, 0, 85);
+  border-radius: 10px;
+  padding: 1em;
 }
