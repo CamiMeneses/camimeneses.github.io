@@ -2,11 +2,12 @@
 
 #experience {
   position: static;
-  background: rgba(0, 0, 0, 0.671);
+  background: rgba(0, 0, 0, 0);
 
   h1{
-    text-shadow: $text-shadow-blue;
-    box-shadow: $box-shadow-blue-titles;
+    //text-shadow: $text-shadow-blue;
+    //box-shadow: $box-shadow-blue-titles;
+    color: white;
   }
 
   p {

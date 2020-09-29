@@ -1,5 +1,5 @@
 import React from 'react'
-import WorkIcon from '../../assets/img/profile/profile.jpg'
+import WorkIcon from '../../assets/icons/youse.png'
 import SchoolIcon from '../../assets/img/profile/profile.jpg'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
@@ -16,6 +16,10 @@ import bb from '../../assets/icons/bb.png'
 import upc from '../../assets/icons/upc.png';
 import distrital from '../../assets/icons/distrital.png';
 import unidad from '../../assets/icons/unidad.png';
+import excel from '../../assets/icons/excel.svg';
+
+import ruby from '../../assets/img/ruby.gif'
+
 
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
@@ -44,7 +48,8 @@ const TwoTransfair = () => {
     <VerticalTimelineElement
       className="vertical-timeline-element--work"
       date="Mar - Jul 2020"
-      iconStyle={{ background: color.primarycolor, color: '#b52a08' }}
+      iconStyle={{ background: '#ffffff'}}
+
     >
       <OverlayTrigger placement="bottom" delay={{ show: 250, hide: 400 }}
         overlay={
@@ -85,7 +90,8 @@ const Youse = () => {
     <VerticalTimelineElement
       className="vertical-timeline-element--work"
       date="May - Dec 2019"
-      iconStyle={{ background: color.primarycolor, color: '#fff' }}
+      iconStyle={{ background: '#ffffff'}}
+
     >
       <OverlayTrigger placement="bottom" delay={{ show: 250, hide: 400 }}
         overlay={
@@ -126,7 +132,7 @@ const BB = () => {
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
     date="Mar - May 2019"
-    iconStyle={{ background: color.primarycolor, color: '#fff' }}
+    iconStyle={{ background: '#ffffff'}}
   >
     <OverlayTrigger placement="bottom" delay={{ show: 250, hide: 400 }}
       overlay={
@@ -159,7 +165,7 @@ const Victimas = () => {
     <VerticalTimelineElement
     className="vertical-timeline-element--work"
     date="Nov - Dec 2017"
-    iconStyle={{ background: color.primarycolor, color: '#fff' }}
+    iconStyle={{background: '#ffffff'}}
     >
       <Row className='nospace'>
         <Col xs={12} sm={3} md={3} lg={3}>
@@ -179,7 +185,7 @@ const Distrital = () => {
     <VerticalTimelineElement
       className="vertical-timeline-element--education"
       date="Jul - Dec 2016"
-      iconStyle={{ background: color.primarycolor, color: '#fff' }}
+      iconStyle={{ background: '#ffffff'}}
     >
       <Row className='nospace'>
         <Col xs={12} sm={3} md={3} lg={3}>

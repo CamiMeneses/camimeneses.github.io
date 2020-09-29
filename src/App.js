@@ -18,6 +18,7 @@ import Skills from './pages/skills/skills.component';
 import Contact from './pages/contact/contact.component';
 
 import Woman from './assets/img/woman.png'
+
 import WomanExperience from './assets/img/woman-experience.png'
 import { Container } from 'react-bootstrap';
 
@@ -25,9 +26,21 @@ const App = () =>{
   return (
     <div className='App'>
         <MyNavbar />
-        <WelcomeSection />
-        <AboutSection />
+
+          <Parallax
+          bgImage={require('./assets/img/background/colors/welcome.png')}
+          bgImageAlt="about"
+          strength={1000}
+          >
+            <div>
+              <Welcome />
+              <TitleMessage />
+              <About />
+            </div>
+          </Parallax>
+
         <ExperienceSection />
+
         <img className='woman' alt='woman' src={Woman}/>
         <EducationSection />
         <SkillsSection />
@@ -39,37 +52,12 @@ const App = () =>{
   );
 }
 
-const WelcomeSection = () =>{
-  return (
-    <Parallax
-        bgImage={require('./assets/img/background/colors/welcome.png')}
-        bgImageAlt="about"
-        strength={500}
-      >
-        <Welcome />
-        <TitleMessage />
-    </Parallax>
-  )
-}
-
-const AboutSection = () =>{
-  return (
-    <Parallax
-    bgImage={require('./assets/img/background/colors/about.jpg')}
-    bgImageAlt="about"
-    strength={1000}
-    >
-      <About />
-    </Parallax>
-  )
-}
-
 const EducationSection = () =>{
   return (
     <Parallax
     bgImage={require('./assets/img/croquis-gris.png')}
     bgImageAlt="about"
-    strength={800}
+    strength={200}
   >
     <div id="background-papel">
       <Education />
@@ -81,13 +69,11 @@ const EducationSection = () =>{
 const ExperienceSection = () =>{
   return (
     <Parallax
-          bgImage={require('./assets/img/background/colors/welcome3.jpg')}
-          bgImageAlt="about"
-          strength={500}
-        >
-          <div id="background-woman">
-            <Experience />
-          </div>
+      bgImage={require('./assets/img/background/colors/welcome3.jpg')}
+      bgImageAlt="about"
+      strength={1000}
+    >
+      <Experience />
     </Parallax>
   )
 }

@@ -3,10 +3,9 @@
 .about-container {
   height: 100vh;
   width: 100%;
-  position: static;
+  position: relative;;
   display: table;
-  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.774) 0%, rgba(229, 231, 231, 0.685) 89%, #f8fafae7 100%);
-
+  //background: linear-gradient(to bottom, rgba(255, 255, 255, 0.774) 0%, rgba(229, 231, 231, 0.685) 89%, #f8fafae7 100%);
 }
 
 #about{
@@ -15,9 +14,7 @@
   display: table;
   display: table-cell;
   vertical-align: middle;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  background: white;
 }
 
 .profile-text{
@@ -25,7 +22,8 @@
 }
 
 #about-img{
-  background: rgba(240, 239, 239, 0.712);
+  //background: rgba(240, 239, 239, 0.712);
+
 }
 
 .profile{

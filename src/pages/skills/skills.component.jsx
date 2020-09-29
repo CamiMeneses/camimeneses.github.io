@@ -6,7 +6,7 @@ import MyCarousal from '../../components/my-carousal/mycarousal.component';
 export default function Contact(props) {
   return (
     <div>
-      <div id="skills">
+      <div id="skills" className="section">
       <h1>SKILLS</h1>
         <div id="skills-box">
           <Container>
