@@ -1,30 +1,26 @@
 import React from 'react'
-import WorkIcon from '../../assets/icons/youse.png'
-import SchoolIcon from '../../assets/img/profile/profile.jpg'
+import './experience.style.scss'
+
+// Layout
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
-import color from '../../themes/theme.scss'
 
-import Overlay from 'react-bootstrap/Overlay'
+// Info
 import OverlayTrigger from 'react-bootstrap/OverlayTrigger'
 import Tooltip from 'react-bootstrap/Tooltip'
 
-import twoTransfair from '../../assets/icons/2transfair.png'
-import youse from '../../assets/icons/youse.png'
-import bb from '../../assets/icons/bb.png'
-import upc from '../../assets/icons/upc.png';
-import distrital from '../../assets/icons/distrital.png';
-import unidad from '../../assets/icons/unidad.png';
-import excel from '../../assets/icons/excel.svg';
-
-import ruby from '../../assets/img/ruby.gif'
-
-
+// Timeline
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 
-import './experience.style.scss'
+// Images
+import twoTransfair from '../../assets/icons/experience/2transfair.png'
+import youse from '../../assets/icons/experience/youse.png'
+import bb from '../../assets/icons/experience/bb.png'
+import upc from '../../assets/icons/experience/upc.png';
+import distrital from '../../assets/icons/experience/distrital.png';
+import unidad from '../../assets/icons/experience/unidad.png';
 
 const Experience = () => {
   return (

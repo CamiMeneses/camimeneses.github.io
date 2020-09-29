@@ -9,12 +9,12 @@ import Overlay from 'react-bootstrap/Overlay'
 import OverlayTrigger from 'react-bootstrap/OverlayTrigger'
 import Tooltip from 'react-bootstrap/Tooltip'
 
-import upc from "../../assets/icons/upc.png";
-import bb from "../../assets/icons/bb.png";
-import miriadax from "../../assets/icons/miriadax.png";
-import esp from "../../assets/icons/esp.png";
-import eng from "../../assets/icons/eng.webp";
-import ec from "../../assets/icons/ec.png";
+import upc from "../../assets/icons/education/upc.png";
+import bb from "../../assets/icons/education/bb.png";
+import miriadax from "../../assets/icons/education/miriadax.png";
+import esp from "../../assets/icons/education/esp.png";
+import eng from "../../assets/icons/education/eng.webp";
+import ec from "../../assets/icons/education/ec.png";
 
 const Education = () => {
   return (

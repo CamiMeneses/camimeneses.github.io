@@ -10,6 +10,7 @@
     overflow: inherit !important;
   }
 }
+
 .container-box{
   position: relative;
   margin: 0vh 2vh 0vh 2vh;
@@ -34,7 +35,7 @@
 }
 
 h1 {
-  padding-top: 0.5em;
+  padding-top: 0.25em;
   padding-bottom: 0.25em;
   text-align: center;
   font-weight: bolder;
@@ -146,7 +147,7 @@ h4{
 }
 
 #background-skills{
-  background: url('./assets/img/girl-power.png');
+  background: url('./assets/img/background/skills-girl-power.png');
   background-repeat: repeat;
   background-position: center;
 }
