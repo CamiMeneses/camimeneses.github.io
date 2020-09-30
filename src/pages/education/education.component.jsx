@@ -41,7 +41,7 @@ const Education = () => {
           </Col>
 
           {/*Languages*/}
-        <Col xs={12} sm={12} md={12} lg={3}>
+          <Col xs={12} sm={12} md={12} lg={3}>
             <Fade bottom>
               <Row className='justify-content-center mb-2 mr-2 education-box'>
                 <Languages />

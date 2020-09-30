@@ -21,8 +21,29 @@
   background: transparent;
   align-self: center;
   //padding: 3em 1em 3em 1em;
-
-  width: 60vh;
-  position: relative;
   margin: auto;
+  .card{
+    width: 100%;
+    background: rgb(187, 113, 113);
+  }
+}
+
+.skill-column{
+  padding: .5em;
+  align-self: center;
+}
+
+.skill-image{
+  width: 9em;
+  margin: 2em;
+}
+
+.skill-box{
+  border: 0.5px solid #1d1d1d38;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.808);
+}
+
+.skill-row{
+  justify-content: center;
 }

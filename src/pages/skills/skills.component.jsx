@@ -3,6 +3,7 @@ import './skills.style.scss'
 
 // Layout
 import { Container } from 'react-bootstrap'
+import Card from 'react-bootstrap/Card'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Image from 'react-bootstrap/Image'
@@ -33,85 +34,71 @@ export default function Contact(props) {
         <h1>SKILLS</h1>
         <div id="skills-box">
           <Container>
-            <Row className='pt-3 pb-5 align-items-center'>
-              <Col xs={12} sm={12} md={12} lg={6}>
-                <Fade bottom>
-                  <Row className='justify-content-center mb-2 mr-2 education-box'>
-                    <Image className='justify-content-end' alt='profile' src={Ruby} rounded fluid />
-                  </Row>
-                </Fade>
-              </Col>
-              <Col xs={12} sm={12} md={12} lg={6}>
-                <Fade bottom>
-                  <Row className='justify-content-center mb-2 mr-2 education-box'>
-                    <Image className='justify-content-end' alt='profile' src={Rails} rounded fluid />
-                  </Row>
-                </Fade>
-              </Col>
-            </Row>
-
             <Row>
-              <Col xs={12} sm={12} md={12} lg={4}>
-                <Fade bottom>
-                  <Row className='justify-content-center mb-2 mr-2 education-box'>
-                    <Image className='justify-content-end' alt='profile' src={Git} rounded fluid />
-                  </Row>
-                </Fade>
-              </Col>
-              <Col xs={12} sm={12} md={12} lg={4}>
-                <Fade bottom>
-                  <Row className='justify-content-center mb-2 mr-2 education-box'>
-                    <Image className='justify-content-end' alt='profile' src={Github} rounded fluid />
-                  </Row>
-                </Fade>
-              </Col>
-              <Col xs={12} sm={12} md={12} lg={4}>
-                <Fade bottom>
-                  <Row className='justify-content-center mb-2 mr-2 education-box'>
-                    <Image className='justify-content-end' alt='profile' src={Scrum} rounded fluid />
-                  </Row>
-                </Fade>
-              </Col>
-            </Row>
 
-            <Row className='pt-3 pb-5 align-items-center'>
-              <Col xs={12} sm={12} md={12} lg={6}>
-                <Fade bottom>
-                  <Row className='justify-content-center mb-2 mr-2 education-box'>
-                    <Image className='justify-content-end' alt='profile' src={Html} rounded fluid />
+              {/*Primer columna*/}
+              <Col xs={12} sm={12} md={12} lg={3} className="skill-column">
+                <div className="skill-box">
+                  <Row className="skill-row">
+                    <Fade bottom>
+                      <Image className='skill-image' alt='profile' src={Git}/>
+                    </Fade>
                   </Row>
-                </Fade>
-              </Col>
-              <Col xs={12} sm={12} md={12} lg={6}>
-                <Fade bottom>
-                  <Row className='justify-content-center mb-2 mr-2 education-box'>
-                    <Image className='justify-content-end' alt='profile' src={Css} rounded fluid />
+                  <Row className="skill-row">
+                    <Fade bottom>
+                      <Image className='skill-image' alt='profile' src={Github}/>
+                    </Fade>
                   </Row>
-                </Fade>
+                  <Row className="skill-row">
+                    <Fade bottom>
+                      <Image className='skill-image' alt='profile' src={Bitbucket}/>
+                    </Fade>
+                  </Row>
+                </div>
               </Col>
-            </Row>
 
-            <Row>
-              <Col xs={12} sm={12} md={12} lg={4}>
-                <Fade bottom>
-                  <Row className='justify-content-center mb-2 mr-2 education-box'>
-                    <Image className='justify-content-end' alt='profile' src={Bitbucket} rounded fluid />
+              {/*Segunda columna*/}
+              <Col xs={12} sm={12} md={12} lg={6} className="skill-column">
+                <div className="skill-box">
+                  <Row className="skill-row">
+                    <Fade bottom>
+                      <Image className='skill-image' alt='profile' src={Ruby}/>
+                    </Fade>
+                    <Fade bottom>
+                      <Image className='skill-image' alt='profile' src={Rails}/>
+                    </Fade>
                   </Row>
-                </Fade>
+                  <Row className="skill-row">
+                    <Fade bottom>
+                      <Image className='skill-image' alt='profile' src={Html}/>
+                    </Fade>
+                    <Fade bottom>
+                      <Image className='skill-image' alt='profile' src={Css}/>
+                    </Fade>
+                  </Row>
+                </div>
               </Col>
-              <Col xs={12} sm={12} md={12} lg={4}>
-                <Fade bottom>
-                  <Row className='justify-content-center mb-2 mr-2 education-box'>
-                    <Image className='justify-content-end' alt='profile' src={Jira} rounded fluid />
+
+
+              {/*Tercera columna*/}
+              <Col xs={12} sm={12} md={12} lg={3} className="skill-column">
+                <div className="skill-box">
+                  <Row className="skill-row">
+                    <Fade bottom>
+                      <Image className='skill-image' alt='profile' src={Scrum}/>
+                    </Fade>
                   </Row>
-                </Fade>
-              </Col>
-              <Col xs={12} sm={12} md={12} lg={4}>
-                <Fade bottom>
-                  <Row className='justify-content-center mb-2 mr-2 education-box'>
-                    <Image className='justify-content-end' alt='profile' src={Trello} rounded fluid />
+                  <Row className="skill-row">
+                    <Fade bottom>
+                      <Image className='skill-image' alt='profile' src={Jira}/>
+                    </Fade>
                   </Row>
-                </Fade>
+                  <Row className="skill-row">
+                    <Fade bottom>
+                      <Image className='skill-image' alt='profile' src={Trello}/>
+                    </Fade>
+                  </Row>
+                </div>
               </Col>
             </Row>
           </Container>
