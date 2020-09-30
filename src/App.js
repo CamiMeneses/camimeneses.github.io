@@ -26,17 +26,20 @@ const App = () =>{
   return (
     <div className='App'>
       <MyNavbar />
-      <Parallax
-      bgImage={require('./assets/img/background/welcome.png')}
-      bgImageAlt="about"
-      strength={1000}
-      >
-        <div>
+      <div id="welcome-box">
+        <Parallax className="welcome-parallax"
+        bgImage={require('./assets/img/background/welcome.png')}
+        bgImageAlt="about"
+        strength={1000}
+        >
           <Welcome />
+      </Parallax>
+      <div id="welcome-content">
           <TitleMessage />
           <About />
-        </div>
-      </Parallax>
+          </div>
+
+      </div>
       <ExperienceSection />
       <img className='woman' alt='woman' src={Woman}/>
       <EducationSection />

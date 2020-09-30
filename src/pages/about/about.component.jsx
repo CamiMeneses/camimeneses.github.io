@@ -12,7 +12,6 @@ const About = () => {
   return (
     <div className='about-container'>
       <div id='about' className='section'>
-        <h1>ABOUT ME</h1>
         <div id='about-img'>
         <Container>
           <Row className='pt-3 pb-5 align-items-center'>
@@ -29,14 +28,13 @@ const About = () => {
             <Col xs={12} sm={12} md={12} lg={6}>
               <Fade right>
                 <Row className=' align-items-start rounded profile-text'>
-
-                  Hi! I'm Camila from Colombia<br />
+                  <h1>Camila Meneses</h1>
+                  <h2>Mechatronics engineer and FullStack developer</h2>
                   <br />
 
-                  I'm glad you came to my website. Let's talk about me...<br />
+                  I'm glad you came to my website..<br />
                   <br />
 
-                  I'm mechatronics engineer and FullStack developer. <br />
                   I have 1 year of experience working with Ruby on Rails, <br />
                   HTML and CSS. I had follwed Scrum Methodology <br />
                   and used host places like Github and Bitbucket. <br />
