@@ -81,9 +81,9 @@ const ExperienceSection = () =>{
 const SkillsSection = () =>{
   return (
     <Parallax
-    bgImage={require('./assets/img/background/skills-light-purple.png')}
+    bgImage={require('./assets/img/background/skills-girl-power.jpg')}
     bgImageAlt="about"
-    strength={1000}
+    strength={300}
     >
       <div id="background-skills">
         <Skills />

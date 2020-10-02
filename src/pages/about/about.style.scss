@@ -1,7 +1,7 @@
 @import "../../themes/theme.scss";
 
 .about-container {
-  height: 100vh;
+  min-height: 100vh;
   width: 100%;
   position: relative;
   display: table;
@@ -15,6 +15,7 @@
   display: table-cell;
   vertical-align: middle;
   background: #5a2cff;
+  padding: 20vh;
   color: white;
 }
 

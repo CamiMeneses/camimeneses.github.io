@@ -58,6 +58,9 @@ export default function Contact(props) {
               </Col>
 
               {/*Segunda columna*/}
+
+
+              {/*Tercera columna*/}
               <Col xs={12} sm={12} md={12} lg={6} className="skill-column">
                 <div className="skill-box">
                   <Row className="skill-row">
@@ -79,8 +82,6 @@ export default function Contact(props) {
                 </div>
               </Col>
 
-
-              {/*Tercera columna*/}
               <Col xs={12} sm={12} md={12} lg={3} className="skill-column">
                 <div className="skill-box">
                   <Row className="skill-row">
