@@ -41,7 +41,7 @@ const App = () =>{
 
       </div>
       <ExperienceSection />
-      <img className='woman' alt='woman' src={Woman}/>
+      {/*<img className='woman' alt='woman' src={Woman}/>*/}
       <EducationSection />
       <SkillsSection />
       <Contact>
