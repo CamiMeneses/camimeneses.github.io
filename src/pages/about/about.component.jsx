@@ -23,8 +23,8 @@ const About = () => {
               <Fade left>
                 <Row className='justify-content-center mb-2 mr-2'>
                   <h1>Camila Meneses</h1>
-                    <h2>Mechatronics engineer and FullStack developer</h2>
-                    <br />
+                  <h2>Mechatronics engineer and FullStack developer</h2>
+                  <br />
                 </Row>
               </Fade>
             </Col>

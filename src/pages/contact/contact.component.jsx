@@ -1,25 +1,34 @@
 import React from 'react'
 import { Container } from 'react-bootstrap'
 import './contact.style.scss'
+import callMe from './../../assets/img/background/call_me.png'
+
 
 export default function Contact(props) {
   return (
     <div style={{backgroundColor:"transparent", position:"relative"}}>
       <div id="contact">
         <div id="contact-box">
-          <div className="title">CONTACT</div>
+          <div className="title"><b>Say Hi!</b></div>
           <Container>
             <div className='text-subtitle'>
               <p>
-                Camila Andrea Meneses Torres<br />
+                <b>Camila Andrea Meneses Torres</b><br />
                 Ing. Mecatrónica | Web Developer<br />
-                kam_1095@live.com<br />
-                Bogota - Colombia<br />
+                <img width="30" height="30" src="https://www.flaticon.es/svg/static/icons/svg/3062/3062634.svg"/>
+                &nbsp; kam_1095@live.com<br />
+
+                <img width="30" height="30" src="https://www.flaticon.es/svg/static/icons/svg/2920/2920339.svg" alt="celular"></img>
+                &nbsp; +57 3184726170<br />
+
+                <img width="30" height="30" src="https://www.flaticon.es/svg/static/icons/svg/3062/3062588.svg" alt="ubicación"></img>
+                &nbsp; Bogota - Colombia<br />
               </p>
             </div>
           </Container>
             {props.children}
         </div>
+        <img className='call-me' alt='call-me' src={callMe}/>
       </div>
     </div>
   );

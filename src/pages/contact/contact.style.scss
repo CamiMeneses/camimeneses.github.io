@@ -3,8 +3,8 @@
 #contact {
   padding-bottom: 10em;
   text-align: center;
-  max-height: 100vh;
   background-color: transparent;
+
   .text-subtitle{
     color: $text-icons-color;
   }
@@ -12,15 +12,30 @@
 
 
 #contact-box{
-  //border: 5px solid rgb(175, 6, 6);
-  margin: 1em 30em 1em 30em;
+  border-radius: 50%;
+  width: 25em;
+  height: 25em;
+  padding-top: 6em;
+  margin: 5vh;
+  vertical-align: middle;
   align-self: center;
- //border-style: dotted;
+  background: linear-gradient(to bottom, rgba(250,243,100,1) 0%, rgba(255,69,196,1) 100%);
+  border: 5px solid rgb(175, 6, 6);
+  border-style: dotted;
 }
 
 .title{
-  color: rgb(255, 255, 255);
+  color: rgb(23, 238, 202);
   text-align: center;
-  text-shadow: $text-shadow-pink;
   font-size: 3em;
+}
+
+#contact{
+  justify-content: center;
+  display: flex;
+}
+
+.call-me{
+  left: 0px;
+  position: absolute;
 }
