@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Image from 'react-bootstrap/Image'
-import Profile from '../../assets/img/profile/profile.jpg'
+import Profile from '../../assets/img/profile/profile.png'
 import Fade from 'react-reveal/Fade'
 
 import './about.style.scss'

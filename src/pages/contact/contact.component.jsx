@@ -1,13 +1,11 @@
 import React from 'react'
 import { Container } from 'react-bootstrap'
 import './contact.style.scss'
-import callMe from './../../assets/img/background/call_me.png'
-
 
 export default function Contact(props) {
   return (
     <div style={{backgroundColor:"transparent", position:"relative"}}>
-      <div id="contact">
+      <div className='section' id="contact">
         <div id="contact-box">
           <div className="title"><b>Say Hi!</b></div>
           <Container>
@@ -28,7 +26,7 @@ export default function Contact(props) {
           </Container>
             {props.children}
         </div>
-        <img className='call-me' alt='call-me' src={callMe}/>
+        {/*<img className='call-me' alt='call-me' src={callMe}/>*/}
       </div>
     </div>
   );

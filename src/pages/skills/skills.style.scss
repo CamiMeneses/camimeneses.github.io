@@ -2,12 +2,15 @@
 
 #skills{
   position: static;
-  //background: #5A2CFF;
+  background: white;
+  padding-top: 5em;
+  background: linear-gradient(to bottom, rgba(255,255,255,1) 67%, rgba(255,255,255,0.64) 79%, rgba(255,255,255,0) 100%);
+
+
   h1{
-    //text-shadow: $text-shadow-blue;
-    color: white;
-    background: transparent;
-    //box-shadow: $box-shadow-blue-titles;
+    padding-bottom: 2em;
+    color: #5A2CFF;
+    background: white;
   }
 
   p {
@@ -17,31 +20,44 @@
 }
 
 #skills-box{
-  //border: 5px solid rgb(175, 6, 6);
-  background: transparent;
   align-self: center;
-  //padding: 3em 1em 3em 1em;
-  margin: auto;
-  .card{
-    width: 100%;
-    background: rgb(187, 113, 113);
-  }
+  margin: 0;
+  padding-bottom: 13em;
+  /* Theme 1
+  background: transparent;
+  */
+
+  /* Theme 1*/
 }
 
 .skill-column{
-  padding: .5em;
   align-self: center;
 }
 
 .skill-image{
+  /* Theme 1
   width: 9em;
   margin: 2em;
+  */
+
+  /* Theme 2 */
+  width: 5em;
+  margin: 0.5em;
+  padding-top: 3em;
+  padding-bottom: 1.5em;
+}
+
+.skill-computer-image{
+  width: 90%;
+  background: transparent;
 }
 
 .skill-box{
+  /* Theme 1
   border: 0.5px solid #1d1d1d38;
   border-radius: 10px;
   background: rgba(255, 255, 255, 0.808);
+  */
 }
 
 .skill-row{

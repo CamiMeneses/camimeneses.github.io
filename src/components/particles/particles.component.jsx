@@ -7,10 +7,10 @@ const Particles = () => {
 
   let config = {
     num: [4, 4],
-    rps: 0.8,
+    rps: 0.1,
     radius: [200, 100],
-    life: [20, 3],
-    v: [0.1, 0.1],
+    life: [5, 40],
+    v: [1, 0.1],
     tha: [-90, 80],
     alpha: [1, 0],
     scale: [.08, 0.1],
@@ -22,7 +22,7 @@ const Particles = () => {
 
   return(
     <div className='Particles'>
-      <ParticlesBg type="circle" config={config} bg={true}/>
+      <ParticlesBg type="lines" num={100} config={config} bg={true}/>
     </div>
   );
 };

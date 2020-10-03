@@ -7,14 +7,14 @@ const MyTitleMessage = styled.h6`
   width: 90%;
   top: 10vw;
   z-index: 1;
-  padding-left: 3em;
+  padding-left: 3.5em;
   text-align: left;
   text-shadow: 2px 2px 1px #ff4a4a, 4px 4px 1px #faf4a5;
   div {
     color: #FFFFFF;
     font-size: 2em;
     font-size: 5vw;
-    font-weight: 900;
+    font-weight: 500;
     letter-spacing: 1px;
     .main {
       font-size: 50px;

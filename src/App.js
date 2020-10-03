@@ -28,9 +28,9 @@ const App = () =>{
       <MyNavbar />
       <div id="welcome-box">
         <Parallax className="welcome-parallax"
-        bgImage={require('./assets/img/background/welcome.png')}
+        bgImage={require('./assets/img/background/welcome2.jpg')}
         bgImageAlt="about"
-        strength={1000}
+        strength={800}
         >
           <Welcome />
       </Parallax>
@@ -80,15 +80,17 @@ const ExperienceSection = () =>{
 
 const SkillsSection = () =>{
   return (
+    <div id="background-skills">
+      <Skills />
+    </div>
+    /*
     <Parallax
     bgImage={require('./assets/img/background/skills-girl-power.jpg')}
     bgImageAlt="about"
     strength={300}
     >
-      <div id="background-skills">
-        <Skills />
-      </div>
     </Parallax>
+    */
   )
 }
 
