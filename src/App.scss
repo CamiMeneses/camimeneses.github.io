@@ -1,7 +1,14 @@
 @import "./themes/theme.scss";
 
-.app{
-  position: relative;
+.App{
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  min-height: 100%;
+}
+
+.section{
+  min-height: 100vh;
 }
 
 .col{
@@ -29,7 +36,6 @@
   padding: 1em;
   border-radius: 5px;
   box-shadow: $box-shadow;
-  //background-color: $background-description;
 }
 
 h1 {
@@ -38,12 +44,6 @@ h1 {
   text-align: center;
   font-weight: bolder;
   font-size: 3em;
-  //box-shadow: 0em 0em 5em 5em $light;
-  //background: -webkit-linear-gradient(#DD68CE 20%, rgba(255,225,76,1) 100%);
-  //-webkit-background-clip: text;
-  //-webkit-text-fill-color: transparent;
-  //text-shadow: $text-shadow-pink;
-  //box-shadow: $box-shadow-white-titles;
 }
 
 $h3-shadow: #205f553a;
@@ -56,7 +56,7 @@ h3{
 
 $h4-shadow: #2c2c2c00;
 h4{
-  color: rgb(68, 60, 105);
+  color: rgb(167, 147, 255);
   text-shadow: 1px 1px .5px $h4-shadow, -1px 1px .5px $h4-shadow, 1px -1px .5px $h4-shadow, -1px -1px .5px $h4-shadow;;
   font-size: 1em;
   font-weight: 300;
@@ -70,69 +70,8 @@ h4{
 
 .text-description{
   font-weight: 300;
-  color: $dark;
+  color: #4de6cc;
   padding-left: 15px;
-}
-
-.section{
-  width: 100%;
-  position: static;
-}
-
-.woman{
-  right: 0px;
-  position: absolute;
-}
-//Large sreen
-@media screen and (min-width: 900px) {
-  .woman{
-    top: 180vh;
-    height: 65vh;
-  }
-
-  .section{
-    min-height: 100vh;
-  }
-}
-
-//Medium plus screen
-/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
-@media screen and (min-width: 750px) and (max-width: 899px){
-  .woman{
-    top: 220vh;
-    height: 45vh;
-  }
-
-  .section{
-    min-height: 100vh;
-  }
-}
-
-//Medium screen
-/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
-@media screen and (min-width: 520px) and (max-width: 749px){
-  .woman{
-    top: 220vh;
-    height: 35vh;
-  }
-
-  .section{
-    min-height: 55vh;
-  }
-}
-
-//Small screen
-@media screen and (max-width: 519px) {
-  .section{
-    height: auto;
-    min-height: 35vh;
-  }
-
-  .woman{
-    top: 230vh;
-    height: 25vh;
-    opacity:0.95;
-  }
 }
 
 .woman-experience{

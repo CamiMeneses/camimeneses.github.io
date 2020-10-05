@@ -4,9 +4,10 @@ import Image from 'react-bootstrap/Image'
 import Profile from '../../assets/img/profile/profile.jpg'
 
 
-const Welcome = () => {
+function Welcome(props){
   return(
     <div className='section' id='welcome'>
+      {props.children}
     </div>
   );
 };

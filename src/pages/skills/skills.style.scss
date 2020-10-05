@@ -2,15 +2,12 @@
 
 #skills{
   position: static;
-  background: white;
   padding-top: 5em;
-  background: linear-gradient(to bottom, rgba(255,255,255,1) 67%, rgba(255,255,255,0.64) 79%, rgba(255,255,255,0) 100%);
-
+  background: linear-gradient(to bottom, #111111, rgba(15, 15, 15, 0.64) 79%, rgba(26, 26, 26, 0.644) 100%);
 
   h1{
     padding-bottom: 2em;
     color: #5A2CFF;
-    background: white;
   }
 
   p {
@@ -23,11 +20,6 @@
   align-self: center;
   margin: 0;
   padding-bottom: 13em;
-  /* Theme 1
-  background: transparent;
-  */
-
-  /* Theme 1*/
 }
 
 .skill-column{
@@ -35,12 +27,6 @@
 }
 
 .skill-image{
-  /* Theme 1
-  width: 9em;
-  margin: 2em;
-  */
-
-  /* Theme 2 */
   width: 5em;
   margin: 0.5em;
   padding-top: 3em;
@@ -50,14 +36,6 @@
 .skill-computer-image{
   width: 90%;
   background: transparent;
-}
-
-.skill-box{
-  /* Theme 1
-  border: 0.5px solid #1d1d1d38;
-  border-radius: 10px;
-  background: rgba(255, 255, 255, 0.808);
-  */
 }
 
 .skill-row{

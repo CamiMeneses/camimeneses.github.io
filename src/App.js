@@ -19,27 +19,20 @@ import Contact from './pages/contact/contact.component';
 import { Parallax }  from "react-parallax";
 
 //Images
-import Woman from './assets/img/background/thinking-woman.png'
+import ParticlesBg from "particles-bg";
+
 
 
 const App = () =>{
   return (
     <div className='App'>
       <MyNavbar />
-      <div id="welcome-box">
-        <Parallax className="welcome-parallax"
-        bgImage={require('./assets/img/background/welcome2.jpg')}
-        bgImageAlt="about"
-        strength={800}
-        >
-          <Welcome />
-      </Parallax>
-      <div id="welcome-content">
-          <TitleMessage />
-          <About />
-          </div>
 
-      </div>
+      <Welcome >
+        <ParticlesBg type="cobweb" color="#ff00ff" num={50} bg={true}/>
+      </Welcome>
+      <TitleMessage />
+      <About />
       <ExperienceSection />
       {/*<img className='woman' alt='woman' src={Woman}/>*/}
       <EducationSection />

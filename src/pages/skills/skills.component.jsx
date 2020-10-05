@@ -11,7 +11,7 @@ import Image from 'react-bootstrap/Image'
 import Fade from 'react-reveal/Fade'
 
 // Images
-import Ruby from '../../assets/icons/skills/ruby-icon.png'
+import Ruby from '../../assets/icons/skills/ruby.png'
 import Rails from '../../assets/icons/skills/rails.png'
 
 import Html from '../../assets/icons/skills/html.png'
