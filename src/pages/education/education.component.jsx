@@ -193,7 +193,7 @@ const Languages = () => {
         </div>
         <img className='logo' id='eng' alt='eng' src={eng}/>
         <Row>
-          <Col className="nospace" xs={3} sm={3} md={3} lg={3}>
+          <Col className="course nospace" xs={3} sm={3} md={3} lg={3}>
             <img className='logo' id='ec' alt='ec' src={ec}/>
           </Col>
           <Col className="nospace" xs={9} sm={9} md={9} lg={9}>

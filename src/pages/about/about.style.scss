@@ -5,10 +5,18 @@
   width: 100%;
   position: relative;
   background: rgb(0, 0, 0);
-  padding: 4em;
+  padding: 2vh;
   margin-top: 2em;
   margin-bottom: 1em;
   border-radius: 3em;
+  h1{
+    font-size: 5vh;
+  }
+
+  h2{
+    font-size: 4vh;
+  }
+
 }
 
 #about{
@@ -18,19 +26,13 @@
   padding-top: 4em;
   padding-bottom: 4em;
   text-align: center;
-  //background: #5a2cff;
-  color: #5a2cff;
+  color: #7d2cff;
   border-radius: 3em;
-
-}
-
-.profile-text{
-  padding-left: 3vh;
 }
 
 .profile{
   margin: 2em;
-  width: 45em;
+  width: 30em;
   max-width: 90vw;
   height: auto;
 }

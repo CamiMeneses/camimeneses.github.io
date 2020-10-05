@@ -13,15 +13,15 @@ const About = () => {
     <div className='about-container'>
       <div id='about' className='section'>
         <Container>
-          <Row className='pt-3 pb-5 align-items-center about-box'>
-            <Col xs={12} sm={12} md={12} lg={6}>
+          <Row className='pt-3 pb-5 align-items-center'>
+            <Col xs={12} sm={12} md={12} lg={6} className="nospace">
               <Fade left>
-                <Row className='justify-content-center mb-2 mr-2'>
+                <Row className='justify-content-center mb-2'>
                   <Image className='profile justify-content-end nospace' alt='profile' src={Profile} roundedCircle fluid />
                 </Row>
               </Fade>
               <Fade left>
-                <Row className='justify-content-center mb-2 mr-2'>
+                <Row className='justify-content-center mb-2 nospace'>
                   <h1>Camila Meneses</h1>
                   <h2>Mechatronics engineer and FullStack developer</h2>
                   <br />

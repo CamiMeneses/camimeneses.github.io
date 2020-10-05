@@ -28,7 +28,7 @@
   h4 {
     padding: 0;
     font-size: auto;
-    color: black;
+    color: #FF0202;
     font-variant: small-caps;
     font-weight: 400;
     font-size: 2em;
@@ -37,7 +37,7 @@
   h3{
     padding: 0;
     font-variant: small-caps;
-    color: black;
+    color: #FF0202;
     font-weight: 500;
     font-size: 2.5em;
     text-shadow: none;
@@ -46,17 +46,25 @@
   .text-subtitle{
     font-size: 2.5vh;
   }
+
+  .logo{
+    width: 30vh;
+  }
 }
 
 .languages{
   .row{
     margin:1vh;
   }
+
+  .logo{
+    width: 30vh;
+  }
 }
 
 .course{
   .logo{
-    width: 80%;
+    width: 90%;
   }
   .row{
     margin: 1vh;
@@ -78,10 +86,6 @@
 
 .description{
   width: 100%;
-}
-
-.logo{
-  width: 10vh;
 }
 
 .lang{
