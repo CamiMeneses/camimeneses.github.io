@@ -1,13 +1,12 @@
 @import "../../themes/theme.scss";
 
 #education {
-  background: rgba(255, 255, 255, 0.985);
-  background: rgba(0, 0, 0, 0.925);
+  background: linear-gradient(to bottom, $dark 8%, $dark-transparent 40%, $dark 100%);
 
   h4 {
     color: $education-primary;
     padding-left: 10px;
-    font-weight: 500;
+    font-weight: 400;
   }
 
   h3{
@@ -15,11 +14,23 @@
     font-weight: 400;
     font-size: 1.3em;
   }
+
+  .text-subtitle{
+    font-weight: 100;
+    a{
+      color: $a-text-subtitle-ec;
+    }
+  }
+
+  .text-description{
+    font-weight: 100;
+    font-size: 0.9em;;
+  }
 }
 
 #university {
   border-style: solid;
-  border-color: $piloto-color;
+  border-color: $piloto-border;
   padding-top: 7vw;
   padding-bottom: 7vw;
 
@@ -50,13 +61,22 @@
   }
 }
 
-.languages{
+#languages{
   .row{
-    margin:1vh;
+    margin: 1vh;
   }
 
   .logo{
-    width: 95%;
+    width: 90%;
+    padding-left: 2em;
+    #ec{
+      width: 100%;
+    }
+  }
+
+  .lang{
+    display: flex;
+    font-size: 0.8em;
   }
 }
 
@@ -85,8 +105,4 @@
 .description{
   width: 100%;
   text-align: justify;
-}
-
-.lang{
-  display: flex;
 }

@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.scss';
+import Dark from "./themes/theme.scss";
 
 // Components
 import MyNavbar from './components/my-navbar/mynavbar.component';

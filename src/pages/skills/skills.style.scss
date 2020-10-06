@@ -3,7 +3,7 @@
 #skills{
   position: static;
   padding-top: 5em;
-  background: linear-gradient(to bottom, #111111, rgba(15, 15, 15, 0.64) 79%, rgba(26, 26, 26, 0.644) 100%);
+  background: linear-gradient(to bottom, $dark 8%, $dark-transparent 40%, $dark 85%, rgb(15, 15, 15) 100%);
 
   p {
     font-size: 1.1em;

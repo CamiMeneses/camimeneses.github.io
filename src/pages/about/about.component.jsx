@@ -37,18 +37,18 @@ const About = () => {
                     where I learnt the basics of multiples languages<br />
                     <br />
 
-                    I've been working mainly as <b>Ruby on Rails</b> developer, with HTML and CSS.
-                    Used <b>Git</b>, and host places like <b>Github</b> and <b>Bitbucket</b><br />
+                    I've been working mainly as <b>Ruby on Rails</b> developer, with <b>HTML</b> and <b>CSS</b>.
+                    Used <b>Git</b>, and code hosting platforms like <b>Github</b> and <b>Bitbucket</b><br />
                     <br />
 
                     I want to continue learning about this world of development <br />
                     and even when I've been focused on back-end, I like the front-end part
-                    and I'm studying JS and its frameworks like <b>React JS</b>, which I'm using here!<br />
+                    and I'm studying <b>JS</b> and its frameworks like <b>React JS</b>, which I'm using here!<br />
                     <br />
 
                     Check out my website, learn more about me <br />
                     and feel free to contact me. <br />
-                  <br />
+                    <br />
                   </p>
                 </Row>
               </Fade>

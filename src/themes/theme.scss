@@ -1,52 +1,71 @@
-$dark: #3B4C60;
-$light: #fdf4a04b;
-$text-shadow-pink: 2px 2px 0px #fb08d265, 3px 3px 0px rgba(255, 225, 76, 0.575), -2px 2px 0px #fb08d26e, -3px 3px 0px rgba(255, 225, 76, 0.829), -6px 5px 0px #8769b2;
-$text-shadow-yellow: 2px 2px 0px #fcf9607e, 2px 2px 0px rgba(252, 237, 104, 0.575), -2px 2px 0px #fb08d263, 2px 2px 0px #fa1dd560, -3px 5px 0px #8769b2;
-$text-shadow-blue: 2px 2px 0px #55f6fc91, 2px 2px 0px #40f8fe6c, -1px 1px 0px #fcf9607e, 2px 2px 0px #fa1dd560, -3px 5px 0px #8769b2;
+// Palette
 
-$box-shadow: 0px 1px 1.5px 1px #2c252521;
+$dark: #141a20;
+$dark-transparent: #141a20bb;
 
-$size-shadow: 0px 0px 30vh 100vh;
-$box-shadow-blue-titles: $size-shadow #0000006c;
-$box-shadow-white-titles: $size-shadow #ffffffd0;
+$pink: #C43171; // Telemagenta
+$light-pink: #FFB5C2; //Cherry Blosom Pink
 
-$red: #C43171;
-$yellow: #FFF689;
-$green-ligth: #91f891;
-$blue-ligth: #8CC2F8;
-$green: #18A2B8;
-$purple-ligth: #8D9DF4;
-$purple-dark: #623CEA;
+$orange: #f76060;
 
-$titles: $red;
+$yellow: #FFF689; //Canary
+
+$light-green: #B2FAB2; //Granny Smith Apple
+$turquese: #23F0C7;
+$green: #47A4AE; //Cadet Blue
+
+$light-blue: #8CC2F8;
+$blue: #89D2DC; //Middle Blue
+$dark-blue: #3A405A; //Independence - 456990 Queen Blue
+
+// Generals
+$titles: $light-pink;
 $about: $green;
+$about-name: $light-blue;
+
+// Welcome
+$welcome-contrast: white;
+$welcome-shadow1: $blue;
+$welcome-shadow2: $yellow;
+$contrast-shadow1: $light-pink;
+$contrast-shadow2: $light-pink;
 
 //navabar
-$navbar-color: $green-ligth;
+$navbar-color: $light-green;
 $navbar-color-shadow: #589658;
 $navbar-active: $yellow;
 $navbar-active-shadow: #aaa45e;
-$navbar-hover: #fa84c3;
+$navbar-hover: $light-pink;
 $navbar-hover-shadow: #aa5783;
 $background-navbar-large: linear-gradient(to right, rgba(0,0,0,0) 58%, rgba(16,16,16,0) 60%, rgba(255,255,255,0.41) 89%, rgba(255,255,255,0.5) 95%);
 $background-navbar-small: linear-gradient(to right, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.1) 100%);
 
 //buttons
 $success-botton: #85e285;
+
 // Experience
 $experience-date-letter: white;
-$experience-date-background: $red;
-$experience-title: $red;
+$experience-date-background: $dark-blue;
+$experience-title: $pink;
 $experience-subtitle: $green;
 
 // Education
-$piloto-color: $red;
-$education-type: $red;
+$piloto-color: $pink;
+$piloto-border: $dark-blue;
+$education-type: $turquese;
 $education-primary: $yellow;
-$education-secundary: $green-ligth;
+$education-secundary: $light-green;
 $education-description: $green;
+$a-text-subtitle-ec:$turquese;
 
 // contact
-$contact-info: $purple-dark;
+$contact-info: $dark-blue;
+$contact-title: $green;
+$contact-gradient1: $yellow;
+$contact-gradient2: $orange;
 $background: $dark;
 $background-description: white;
+
+:export {
+  dark: $dark;
+}

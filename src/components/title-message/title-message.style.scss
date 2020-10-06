@@ -2,23 +2,23 @@
 
 .message {
   top: 18vh;
-  font-size: 10vh;
+  font-size: 8vh;
   position: absolute;
   width: 90%;
 
   z-index: 1;
   padding-left: 3vh;
   text-align: center;
-  text-shadow: 2px 2px 1px #ff4a4a, 4px 4px 1px #faf4a5;
+  text-shadow: 1.5px 1.5px 1px $welcome-shadow1, 2px 2px 1px $welcome-shadow2;
 
   div {
     color: #FFFFFF;
-    font-weight: 500;
-    letter-spacing: 1px;
+    font-weight: 300;
+    letter-spacing: 0.2px;
   }
 
   contrast {
-    color: $titles;
-    text-shadow: 2px 2px 1px #ff4a4a, 4px 4px 1px #AFE4D9;
+    color: $welcome-contrast;
+    text-shadow: 2px 2px 1px $contrast-shadow1, 3px 3px 1px $contrast-shadow2;
   }
 }

@@ -15,6 +15,7 @@ import miriadax from "../../assets/icons/education/miriadax.png";
 import esp from "../../assets/icons/education/esp.png";
 import eng from "../../assets/icons/education/eng.webp";
 import ec from "../../assets/icons/education/ec.png";
+import ef from "../../assets/icons/education/ef_credential.svg";
 
 const Education = () => {
   return (
@@ -115,7 +116,7 @@ const Courses = () => {
   <div className="description" id="courses">
     <h3>COURSES</h3>
     <Row>
-      <Col xs={12} sm={12} md={12} lg={6} xl={12} className="nospace">
+      <Col xs={12} sm={12} md={12} lg={6} xl={12} mr-5 className="nospace">
         <div className="course" id="bb-course">
           <h4>Fullstack Bootcamp</h4>
             <OverlayTrigger placement="bottom" delay={{ show: 250, hide: 400 }}
@@ -180,10 +181,12 @@ const Courses = () => {
 
 const Languages = () => {
   let EcSite = "About EC"
+  let EfSet = "See Credential"
   return(
     <div className='description'>
       <h3>LANGUAGES</h3>
-      <div className="languages">
+      <div id="languages">
+        {/*Languages*/}
         <Row>
           <Col xs={6} sm={6} md={6} lg={6} xl={12} className="nospace">
             <div className="lang">
@@ -193,18 +196,21 @@ const Languages = () => {
           </Col>
 
           <Col xs={6} sm={6} md={6} lg={6} xl={12} className="nospace">
-            <div className="lang">
+            <div className="lang" style={{paddingTop: 10}}>
               <h4>English</h4> <div className='text-subtitle'><b>Advanced</b></div>
             </div>
             <img className='logo' id='eng' alt='eng' src={eng}/>
           </Col>
         </Row>
+        {/*EC*/}
         <Row>
+          <div className="text-subtitle nospace">
+            <b>PROFICIENCY LEVEL</b><br /> ACADEMIC YEAR 30 LESSONS<br />
+          </div>
           <Col className="course nospace" xs={3} sm={3} md={3} lg={3} xl={3}>
             <img className='logo' id='ec' alt='ec' src={ec}/>
           </Col>
           <Col className="nospace text-subtitle" xs={9} sm={9} md={9} lg={9} xl={9}>
-            <b>PROFICIENCY LEVEL</b><br /> ACADEMIC YEAR 30 LESSONS<br />
             <OverlayTrigger placement="bottom" delay={{ show: 250, hide: 400 }}
               overlay={
                 <Tooltip> {EcSite} </Tooltip>
@@ -215,11 +221,32 @@ const Languages = () => {
               </a>
             </OverlayTrigger>
           </Col>
+          <div className='text-description nospace'>
+            <b>Vancouver | Canada </b><br />
+            2018 | Jan - Sep<br />
+            <b>Duration:</b> 36 weeks<br />
+          </div>
         </Row>
-        <div className='text-description'>
-          <b>Duration:</b> 36 weeks<br />
-          <b>2018 | Jan - Sep | Vancouver</b>
-        </div>
+
+        {/*EF Credential*/}
+        <Row>
+          <OverlayTrigger placement="bottom" delay={{ show: 250, hide: 400 }}
+            overlay={
+              <Tooltip> {EfSet} </Tooltip>
+            }
+          >
+            <div className="text-subtitle nospace">
+              <Col className="course nospace" xs={3} sm={3} md={3} lg={3} xl={3}>
+                <img className='logo' id='ef' alt='ef' src={ef}/>
+              </Col>
+              <Col className="nospace text-subtitle" xs={9} sm={9} md={9} lg={9} xl={9}>
+                  <a href='https://www.efset.org/cert/YGip1z' target='_blank' rel='noopener noreferrer'>
+                  EF English Certificate C1 Advanced
+                  </a>
+              </Col>
+            </div>
+          </OverlayTrigger>
+        </Row>
       </div>
     </div>
   )
