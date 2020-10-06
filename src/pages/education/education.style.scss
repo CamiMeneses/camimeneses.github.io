@@ -4,16 +4,14 @@
   background: rgba(255, 255, 255, 0.985);
   background: rgba(0, 0, 0, 0.925);
 
-  h1{
-    color: #FF5757;
-    padding-top: 3em;
-  }
-
   h4 {
+    color: $education-primary;
     padding-left: 10px;
     font-weight: 500;
   }
+
   h3{
+    color: $education-type;
     font-weight: 400;
     font-size: 1.3em;
   }
@@ -21,14 +19,14 @@
 
 #university {
   border-style: solid;
-  border-color: #FF0202;
-  padding-top: 15vh;
-  padding-bottom: 15vh;
+  border-color: $piloto-color;
+  padding-top: 7vw;
+  padding-bottom: 7vw;
 
   h4 {
     padding: 0;
     font-size: auto;
-    color: #FF0202;
+    color: $piloto-color;
     font-variant: small-caps;
     font-weight: 400;
     font-size: 2em;
@@ -37,7 +35,7 @@
   h3{
     padding: 0;
     font-variant: small-caps;
-    color: #FF0202;
+    color: $piloto-color;
     font-weight: 500;
     font-size: 2.5em;
     text-shadow: none;
@@ -48,7 +46,7 @@
   }
 
   .logo{
-    width: 30vh;
+    width: 100%;
   }
 }
 
@@ -58,7 +56,7 @@
   }
 
   .logo{
-    width: 30vh;
+    width: 95%;
   }
 }
 
@@ -86,6 +84,7 @@
 
 .description{
   width: 100%;
+  text-align: justify;
 }
 
 .lang{

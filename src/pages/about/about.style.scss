@@ -7,32 +7,31 @@
   background: rgb(0, 0, 0);
   padding: 2vh;
   margin-top: 2em;
-  margin-bottom: 1em;
   border-radius: 3em;
-  h1{
-    font-size: 5vh;
-  }
 
-  h2{
+  h1{
     font-size: 4vh;
   }
 
+  h2{
+    font-size: 3vh;
+  }
 }
 
 #about{
-  font-size: 1em;
+  font-size: 1.2em;
   font-weight: 300;
   vertical-align: middle;
   padding-top: 4em;
-  padding-bottom: 4em;
+  padding-bottom: 3em;
   text-align: center;
-  color: #7d2cff;
+  color: $about;
   border-radius: 3em;
 }
 
 .profile{
   margin: 2em;
-  width: 30em;
+  width: 25em;
   max-width: 90vw;
   height: auto;
 }

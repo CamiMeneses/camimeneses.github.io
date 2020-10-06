@@ -10,32 +10,43 @@ $size-shadow: 0px 0px 30vh 100vh;
 $box-shadow-blue-titles: $size-shadow #0000006c;
 $box-shadow-white-titles: $size-shadow #ffffffd0;
 
-$primary-color: #AFE4D9; //Titulos H1
-$secondary-text:  #2dff2d; // Titulos H3
+$red: #C43171;
+$yellow: #FFF689;
+$green-ligth: #91f891;
+$blue-ligth: #8CC2F8;
+$green: #18A2B8;
+$purple-ligth: #8D9DF4;
+$purple-dark: #623CEA;
 
-$text-icons-color: #564afc; //Subtitulos H4
-$divider-color: #b3ab1b; //Subtitulos
+$titles: $red;
+$about: $green;
 
-$accent-color: #017BFF;
+//navabar
+$navbar-color: $green-ligth;
+$navbar-color-shadow: #589658;
+$navbar-active: $yellow;
+$navbar-active-shadow: #aaa45e;
+$navbar-hover: #fa84c3;
+$navbar-hover-shadow: #aa5783;
+$background-navbar-large: linear-gradient(to right, rgba(0,0,0,0) 58%, rgba(16,16,16,0) 60%, rgba(255,255,255,0.41) 89%, rgba(255,255,255,0.5) 95%);
+$background-navbar-small: linear-gradient(to right, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.1) 100%);
 
-$primary-text: #fd4199;
+//buttons
+$success-botton: #85e285;
+// Experience
+$experience-date-letter: white;
+$experience-date-background: $red;
+$experience-title: $red;
+$experience-subtitle: $green;
 
+// Education
+$piloto-color: $red;
+$education-type: $red;
+$education-primary: $yellow;
+$education-secundary: $green-ligth;
+$education-description: $green;
 
+// contact
+$contact-info: $purple-dark;
 $background: $dark;
 $background-description: white;
-
-:export {
-  dark: $dark;
-  light: $light;
-  textshadowpink: $text-shadow-pink;
-  textshadowpink: $text-shadow-yellow;
-  boxshadow: $box-shadow;
-
-  primarycolor: $primary-color;
-  secondarytext: $secondary-text;
-  texticonscolor: $text-icons-color;
-  dividercolor: $divider-color;
-
-  accentcolor: $accent-color;
-  primarytext: $primary-text;
-}

@@ -13,13 +13,13 @@ export default function Contact(props) {
               <p>
                 <b>Camila Andrea Meneses Torres</b><br />
                 Ing. Mecatrónica | Web Developer<br />
-                <img width="30" height="30" src="https://www.flaticon.es/svg/static/icons/svg/3062/3062634.svg"/>
+                <img src="https://www.flaticon.es/svg/static/icons/svg/3062/3062634.svg"/>
                 &nbsp; kam_1095@live.com<br />
 
-                <img width="30" height="30" src="https://www.flaticon.es/svg/static/icons/svg/2920/2920339.svg" alt="celular"></img>
+                <img src="https://www.flaticon.es/svg/static/icons/svg/2920/2920339.svg" alt="celular"></img>
                 &nbsp; +57 3184726170<br />
 
-                <img width="30" height="30" src="https://www.flaticon.es/svg/static/icons/svg/3062/3062588.svg" alt="ubicación"></img>
+                <img src="https://www.flaticon.es/svg/static/icons/svg/3062/3062588.svg" alt="ubicación"></img>
                 &nbsp; Bogota - Colombia<br />
               </p>
             </div>

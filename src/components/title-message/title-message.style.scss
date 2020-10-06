@@ -1,3 +1,5 @@
+@import "../../themes/theme.scss";
+
 .message {
   top: 18vh;
   font-size: 10vh;
@@ -16,7 +18,7 @@
   }
 
   contrast {
-    color: #7D2DFE;
+    color: $titles;
     text-shadow: 2px 2px 1px #ff4a4a, 4px 4px 1px #AFE4D9;
   }
 }

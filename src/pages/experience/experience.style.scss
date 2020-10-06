@@ -5,11 +5,6 @@
   background: linear-gradient(to bottom, rgba(0,0,0,1) 8%, rgba(2,2,2,1) 12%, rgba(10,10,10,0.6) 29%, rgba(26,26,26,0.6) 65%, rgba(59, 59, 59, 0.6) 74%, rgba(17, 17, 17, 0.88) 92%, rgb(12, 12, 12) 100%);
   padding-bottom: 3em;
 
-  h1{
-    color: #7D2DFE;
-    padding-bottom: 2em;
-  }
-
   p {
     font-size: 0.9em;
     font-weight: 200;
@@ -18,19 +13,14 @@
 }
 
 .vertical-timeline-element-date{
-  color: white;
+  color: $experience-date-letter;
   font-weight: 900;
-  background: #51f9ff;
+  background: $experience-date-background;
   border-radius: 10px;
   text-align: center !important;
   margin: 0;
   padding: 0;
   opacity: 1 !important;
-}
-
-.nospace{
-  margin: 0;
-  padding: 0;
 }
 
 #experience .logo{

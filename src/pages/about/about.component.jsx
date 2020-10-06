@@ -13,8 +13,8 @@ const About = () => {
     <div className='about-container'>
       <div id='about' className='section'>
         <Container>
-          <Row className='pt-3 pb-5 align-items-center'>
-            <Col xs={12} sm={12} md={12} lg={6} className="nospace">
+          <Row className='pt-3 pb-3 align-items-center'>
+            <Col xs={12} sm={12} md={12} lg={12} xl={6} className="nospace">
               <Fade left>
                 <Row className='justify-content-center mb-2'>
                   <Image className='profile justify-content-end nospace' alt='profile' src={Profile} roundedCircle fluid />
@@ -29,7 +29,7 @@ const About = () => {
               </Fade>
             </Col>
             {/*Description*/}
-            <Col xs={12} sm={12} md={12} lg={6}>
+            <Col xs={12} sm={12} md={12} lg={12} xl={6}>
               <Fade right>
                 <Row className=' align-items-start rounded profile-text'>
                   <p>

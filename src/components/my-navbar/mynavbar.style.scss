@@ -2,33 +2,76 @@
 
 .nav-theme {
   background: transparent;
-  font-size: 1em;
+  font-size: 0.8em;
+}
+
+@media only screen and (min-width: 600px){
+  #responsive-navbar-nav {
+    background-color: transparent;
+    text-shadow: none;
+    height: 10px;
+    background: $background-navbar-large;
+
+    .nav-link{
+      color: transparent;
+    }
+  }
+
+  #responsive-navbar-nav:hover{
+    height: 40px;
+    transition: height 2s;
+  }
+
+  #responsive-navbar-nav:hover{
+    background: $background-navbar-large;
+
+    .nav-link{
+      color: $navbar-color;
+      text-shadow: 1px 1px 1px $navbar-color-shadow,-1px 1px 1px $navbar-color-shadow,-1px -1px 1px $navbar-color-shadow, 1px -1px 1px $navbar-color-shadow;
+    }
+
+    a.nav-link.active{
+      color: $navbar-active;
+      text-shadow: 1px 1px 1px $navbar-active-shadow, -1px 1px 1px $navbar-active-shadow, 1px -1px 1px $navbar-active-shadow, -1px -1px 1px $navbar-active-shadow;
+    }
+
+    .nav-link:hover{
+      color: $navbar-hover;
+      text-shadow: 1px 1px 1px $navbar-hover-shadow, -1px -1px 1px $navbar-hover-shadow, 1px -1px 1px $navbar-hover-shadow, -1px 1px 1px $navbar-hover-shadow;
+    }
+  }
+}
+
+@media only screen and (max-width: 599px){
+  #responsive-navbar-nav{
+    padding-left: 5px;
+    background: $background-navbar-small;
+
+    .nav-link{
+      color: $navbar-color;
+      text-shadow: 1px 1px 1px $navbar-color-shadow,-1px 1px 1px $navbar-color-shadow,-1px -1px 1px $navbar-color-shadow, 1px -1px 1px $navbar-color-shadow;
+    }
+
+    a.nav-link.active{
+      color: $navbar-active;
+      text-shadow: 1px 1px 1px $navbar-active-shadow, -1px 1px 1px $navbar-active-shadow, 1px -1px 1px $navbar-active-shadow, -1px -1px 1px $navbar-active-shadow;
+    }
+
+    .nav-link:hover{
+      color: $navbar-hover;
+      text-shadow: 1px 1px 1px $navbar-hover-shadow, -1px -1px 1px $navbar-hover-shadow, 1px -1px 1px $navbar-hover-shadow, -1px 1px 1px $navbar-hover-shadow;
+    }
+  }
 }
 
 .animate-navbar {
   animation: moveDown 0.8s ease-in-out;
-  background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 38%, rgba(255,255,255,0.39) 62%, rgba(255,255,255,0.59) 85%, rgba(255,255,255,0.59) 100%);
   padding: 0;
 }
-
-.navbar-light .navbar-nav{
-  .nav-link, .nav-link.active{
-    color: $secondary-text;
-    text-shadow: 1px 1px 1px rgb(168, 168, 168),-1px 1px 1px rgb(164, 241, 255),-1px -1px 1px rgb(185, 253, 227), 1px -1px 1px rgb(26, 163, 255);
-  }
-
-  a.nav-link.active{
-    color: #ffbea4;
-    text-shadow: 1px 1px 1px #faa780, -1px 1px 1px #faa780, 1px -1px 1px #faa780, -1px -1px 1px #faa780;
-  }
-}
-
-.navbar-light:hover .navbar-nav:hover .nav-link:hover{
-  color: rgb(22, 138, 247);
-  text-shadow: 1px 1px 1px rgb(0, 66, 248), -1px -1px 1px rgb(81, 69, 241), 1px -1px 1px rgb(99, 109, 247), -1px 1px 1px rgb(19, 59, 238);
-}
 .navbar-toggler-icon, .navbar-toggler{
-  background: white;
+  padding: 0.2rem;
+  height: 1px;
+  background: rgba(248, 213, 255, 0.452);
   border: transparent;
 }
 

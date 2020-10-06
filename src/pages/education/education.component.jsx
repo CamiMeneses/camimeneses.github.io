@@ -21,9 +21,9 @@ const Education = () => {
     <div id='education' className= 'section'>
       <h1>EDUCATION</h1>
       <Container>
-        <Row className='pt-3 pb-5 align-items-center'>
+        <Row className='pt-2 pb-5 align-items-center'>
           {/*Courses*/}
-          <Col xs={12} sm={12} md={12} lg={3}>
+          <Col xs={12} sm={12} md={12} lg={12} xl={3}>
             <Fade bottom>
               <Row className='justify-content-center mb-2 mr-2 education-box'>
                 <Courses />
@@ -32,7 +32,7 @@ const Education = () => {
           </Col>
 
           {/*Education*/}
-          <Col xs={12} sm={12} md={12} lg={6}>
+          <Col xs={12} sm={12} md={12} lg={12} xl={6}>
             <Fade bottom>
               <Row className='justify-content-center mb-2 mr-2 education-box'>
                 <Bachelor />
@@ -41,7 +41,7 @@ const Education = () => {
           </Col>
 
           {/*Languages*/}
-          <Col xs={12} sm={12} md={12} lg={3}>
+          <Col xs={12} sm={12} md={12} lg={12} xl={3}>
             <Fade bottom>
               <Row className='justify-content-center mb-2 mr-2 education-box'>
                 <Languages />
@@ -63,7 +63,7 @@ const Bachelor = () => {
         <div>
             <Row>
               {/*UPC*/}
-              <Col xs={12} sm={6} md={6} lg={6}>
+              <Col xs={12} sm={6} md={6} lg={5} xl={6}>
                   <OverlayTrigger placement="bottom" delay={{ show: 250, hide: 400 }}
                     overlay={
                       <Tooltip> {upcMsg} </Tooltip>
@@ -76,7 +76,7 @@ const Bachelor = () => {
                 </Col>
 
               {/*Mechatronics*/}
-              <Col xs={12} sm={6} md={6} lg={6}>
+              <Col xs={12} sm={6} md={6} lg={7} xl={6}>
                 <OverlayTrigger placement="bottom" delay={{ show: 250, hide: 400 }}
                   overlay={
                     <Tooltip> {whatIs} </Tooltip>
@@ -114,62 +114,66 @@ const Courses = () => {
   return (
   <div className="description" id="courses">
     <h3>COURSES</h3>
+    <Row>
+      <Col xs={12} sm={12} md={12} lg={6} xl={12} className="nospace">
+        <div className="course" id="bb-course">
+          <h4>Fullstack Bootcamp</h4>
+            <OverlayTrigger placement="bottom" delay={{ show: 250, hide: 400 }}
+              overlay={
+                <Tooltip> {bootcamp} </Tooltip>
+              }
+            >
+              <a href='https://www.bogotabootcamp.com/' target='_blank' rel='noopener noreferrer'>
+                <Row>
+                  <Col>
+                    <img className='logo' id='bb' alt='BB' src={bb}/>
+                  </Col>
+                  <Col>
+                    <div className='text-subtitle'>
+                      <b>Bogotá Dev <br />Bootcamp & Dev Shop</b>
+                  </div>
+                  </Col>
+                </Row>
+              </a>
+            </OverlayTrigger>
 
-    <div className="course" id="bb-course">
-      <h4>Fullstack Bootcamp</h4>
-        <OverlayTrigger placement="bottom" delay={{ show: 250, hide: 400 }}
-          overlay={
-            <Tooltip> {bootcamp} </Tooltip>
-          }
-        >
-          <a href='https://www.bogotabootcamp.com/' target='_blank' rel='noopener noreferrer'>
-            <Row>
-              <Col>
-                <img className='logo' id='bb' alt='BB' src={bb}/>
-              </Col>
-              <Col>
-                <div className='text-subtitle'>
-                  <b>Bogotá Dev <br />Bootcamp & Dev Shop</b>
-              </div>
-              </Col>
-            </Row>
-          </a>
-        </OverlayTrigger>
-
-      <div className='text-subtitle'>Bogotá | 2019</div>
-      <div className='text-description'>
-        Ruby, Rails, HTML, CSS, Javascript, Jquery, GitHub, Rspec, React.js<br />
-        <b>Duration:</b> 10 weeks | day
-      </div>
-    </div>
-
-    <hr />
-
-    <div className="course" id="bb-course">
-      <OverlayTrigger placement="bottom" delay={{ show: 250, hide: 400 }}
-        overlay={
-        <Tooltip> {miriada} </Tooltip>
-        }
-      >
-        <a href='https://miriadax.net/files/10132/badge/c258b12f-2d9e-484b-9440-5aa65334e43f.pdf' target='_blank' rel='noopener noreferrer'>
-          <h4>Desarrollo en HTML5, CSS y Javascript de  Apps Web, Android, Ios(7ed.)</h4>
-        </a>
-      </OverlayTrigger>
-      <Row>
-        <Col>
-          <img className='logo' id='miriadax' alt='MiriadaX' src={miriadax}/>
-        </Col>
-        <Col>
-        <div className='text-subtitle'>
-          <b>Miriada X | Universidad Politécnica de Madrid <br />
-          </b>
+          <div className='text-subtitle'>Bogotá | 2019</div>
+          <div className='text-description'>
+            Ruby, Rails, HTML, CSS, Javascript, Jquery, GitHub, Rspec, React.js<br />
+            <b>Duration:</b> 10 weeks | day
+          </div>
+          <br />
         </div>
-        </Col>
-      </Row>
-      <div className='text-description'><b>Duration:</b> 5 weeks | 50 study hours<br />
-        <b>Virtual 2017</b>
-      </div>
-    </div>
+      </Col>
+
+      <Col xs={12} sm={12} md={12} lg={6} xl={12} className="nospace">
+        <div className="course" id="bb-course">
+          <OverlayTrigger placement="bottom" delay={{ show: 250, hide: 400 }}
+            overlay={
+            <Tooltip> {miriada} </Tooltip>
+            }
+          >
+            <a href='https://miriadax.net/files/10132/badge/c258b12f-2d9e-484b-9440-5aa65334e43f.pdf' target='_blank' rel='noopener noreferrer'>
+              <h4>Desarrollo en HTML5, CSS y Javascript de  Apps Web, Android, Ios(7ed.)</h4>
+            </a>
+          </OverlayTrigger>
+          <Row>
+            <Col>
+              <img className='logo' id='miriadax' alt='MiriadaX' src={miriadax}/>
+            </Col>
+            <Col>
+            <div className='text-subtitle'>
+              <b>Miriada X | Universidad Politécnica de Madrid <br />
+              </b>
+            </div>
+            </Col>
+          </Row>
+          <div className='text-description'><b>Duration:</b> 5 weeks | 50 study hours<br />
+            <b>Virtual 2017</b>
+          </div>
+        </div>
+      </Col>
+    </Row>
   </div>
   )
 }
@@ -179,24 +183,27 @@ const Languages = () => {
   return(
     <div className='description'>
       <h3>LANGUAGES</h3>
-
       <div className="languages">
-        <div className="lang">
-          <h4>Spanish</h4><div className='text-subtitle'><b>Native</b></div>
-        </div>
-        <img className='logo' id='esp' alt='esp' src={esp}/>
-
-        <hr />
-
-        <div className="lang">
-          <h4>English</h4> <div className='text-subtitle'><b>Advanced</b></div>
-        </div>
-        <img className='logo' id='eng' alt='eng' src={eng}/>
         <Row>
-          <Col className="course nospace" xs={3} sm={3} md={3} lg={3}>
+          <Col xs={6} sm={6} md={6} lg={6} xl={12} className="nospace">
+            <div className="lang">
+              <h4>Spanish</h4><div className='text-subtitle'><b>Native</b></div>
+            </div>
+            <img className='logo' id='esp' alt='esp' src={esp}/>
+          </Col>
+
+          <Col xs={6} sm={6} md={6} lg={6} xl={12} className="nospace">
+            <div className="lang">
+              <h4>English</h4> <div className='text-subtitle'><b>Advanced</b></div>
+            </div>
+            <img className='logo' id='eng' alt='eng' src={eng}/>
+          </Col>
+        </Row>
+        <Row>
+          <Col className="course nospace" xs={3} sm={3} md={3} lg={3} xl={3}>
             <img className='logo' id='ec' alt='ec' src={ec}/>
           </Col>
-          <Col className="nospace" xs={9} sm={9} md={9} lg={9}>
+          <Col className="nospace text-subtitle" xs={9} sm={9} md={9} lg={9} xl={9}>
             <b>PROFICIENCY LEVEL</b><br /> ACADEMIC YEAR 30 LESSONS<br />
             <OverlayTrigger placement="bottom" delay={{ show: 250, hide: 400 }}
               overlay={
@@ -206,7 +213,7 @@ const Languages = () => {
               <a href='https://www.ecenglish.com/' target='_blank' rel='noopener noreferrer'>
                 English Languages Centres - EC Vancouver<br />
               </a>
-              </OverlayTrigger>
+            </OverlayTrigger>
           </Col>
         </Row>
         <div className='text-description'>

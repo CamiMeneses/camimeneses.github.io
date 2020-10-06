@@ -3,7 +3,6 @@ import './App.scss';
 
 // Components
 import MyNavbar from './components/my-navbar/mynavbar.component';
-import Particles from './components/particles/particles.component';
 import Links from './components/links/links.component';
 import TitleMessage from './components/title-message/title-message.component';
 
@@ -18,27 +17,22 @@ import Contact from './pages/contact/contact.component';
 //Parallax Background
 import { Parallax }  from "react-parallax";
 
-//Images
 import ParticlesBg from "particles-bg";
-
-
 
 const App = () =>{
   return (
     <div className='App'>
       <MyNavbar />
-
       <Welcome >
-        <ParticlesBg type="cobweb" color="#ff00ff" num={50} bg={true}/>
+        <ParticlesBg type="cobweb" color="#fa84c3" num={40} bg={true}/>
       </Welcome>
       <TitleMessage />
       <About />
       <ExperienceSection />
-      {/*<img className='woman' alt='woman' src={Woman}/>*/}
       <EducationSection />
       <SkillsSection />
       <Contact>
-        <Particles />
+        <ParticlesBg type="lines" num={100} bg={true}/>
       </Contact>
       <Links />
     </div>

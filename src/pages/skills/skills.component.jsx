@@ -3,7 +3,6 @@ import './skills.style.scss'
 
 // Layout
 import { Container } from 'react-bootstrap'
-import Card from 'react-bootstrap/Card'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Image from 'react-bootstrap/Image'
@@ -44,86 +43,16 @@ export default function Skills(props) {
   );
 }
 
-const Theme1 = () => {
-  return (
-    <>
-      {/*Primera columna*/}
-      <Col xs={12} sm={12} md={12} lg={3} className="skill-column">
-        <div className="skill-box">
-          <Row className="skill-row">
-            <Fade bottom>
-              <Image className='skill-image' alt='profile' src={Git}/>
-            </Fade>
-          </Row>
-          <Row className="skill-row">
-            <Fade bottom>
-              <Image className='skill-image' alt='profile' src={Github}/>
-            </Fade>
-          </Row>
-          <Row className="skill-row">
-            <Fade bottom>
-              <Image className='skill-image' alt='profile' src={Bitbucket}/>
-            </Fade>
-          </Row>
-        </div>
-      </Col>
-
-      {/*Segunda columna*/}
-      <Col xs={12} sm={12} md={12} lg={6} className="skill-column">
-        <div className="skill-box">
-          <Row className="skill-row">
-            <Fade bottom>
-              <Image className='skill-image' alt='profile' src={Ruby}/>
-            </Fade>
-            <Fade bottom>
-              <Image className='skill-image' alt='profile' src={Rails}/>
-            </Fade>
-          </Row>
-          <Row className="skill-row">
-            <Fade bottom>
-              <Image className='skill-image' alt='profile' src={Html}/>
-            </Fade>
-            <Fade bottom>
-              <Image className='skill-image' alt='profile' src={Css}/>
-            </Fade>
-          </Row>
-        </div>
-      </Col>
-
-      {/*Tercera columna*/}
-      <Col xs={12} sm={12} md={12} lg={3} className="skill-column">
-        <div className="skill-box">
-          <Row className="skill-row">
-            <Fade bottom>
-              <Image className='skill-image' alt='profile' src={Scrum}/>
-            </Fade>
-          </Row>
-          <Row className="skill-row">
-            <Fade bottom>
-              <Image className='skill-image' alt='profile' src={Jira}/>
-            </Fade>
-          </Row>
-          <Row className="skill-row">
-            <Fade bottom>
-              <Image className='skill-image' alt='profile' src={Trello}/>
-            </Fade>
-          </Row>
-        </div>
-      </Col>
-    </>
-  )
-}
-
 const Theme2 = () => {
   return (
     <>
-      {/*Primera columna*/}
-      <Col xs={12} sm={12} md={12} lg={6} className="skill-column">
+      {/*Primera columna*
+      <Col xs={12} sm={12} md={12} lg={4} className="skill-column">
         <Image className='skill-computer-image' alt='profile' src={Computer}/>
-      </Col>
-
+      </Col>/}
+      */}
       {/*Segunda columna*/}
-      <Col xs={12} sm={12} md={12} lg={6} className="skill-column">
+      <Col xs={12} sm={12} md={12} lg={12} className="skill-column">
           <Row className="skill-row">
             <Fade bottom>
               <Image className='skill-image' alt='ruby' src={Ruby}/>

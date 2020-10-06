@@ -27,10 +27,7 @@
 
 .description{
   font-weight: 100;
-  color: $primary-text;
-  padding: 1em;
-  border-radius: 5px;
-  box-shadow: $box-shadow;
+  padding: .5em;
 }
 
 h1 {
@@ -43,41 +40,52 @@ h1 {
 
 $h3-shadow: #205f553a;
 h3{
-  color: rgb(15, 152, 216);
-  text-shadow: 1px 1px .5px $h3-shadow, -1px 1px .5px $h3-shadow, 1px -1px .5px $h3-shadow, -1px -1px .5px $h3-shadow;
+  color: $experience-title;
+  //text-shadow: 1px 1px .5px $h3-shadow, -1px 1px .5px $h3-shadow, 1px -1px .5px $h3-shadow, -1px -1px .5px $h3-shadow;
   font-size: 1.1em;
   font-weight: 300;
 }
 
 $h4-shadow: #2c2c2c00;
 h4{
-  color: rgb(167, 147, 255);
-  text-shadow: 1px 1px .5px $h4-shadow, -1px 1px .5px $h4-shadow, 1px -1px .5px $h4-shadow, -1px -1px .5px $h4-shadow;;
+  color: $experience-subtitle;
+  //text-shadow: 1px 1px .5px $h4-shadow, -1px 1px .5px $h4-shadow, 1px -1px .5px $h4-shadow, -1px -1px .5px $h4-shadow;;
   font-size: 1em;
   font-weight: 300;
 }
 
 .text-subtitle{
   font-weight: 400;
-  color: $divider-color;
+  color: $education-secundary;
   padding-left: 15px;
 }
 
 .text-description{
   font-weight: 300;
-  color: #4de6cc;
+  color: $education-description;
   padding-left: 15px;
-}
-
-.woman-experience{
-  position: absolute;
-  top: 130em;
-  left: 0px;
-  min-height: 200vh;
 }
 
 .background-skills{
   background: url('./assets/img/background/skills-girl-power.jpg');
   background-repeat: repeat;
   background-position: center;
+}
+
+.nospace{
+  margin: 0;
+  padding: 0;
+}
+
+//buttons
+
+.btn-outline-success{
+  color: $success-botton;
+  border-color: $success-botton;
+}
+
+h1{
+  padding-top: 1.1em;
+  padding-bottom: 0.7em;
+  color: $titles;
 }
