@@ -15,7 +15,7 @@ import miriadax from "../../assets/icons/education/miriadax.png";
 import esp from "../../assets/icons/education/esp.png";
 import eng from "../../assets/icons/education/eng.webp";
 import ec from "../../assets/icons/education/ec.png";
-import ef from "../../assets/icons/education/ef_credential.svg";
+import ef from "../../assets/icons/education/ef_credential.png";
 
 const Education = () => {
   return (

@@ -13,7 +13,7 @@ const Links = () => {
         <Row>
           <Col className='d-flex justify-content-center flex-wrap'>
             <div>
-              <a href='https://drive.google.com/file/d/166LBeln2xD63uXvnOK10bn8eP3H83jYN/view?usp=sharing' target='_blank' rel='noopener noreferrer'>
+              <a href='https://drive.google.com/file/d/19_SCdFnqdS_J-f0YIU4dVdSYBL-MnTRT/view?usp=sharing' target='_blank' rel='noopener noreferrer'>
                 <Button className= 'm-2' variant='outline-success'>Resume</Button>
               </a>
             </div>
