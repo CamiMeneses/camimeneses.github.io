@@ -207,46 +207,49 @@ const Languages = () => {
           <div className="text-subtitle nospace">
             <b>PROFICIENCY LEVEL</b><br /> ACADEMIC YEAR 30 LESSONS<br />
           </div>
-          <Col className="course nospace" xs={3} sm={3} md={3} lg={3} xl={3}>
-            <img className='logo' id='ec' alt='ec' src={ec}/>
-          </Col>
-          <Col className="nospace text-subtitle" xs={9} sm={9} md={9} lg={9} xl={9}>
-            <OverlayTrigger placement="bottom" delay={{ show: 250, hide: 400 }}
-              overlay={
-                <Tooltip> {EcSite} </Tooltip>
-              }
-            >
-              <a href='https://www.ecenglish.com/' target='_blank' rel='noopener noreferrer'>
-                English Languages Centres - EC Vancouver<br />
-              </a>
-            </OverlayTrigger>
-          </Col>
-          <div className='text-description nospace'>
-            <b>Vancouver | Canada </b><br />
-            2018 | Jan - Sep<br />
-            <b>Duration:</b> 36 weeks<br />
-          </div>
+          <Row>
+            <Col className="course nospace" xs={3} sm={3} md={3} lg={3} xl={3}>
+              <img className='logo' id='ec' alt='ec' src={ec}/>
+            </Col>
+            <Col className="nospace text-subtitle" xs={9} sm={9} md={9} lg={9} xl={9}>
+              <OverlayTrigger placement="bottom" delay={{ show: 250, hide: 400 }}
+                overlay={
+                  <Tooltip> {EcSite} </Tooltip>
+                }
+              >
+                <a href='https://www.ecenglish.com/' target='_blank' rel='noopener noreferrer'>
+                  English Languages Centres - EC Vancouver<br />
+                </a>
+              </OverlayTrigger>
+              <div className='text-description nospace'>
+                <b>Vancouver | Canada </b><br />
+                2018 | Jan - Sep<br />
+                <b>Duration:</b> 36 weeks<br />
+              </div>
+            </Col>
+          </Row>
         </Row>
 
         {/*EF Credential*/}
-        <Row>
-          <OverlayTrigger placement="bottom" delay={{ show: 250, hide: 400 }}
-            overlay={
-              <Tooltip> {EfSet} </Tooltip>
-            }
-          >
-            <div className="text-subtitle nospace">
+
+        <OverlayTrigger placement="bottom" delay={{ show: 250, hide: 400 }}
+          overlay={
+            <Tooltip> {EfSet} </Tooltip>
+          }
+        >
+          <div className="text-subtitle nospace">
+            <Row className="nospace">
               <Col className="course nospace" xs={3} sm={3} md={3} lg={3} xl={3}>
                 <img className='logo' id='ef' alt='ef' src={ef}/>
               </Col>
               <Col className="nospace text-subtitle" xs={9} sm={9} md={9} lg={9} xl={9}>
                   <a href='https://www.efset.org/cert/YGip1z' target='_blank' rel='noopener noreferrer'>
-                  EF English Certificate C1 Advanced
+                    EF English Certificate C1 Advanced | 2020
                   </a>
               </Col>
-            </div>
-          </OverlayTrigger>
-        </Row>
+            </Row>
+          </div>
+        </OverlayTrigger>
       </div>
     </div>
   )

@@ -41,13 +41,13 @@ const About = () => {
                     Used <b>Git</b>, and code hosting platforms like <b>Github</b> and <b>Bitbucket</b><br />
                     <br />
 
-                    I want to continue learning about this world of development <br />
+                    I want to keep learning about this world of development <br />
                     and even when I've been focused on back-end, I like the front-end part
-                    and I'm studying <b>JS</b> and its frameworks like <b>React JS</b>, which I'm using here!<br />
+                    so then I'm studying <b>JS</b> and its frameworks like <b>React JS</b>, which I'm using here!<br />
                     <br />
 
                     Check out my website, learn more about me <br />
-                    and feel free to contact me. <br />
+                    and feel free to <b>contact me</b>. <br />
                     <br />
                   </p>
                 </Row>
