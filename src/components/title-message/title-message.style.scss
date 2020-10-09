@@ -12,7 +12,7 @@
   text-shadow: 1.5px 1.5px 1px $welcome-shadow1, 2px 2px 1px $welcome-shadow2;
 
   div {
-    color: #FFFFFF;
+    color: $welcome-message;
     font-weight: 300;
     letter-spacing: 0.2px;
   }

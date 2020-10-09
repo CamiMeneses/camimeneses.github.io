@@ -3,11 +3,11 @@
 #skills{
   position: static;
   padding-top: 5em;
-  background: linear-gradient(to bottom, $dark 8%, $dark-transparent 40%, $dark 85%, rgb(15, 15, 15) 100%);
+  background: linear-gradient(to bottom, $background 8%, $background-transparent 40%, $background 100%);
 
   p {
     font-size: 1.1em;
-    color: $dark;
+    color: $background;
   }
 }
 
