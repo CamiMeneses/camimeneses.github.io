@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.scss';
 import Dark from "./themes/theme.scss";
+import Image from 'react-bootstrap/Image'
 
 // Components
 import MyNavbar from './components/my-navbar/mynavbar.component';
@@ -15,6 +16,13 @@ import Experience from './pages/experience/experience.component';
 import Skills from './pages/skills/skills.component';
 import Contact from './pages/contact/contact.component';
 
+//images
+import mancha from './assets/img/mancha.png'
+import mancha2 from './assets/img/mancha2.png'
+import mancha3 from './assets/img/mancha-verde.png'
+
+
+
 //Parallax Background
 import { Parallax }  from "react-parallax";
 
@@ -25,12 +33,17 @@ const App = () =>{
     <div className='App'>
       <MyNavbar />
       <Welcome >
-        <ParticlesBg type="cobweb" color="#fa84c3" num={40} bg={true}/>
+        {/* <ParticlesBg type="cobweb" color="#fa84c3" num={40} bg={true}/>*/}
       </Welcome>
       <TitleMessage />
       <About />
-      <ExperienceSection />
-      <EducationSection />
+      <div style={{background: "#000000"}}>
+        <ExperienceSection />
+        <Image id='mancha' alt='deco' src={mancha}/>
+        <EducationSection />
+        <Image id='mancha2' alt='deco' src={mancha2}/>
+        <Image id='mancha3' alt='deco' src={mancha3}/>
+      </div>
       <SkillsSection />
       <Contact>
         <ParticlesBg type="lines" num={100} bg={true}/>
@@ -42,6 +55,7 @@ const App = () =>{
 
 const EducationSection = () =>{
   return (
+    /*
     <Parallax
     bgImage={require('./assets/img/background/education-croquis.png')}
     bgImageAlt="about"
@@ -50,19 +64,22 @@ const EducationSection = () =>{
       <div id="background-papel">
         <Education />
       </div>
-    </Parallax>
+    </Parallax>*/
+    <Education />
   )
 }
 
 const ExperienceSection = () =>{
   return (
+    /*
     <Parallax
       bgImage={require('./assets/img/background/experience-fucsia-spots.jpg')}
       bgImageAlt="about"
       strength={1000}
     >
       <Experience />
-    </Parallax>
+    </Parallax>*/
+    <Experience />
   )
 }
 

@@ -1,5 +1,35 @@
+@import "../../themes/theme.scss";
 
 #welcome{
   font-family: 'Monoton', cursive;
   display: block;
+  background: $background-welcome;
+}
+
+#profileImage{
+  right: 0;
+  bottom: 4;
+  width: 80vh;
+  position: absolute;
+}
+
+#yemaImage{
+  right: 0;
+  bottom: 0;
+  top:40vh;
+  width: 100vh;
+  position: absolute;
+  opacity: 0;
+}
+
+#yema-welcome{
+  position: absolute;
+  top:8vh;
+  right: 0;
+  width: 45vw;
+  padding: 6em;
+  margin: 3em;
+  background-image: url("../../assets/img/purple_yema.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }

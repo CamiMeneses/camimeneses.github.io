@@ -1,7 +1,7 @@
 @import "../../themes/theme.scss";
 
 #education {
-  background: linear-gradient(to bottom, $background 8%, $background-transparent 40%, $background 100%);
+  background: $background-education;
 
   h4 {
     color: $education-primary;

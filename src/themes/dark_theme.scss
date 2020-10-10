@@ -1,34 +1,33 @@
+$dark-theme: true;
 
-$background: rgb(255, 252, 232); //#141a20
-$background-transparent: white; //#141a20bb
-$opposite: black !global;
+$background: black !global; //#141a20
+$background-transparent: #141a2000 !global; //#141a20bb
+$opposite: white !global;
 $pink: #C43171 !global; // Telemagenta
 $light-pink: #FFB5C2 !global; //Cherry Blosom Pink
 $orange: #f76060 !global;
-$yellow: #FFDE59 !global; //Canary
+$yellow: #FFF689 !global; //Canary
 $light-green: #B2FAB2 !global; //Granny Smith Apple
 $turquese: #23F0C7 !global;
 $green: #47A4AE !global; //Cadet Blue
 $light-blue: #b4b9cf !global;
-$blue: #e9edff !global; //Middle Blue
+$blue: #838BAF !global; //Middle Blue
 $dark-blue: #3A405A !global; //Independence - 456990 Queen Blue
-
-
-$purple: #8C53FF;
 
 // Generals
 $titles: $light-pink;
-$about: $opposite;
-$about-name: $opposite;
-$background-about: transparent;
+$about: $green;
+$about-name: $light-blue;
+$background-about: $background;
+
 
 // Welcome
-$welcome-message: rgb(36, 36, 36);
-$welcome-contrast: rgb(0, 0, 0);
-$welcome-shadow1: rgb(204, 204, 204);
-$welcome-shadow2: transparent;
-$contrast-shadow1: white;
-$contrast-shadow2: transparent;
+$welcome-message: $opposite;
+$welcome-contrast: $opposite;
+$welcome-shadow1: $blue;
+$welcome-shadow2: $yellow;
+$contrast-shadow1: $light-pink;
+$contrast-shadow2: $light-pink;
 $background-welcome: transparent;
 
 //navabar
@@ -45,16 +44,11 @@ $background-navbar-small: linear-gradient(to right, rgba(0,0,0,0.7) 0%, rgba(0,0
 $success-botton: #85e285;
 
 // Experience
-$experience-date-letter: white;
-$experience-date-background: black;
-$background-experience-description:  white;
-$background-experience-description-shadow: 1px 1px 2px $blue,1px -1px 2px $blue,-1px 1px 2px $blue;
-$experience-title: rgb(59, 104, 250);
+$experience-date-letter: $opposite;
+$experience-date-background: $dark-blue;
+$experience-title: $pink;
 $experience-subtitle: $green;
-$experience-description-color: black;
-$experience-subtitle-color: black;
-$background-experience: transparent;
-$vertical-line-work: linear-gradient(to bottom, rgba(255,161,224,1) 0%, rgba(255,184,145,1) 24%, rgba(255,255,145,1) 56%, rgba(182,255,145,1) 100%);
+$background-experience: linear-gradient(to bottom, $background 8%, $background-transparent 40%, $background 100%);
 
 // Education
 $piloto-color: $pink;
@@ -64,10 +58,10 @@ $education-primary: $yellow;
 $education-secundary: $light-green;
 $education-description: $green;
 $a-text-subtitle-ec:$turquese;
-$background-education: transparent;
+$background-education: linear-gradient(to bottom, $background 8%, $background-transparent 40%, $background 100%);
 
 //skills
-$background-skills: white;
+$background-skills: linear-gradient(to bottom, $background 8%, $background-transparent 40%, $background 100%);
 
 // contact
 $contact-info: $dark-blue;

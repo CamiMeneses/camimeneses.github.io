@@ -1,6 +1,6 @@
 @import "../../themes/theme.scss";
 
-.about-container {
+.about {
   min-height: 100vh;
   width: 100%;
   position: relative;
@@ -9,6 +9,8 @@
 
   h1{
     font-size: 2em;
+    padding: 0;
+    margin: 0;
     color: $about-name;
   }
 
@@ -25,9 +27,29 @@
   padding-bottom: 3em;
   text-align: center;
   color: $about;
-  border-radius: 3em;
+  background: $background-about;
 }
 
+#aboutContainer{
+  background: white;
+  padding: 3em;
+  border-radius: 5px;
+}
+
+#yema{
+  padding-top: 1em;
+  padding-bottom: 4em;
+  background-image: url("../../assets/img/purple_yema.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#borron{
+  padding-top: 5em;
+  padding-bottom: 2em;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .profile{
   margin: 2em;
   width: 25em;

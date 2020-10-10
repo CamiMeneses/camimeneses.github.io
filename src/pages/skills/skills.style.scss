@@ -3,7 +3,7 @@
 #skills{
   position: static;
   padding-top: 5em;
-  background: linear-gradient(to bottom, $background 8%, $background-transparent 40%, $background 100%);
+  background: $background-skills;
 
   p {
     font-size: 1.1em;

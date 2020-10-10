@@ -2,21 +2,27 @@
 
 #experience {
   position: static;
-  background: linear-gradient(to bottom, $background 8%, $background-transparent 40%, $background 100%);
+  background: $background-experience;
   padding-bottom: 3em;
+
+
   .vertical-timeline-element-content.bounce-in{
-    background: $opposite;
+    background: $background-experience-description;
+    box-shadow: $background-experience-description-shadow;
+  }
+  .vertical-timeline::before{
+    background: $vertical-line-work;
   }
 
   p {
     font-size: 0.9em;
     font-weight: 200;
-    color: $background;
+    color: $experience-description-color;
   }
 }
 
 .vertical-timeline-element-subtitle{
-  color: $background;
+  color: $experience-subtitle-color;
 }
 
 .vertical-timeline-element-date{
