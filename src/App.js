@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.scss';
-import Dark from "./themes/theme.scss";
 
 // Components
 import MyNavbar from './components/my-navbar/mynavbar.component';
@@ -25,7 +24,7 @@ const App = () =>{
     <div className='App'>
       <MyNavbar />
       <Welcome >
-        <ParticlesBg type="cobweb" color="#fa84c3" num={40} bg={true}/>
+        <ParticlesBg type="cobweb" color="#fa84c3" num={20} bg={true}/>
       </Welcome>
       <TitleMessage />
       <About />
@@ -71,14 +70,6 @@ const SkillsSection = () =>{
     <div id="background-skills">
       <Skills />
     </div>
-    /*
-    <Parallax
-    bgImage={require('./assets/img/background/skills-girl-power.jpg')}
-    bgImageAlt="about"
-    strength={300}
-    >
-    </Parallax>
-    */
   )
 }
 

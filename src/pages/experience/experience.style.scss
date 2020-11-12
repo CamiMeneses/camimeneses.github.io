@@ -5,7 +5,7 @@
   background: linear-gradient(to bottom, $background 8%, $background-transparent 40%, $background 100%);
   padding-bottom: 3em;
   .vertical-timeline-element-content.bounce-in{
-    background: $opposite;
+    background: $light;
   }
 
   p {
@@ -16,7 +16,7 @@
 }
 
 .vertical-timeline-element-subtitle{
-  color: $background;
+  color: $green;
 }
 
 .vertical-timeline-element-date{

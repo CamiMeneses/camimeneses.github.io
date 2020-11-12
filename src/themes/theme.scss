@@ -1,65 +1,41 @@
-$dark-theme: true;
+$background: #141a20; //
+$background-transparent: #141a20bb;
 
-@if $dark-theme{
-  $background: #141a20 !global; //
-  $background-transparent: #141a20bb !global;
+$light: white;
 
-  $opposite: white !global;
+$light-purple: #A682FF;
+$light-pink: #ff9daf; //Cherry Blosom Pink
+$pink: #C43171;
+$super-pink: rgb(250, 56, 137);
+$light-yellow: #FFF689; //Canary
+$yellow: #fcdd57;
+$light-green: #23EFC6;
+$green: #22a0a0; //Cadet Blue
+$dark-blue: #3A405A; //Independence - 456990 Queen Blue
+$blue: #57abff;
 
-  $pink: #C43171 !global; // Telemagenta
-  $light-pink: #FFB5C2 !global; //Cherry Blosom Pink
-
-  $orange: #f76060 !global;
-
-  $yellow: #FFF689 !global; //Canary
-
-  $light-green: #B2FAB2 !global; //Granny Smith Apple
-  $turquese: #23F0C7 !global;
-  $green: #47A4AE !global; //Cadet Blue
-
-  $light-blue: #8CC2F8 !global;
-  $blue: #89D2DC !global; //Middle Blue
-  $dark-blue: #3A405A !global; //Independence - 456990 Queen Blue
-}@else {
-  // whitepalette
-  $background: #ffffff !global; //
-  $background-transparent: #f7f7f7d3 !global;
-  $opposite: #51597c !global;
-
-  $pink: #b36084 !global; // Telemagenta
-  $light-pink: #fa6f89 !global; //Cherry Blosom Pink
-
-  $orange: #f76060 !global;
-
-  $yellow: #7a7641 !global; //Canary
-
-  $light-green: #6a926a !global; //Granny Smith Apple
-  $turquese: #169178 !global;
-  $green: #000000 !global; //Cadet Blue
-
-  $light-blue: #4b6681 !global;
-  $blue: #56858b !global; //Middle Blue
-  $dark-blue: #3A405A !global; //Independence - 456990 Queen Blue
-}
-
-
+//$light-green: #B2FAB2; //Granny Smith Apple
+//$turquese: #EBD2BE;
+//$light-blue: #8CC2F8;
+//$blue: #EBD2BE; //Middle Blue
+//$pink: #EBD2BE; // Telemagenta
 // Generals
 $titles: $light-pink;
 $about: $green;
-$about-name: $light-blue;
+$about-name: $blue;
 
 // Welcome
-$welcome-message: $opposite;
-$welcome-contrast: $opposite;
-$welcome-shadow1: $blue;
-$welcome-shadow2: $yellow;
-$contrast-shadow1: $light-pink;
+$welcome-message: $light;
+$welcome-contrast: $light;
+$welcome-shadow1: $dark-blue;
+$welcome-shadow2: $light-yellow;
+$contrast-shadow1: $light-purple;
 $contrast-shadow2: $light-pink;
 
 //navabar
-$navbar-color: $light-green;
+$navbar-color: rgba(255, 255, 255, 0.74);
 $navbar-color-shadow: #589658;
-$navbar-active: $yellow;
+$navbar-active: $light-yellow;
 $navbar-active-shadow: #aaa45e;
 $navbar-hover: $light-pink;
 $navbar-hover-shadow: #aa5783;
@@ -78,17 +54,17 @@ $experience-subtitle: $green;
 // Education
 $piloto-color: $pink;
 $piloto-border: $dark-blue;
-$education-type: $turquese;
-$education-primary: $yellow;
+$education-type: $light-pink;
+$education-primary: $light-yellow;
 $education-secundary: $light-green;
 $education-description: $green;
-$a-text-subtitle-ec:$turquese;
+$a-text-subtitle-ec: $blue;
 
 // contact
 $contact-info: $dark-blue;
 $contact-title: $green;
 $contact-gradient1: $yellow;
-$contact-gradient2: $orange;
+$contact-gradient2: $super-pink;
 $background-contact: $background;
 $background-description: white;
 

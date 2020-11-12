@@ -8,14 +8,13 @@ const TitleMessage = () => {
     <div className="message">
       <Typewriter
         options={{
-        strings: ['Hola! <br/> <br/> Soy <contrast> Camila Meneses </contrast>', 'Bienvenid@ a <contrast> mi página web </contrast> ',
-                  'Conoce más <contrast> acerca de mi </contrast> ', "Hello! <br/> I'm <contrast> Camila Meneses </contrast> ",
+        strings: ["Hello! <br/> I'm <contrast> Camila Meneses </contrast> ",
                   'Welcome to my <contrast> website </contrast>', 'Know more <contrast> about me <contrast> '],
         autoStart: true,
         loop: true,
-        delay: 90,
+        delay: 20,
         cursor: '|',
-        deleteSpeed: 1
+        deleteSpeed: 0.5
         }}
       />
     </div>

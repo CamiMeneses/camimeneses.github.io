@@ -33,16 +33,16 @@ const About = () => {
               <Fade right>
                 <Row className=' align-items-start rounded profile-text'>
                   <p>
-                    I began my journey as Web Developer since <b> 2019 </b> with Bogotá Dev & Bootcamp
-                    where I learnt the basics of multiples languages<br />
+                    I began my journey as a Web Developer in <b> 2019 </b> with Bogotá Dev & Bootcamp
+                    where I learned the basics of multiples languages<br />
                     <br />
 
-                    I've been working mainly as <b>Ruby on Rails</b> developer, with <b>HTML</b> and <b>CSS</b>.
-                    Used <b>Git</b>, and code hosting platforms like <b>Github</b> and <b>Bitbucket</b><br />
+                    I've been working mainly as a <b>Ruby on Rails</b> developer, with <b>HTML</b> and <b>CSS</b>.
+                    Used <b>Git</b>, and code hosting platforms like <b>GitHub</b> and <b>Bitbucket</b><br />
                     <br />
 
                     I want to keep learning about this world of development <br />
-                    and even when I've been focused on back-end, I like the front-end part
+                    and even when I've been focused on the back-end, I like the front-end part
                     so then I'm studying <b>JS</b> and its frameworks like <b>React JS</b>, which I'm using here!<br />
                     <br />
 
