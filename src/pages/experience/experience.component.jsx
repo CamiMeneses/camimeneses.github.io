@@ -15,6 +15,7 @@ import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timel
 import 'react-vertical-timeline-component/style.min.css';
 
 // Images
+import picap from '../../assets/icons/experience/picap.jpg'
 import twoTransfair from '../../assets/icons/experience/2transfair.png'
 import youse from '../../assets/icons/experience/youse.png'
 import bb from '../../assets/icons/experience/bb.png'
@@ -28,6 +29,7 @@ const Experience = () => {
       <h1>EXPERIENCE</h1>
       <Container>
         <VerticalTimeline>
+          <Picap />
           <TwoTransfair />
           <Youse />
           <BB />
@@ -36,6 +38,46 @@ const Experience = () => {
         </VerticalTimeline>
       </Container>
     </div>
+  )
+}
+
+const Picap = () => {
+  return (
+    <VerticalTimelineElement
+      className="vertical-timeline-element--work"
+      date="Dec 2020 - Current"
+      iconStyle={{ background: '#ffffff'}}
+
+    >
+      <OverlayTrigger placement="bottom" delay={{ show: 250, hide: 400 }}
+        overlay={
+          <Tooltip> {"About Picap"} </Tooltip>
+        }
+      >
+        <a href='https://www.picap.app/' target='_blank' rel='noopener noreferrer'>
+          <Row className='nospace'>
+            <Col xs={12} sm={3} md={3} lg={3}>
+              <img className='logo' id='picap' alt='2tf' src={picap}/>
+            </Col>
+            <Col xs={12} sm={9} md={9} lg={9}>
+              <h3 className="vertical-timeline-element-title">RUBY ON RAILS DEVELOPER</h3>
+              <h4 className="vertical-timeline-element-subtitle"> Picap | Bogota, CO | Remote</h4>
+            </Col>
+          </Row>
+        </a>
+      </OverlayTrigger>
+    <p>
+      <ul>
+        <li><b>Ruby on Rails</b></li>
+        <li>Build a project from scratch <a href="https://www.picap.app/#/pibox-storage" target="_blank"><b>Pibox Storage</b></a></li>
+        <li>Unit tests<b>Rspec</b></li>
+        <li>Use <b>Heroku</b></li>
+        <li><b>API REST</b></li>
+        <li>Use version control tool <b>Git</b> and code storage tool <b>Bitbucket</b></li>
+        <li><b>Scrum - Clickup</b></li>
+      </ul>
+    </p>
+  </VerticalTimelineElement>
   )
 }
 

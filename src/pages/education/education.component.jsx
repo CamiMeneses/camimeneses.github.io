@@ -15,14 +15,14 @@ import miriadax from "../../assets/icons/education/miriadax.png";
 import esp from "../../assets/icons/education/esp.png";
 import eng from "../../assets/icons/education/eng.webp";
 import ec from "../../assets/icons/education/ec.png";
-import ef from "../../assets/icons/education/ef_credential.png";
+import ef from "../../assets/icons/education/ef.svg";
 
 const Education = () => {
   return (
     <div id='education' className= 'section'>
       <h1>EDUCATION</h1>
       <Container>
-        <Row className='pt-2 pb-5 align-items-center'>
+        <Row className='pt-1 pb-4 align-items-center'>
           {/*Courses*/}
           <Col xs={12} sm={12} md={12} lg={12} xl={3}>
             <Fade bottom>
@@ -184,9 +184,8 @@ const Languages = () => {
   let EfSet = "See Credential"
   return(
     <div className='description'>
-      <h3>LANGUAGES</h3>
       <div id="languages">
-        {/*Languages*/}
+        <h3>LANGUAGES</h3>
         <Row>
           <Col xs={6} sm={6} md={6} lg={6} xl={12} className="nospace">
             <div className="lang">
