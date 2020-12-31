@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.91845b97.chunk.css",
-    "main.js": "/static/js/main.e7d1c1bb.chunk.js",
-    "main.js.map": "/static/js/main.e7d1c1bb.chunk.js.map",
+    "main.css": "/static/css/main.e83b2f2b.chunk.css",
+    "main.js": "/static/js/main.94d9a114.chunk.js",
+    "main.js.map": "/static/js/main.94d9a114.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.36a00852.js",
     "runtime-main.js.map": "/static/js/runtime-main.36a00852.js.map",
     "static/css/2.ac1ab58b.chunk.css": "/static/css/2.ac1ab58b.chunk.css",
-    "static/js/2.ee691dc8.chunk.js": "/static/js/2.ee691dc8.chunk.js",
-    "static/js/2.ee691dc8.chunk.js.map": "/static/js/2.ee691dc8.chunk.js.map",
+    "static/js/2.ec874ca9.chunk.js": "/static/js/2.ec874ca9.chunk.js",
+    "static/js/2.ec874ca9.chunk.js.map": "/static/js/2.ec874ca9.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.dff705528194437df2f7bb6f01625a0c.js": "/precache-manifest.dff705528194437df2f7bb6f01625a0c.js",
+    "precache-manifest.048a09e766200b2e5c8b0e54344e08c2.js": "/precache-manifest.048a09e766200b2e5c8b0e54344e08c2.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.ac1ab58b.chunk.css.map": "/static/css/2.ac1ab58b.chunk.css.map",
-    "static/css/main.91845b97.chunk.css.map": "/static/css/main.91845b97.chunk.css.map",
-    "static/js/2.ee691dc8.chunk.js.LICENSE.txt": "/static/js/2.ee691dc8.chunk.js.LICENSE.txt",
+    "static/css/main.e83b2f2b.chunk.css.map": "/static/css/main.e83b2f2b.chunk.css.map",
+    "static/js/2.ec874ca9.chunk.js.LICENSE.txt": "/static/js/2.ec874ca9.chunk.js.LICENSE.txt",
     "static/media/bb.png": "/static/media/bb.a7a81780.png",
     "static/media/bitbucket.png": "/static/media/bitbucket.802f372b.png",
     "static/media/css.png": "/static/media/css.1cc55961.png",
@@ -29,6 +29,7 @@
     "static/media/html.png": "/static/media/html.f6afbbbc.png",
     "static/media/jira.png": "/static/media/jira.630cd59d.png",
     "static/media/miriadax.png": "/static/media/miriadax.9e620271.png",
+    "static/media/picap.jpg": "/static/media/picap.82d05752.jpg",
     "static/media/profile.png": "/static/media/profile.b2d3f7df.png",
     "static/media/profile.jpg": "/static/media/profile.d899fa6d.jpg",
     "static/media/rails.png": "/static/media/rails.4dd71429.png",
@@ -43,8 +44,8 @@
   "entrypoints": [
     "static/js/runtime-main.36a00852.js",
     "static/css/2.ac1ab58b.chunk.css",
-    "static/js/2.ee691dc8.chunk.js",
-    "static/css/main.91845b97.chunk.css",
-    "static/js/main.e7d1c1bb.chunk.js"
+    "static/js/2.ec874ca9.chunk.js",
+    "static/css/main.e83b2f2b.chunk.css",
+    "static/js/main.94d9a114.chunk.js"
   ]
 }
