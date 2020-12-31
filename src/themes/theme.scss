@@ -4,24 +4,24 @@ $background-transparent2: #0e091ad2;
 $background-transparent3: #b199e054;
 
 $light: white;
-
+$orange: #fc7979;
 $light-purple: #A682FF;
-$purple: #8c52ff;
-$dark-purple: #6f557e;
+$purple: #5000CA;
+$dark-purple: #3c245c;
 $pink: #d64d88;
-$super-pink: #fa3889;
+$super-pink: #FA3989;
 $light-yellow: #FFF689; //Canary
 $yellow: #fcdd57;
 $light-green: #23EFC6; //#23EFC6
-$green: #50adad; //Cadet Blue
+$green: #59bbbb; //Cadet Blue
 $dark-blue: #3A405A; //Independence - 456990 Queen Blue
-$blue: #5171ff;
+$blue: #0099FF;
 
 // Generals
-$titles: $dark-purple;
+$titles: $blue;
 $about: $purple;
-$about-name: $purple ;
-$about-subtitle: $blue;
+$about-name: $light-green;
+$about-subtitle: $green;
 
 // Welcome
 $welcome-message: $light;
@@ -64,7 +64,7 @@ $a-text-subtitle-ec: $light-yellow;
 // contact
 $contact-info: rgba(255, 255, 255, 0.747);
 $contact-title: $light-green;
-$contact-gradient1: $blue;
+$contact-gradient1: $orange;
 $contact-gradient2: $super-pink;
 $background-contact: $background;
 $background-description: white;
