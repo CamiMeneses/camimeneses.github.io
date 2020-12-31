@@ -2,10 +2,10 @@
 
 #experience {
   position: static;
-  background: linear-gradient(to bottom, $background 8%, $background-transparent 40%, $background 100%);
+  background: linear-gradient(to bottom, $background-transparent 0%, $background-transparent2 50%, $background-transparent 85%, $background 100%);
   padding-bottom: 3em;
   .vertical-timeline-element-content.bounce-in{
-    background: $light;
+    background: $background-box-experience;
   }
 
   p {
@@ -16,7 +16,7 @@
 }
 
 .vertical-timeline-element-subtitle{
-  color: $green;
+  color: $experience-subtitle;
 }
 
 .vertical-timeline-element-date{

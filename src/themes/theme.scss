@@ -1,28 +1,27 @@
-$background: #141a20; //
-$background-transparent: #141a20bb;
+$background: #0E091A; //
+$background-transparent: #0e091af6;
+$background-transparent2: #0e091ad2;
+$background-transparent3: #b199e054;
 
 $light: white;
 
 $light-purple: #A682FF;
-$light-pink: #ff9daf; //Cherry Blosom Pink
-$pink: #C43171;
-$super-pink: rgb(250, 56, 137);
+$purple: #8c52ff;
+$dark-purple: #6f557e;
+$pink: #d64d88;
+$super-pink: #fa3889;
 $light-yellow: #FFF689; //Canary
 $yellow: #fcdd57;
-$light-green: #23EFC6;
-$green: #22a0a0; //Cadet Blue
+$light-green: #23EFC6; //#23EFC6
+$green: #50adad; //Cadet Blue
 $dark-blue: #3A405A; //Independence - 456990 Queen Blue
-$blue: #57abff;
+$blue: #5171ff;
 
-//$light-green: #B2FAB2; //Granny Smith Apple
-//$turquese: #EBD2BE;
-//$light-blue: #8CC2F8;
-//$blue: #EBD2BE; //Middle Blue
-//$pink: #EBD2BE; // Telemagenta
 // Generals
-$titles: $light-pink;
-$about: $green;
-$about-name: $blue;
+$titles: $dark-purple;
+$about: $purple;
+$about-name: $purple ;
+$about-subtitle: $blue;
 
 // Welcome
 $welcome-message: $light;
@@ -30,16 +29,16 @@ $welcome-contrast: $light;
 $welcome-shadow1: $dark-blue;
 $welcome-shadow2: $light-yellow;
 $contrast-shadow1: $light-purple;
-$contrast-shadow2: $light-pink;
+$contrast-shadow2: $light-purple;
 
 //navabar
-$navbar-color: rgba(255, 255, 255, 0.74);
-$navbar-color-shadow: #589658;
-$navbar-active: $light-yellow;
-$navbar-active-shadow: #aaa45e;
-$navbar-hover: $light-pink;
-$navbar-hover-shadow: #aa5783;
-$background-navbar-large: linear-gradient(to right, rgba(0,0,0,0) 58%, rgba(16,16,16,0) 60%, rgba(255,255,255,0.41) 89%, rgba(255,255,255,0.5) 95%);
+$navbar-color: white;
+$navbar-color-shadow: $light-green;
+$navbar-active: white;
+$navbar-active-shadow: $super-pink;
+$navbar-hover: white;
+$navbar-hover-shadow: $blue;
+$background-navbar-large: linear-gradient(to right, rgba(0,0,0,0) 30%, rgba(255,255,255,0.41) 70%, #a582ff6e 95%);
 $background-navbar-small: linear-gradient(to right, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.1) 100%);
 
 //buttons
@@ -47,23 +46,25 @@ $success-botton: #85e285;
 
 // Experience
 $experience-date-letter: white;
-$experience-date-background: $dark-blue;
+$experience-date-background: #3A405A;
 $experience-title: $pink;
 $experience-subtitle: $green;
+$background-box-experience: white;
 
 // Education
 $piloto-color: $pink;
-$piloto-border: $dark-blue;
-$education-type: $light-pink;
+$piloto-border: $pink;
+$piloto-background: rgba(248, 205, 212, 0.466);
+$education-type: $pink;
 $education-primary: $light-yellow;
-$education-secundary: $light-green;
-$education-description: $green;
-$a-text-subtitle-ec: $blue;
+$education-secundary: $dark-purple;
+$education-description: white;
+$a-text-subtitle-ec: $light-yellow;
 
 // contact
-$contact-info: $dark-blue;
-$contact-title: $green;
-$contact-gradient1: $yellow;
+$contact-info: rgba(255, 255, 255, 0.747);
+$contact-title: $light-green;
+$contact-gradient1: $blue;
 $contact-gradient2: $super-pink;
 $background-contact: $background;
 $background-description: white;

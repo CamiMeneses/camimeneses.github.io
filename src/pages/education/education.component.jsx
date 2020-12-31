@@ -10,7 +10,7 @@ import OverlayTrigger from 'react-bootstrap/OverlayTrigger'
 import Tooltip from 'react-bootstrap/Tooltip'
 
 import upc from "../../assets/icons/education/upc.png";
-import bb from "../../assets/icons/education/bb_white.svg";
+import bb from "../../assets/icons/education/bb.png";
 import miriadax from "../../assets/icons/education/miriadax.png";
 import esp from "../../assets/icons/education/esp.png";
 import eng from "../../assets/icons/education/eng.webp";

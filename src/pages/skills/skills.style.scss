@@ -3,7 +3,9 @@
 #skills{
   position: static;
   padding-top: 5em;
-  background: linear-gradient(to bottom, $background 8%, $background-transparent 40%, $background 100%);
+  background: url('./../../assets/img/background/skills-background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
 
   p {
     font-size: 1.1em;

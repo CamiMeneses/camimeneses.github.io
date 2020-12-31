@@ -9,9 +9,9 @@ import TitleMessage from './components/title-message/title-message.component';
 //Pages
 import Welcome from './pages/welcome/welcome.component';
 import About from './pages/about/about.component';
+import Skills from './pages/skills/skills.component';
 import Education from './pages/education/education.component';
 import Experience from './pages/experience/experience.component';
-import Skills from './pages/skills/skills.component';
 import Contact from './pages/contact/contact.component';
 
 //Parallax Background
@@ -27,10 +27,11 @@ const App = () =>{
         <ParticlesBg type="cobweb" color="#fa84c3" num={20} bg={true}/>
       </Welcome>
       <TitleMessage />
+      <div id="forma1">.</div>
       <About />
-      <ExperienceSection />
-      <EducationSection />
       <SkillsSection />
+      <EducationSection />
+      <ExperienceSection />
       <Contact>
         <ParticlesBg type="lines" num={100} bg={true}/>
       </Contact>
