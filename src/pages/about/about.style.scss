@@ -9,22 +9,39 @@
   h1{
     font-size: 2em;
     color: $about-name;
+    text-shadow: unset;
   }
 
   h2{
-    font-size: 1.2em;
+    font-size: 1.3em;
     color: $about-subtitle;
+    font-weight: 600;
   }
 }
 
 #about{
-  background: white;
   font-size: 1em;
   font-weight: 350;
   vertical-align: middle;
-  padding: 0em 0vh 0em 0vh;
   text-align: center;
-  color: $about;
+  color: $about-color;
+  background: linear-gradient(180deg, rgba(247, 112, 180, 0.945) 0%, $super-pink 20%);
+  clip-path: polygon(0% 15%, 100% 0%, 100% 90%, 0 100%);
+  padding: 20vh 0%;
+
+  a{
+    color: $light-yellow;
+    text-shadow: .5px .5px .5px white, -.5px .5px .5px white, .5px -.5px .5px white, -.5px -.5px .5px white;
+  }
+}
+
+#about-form-1{
+  height: 100%;
+  width: 100%;
+  clip-path: polygon(0% 15%, 100% 100%, 50% 100%, 0 100%);
+  background: linear-gradient(0deg, rgba(252, 97, 175, 0.945) 0%, #ff0077 30%);
+  position: absolute;
+  bottom: 0;
 }
 
 .profile{

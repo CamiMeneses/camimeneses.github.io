@@ -2,32 +2,46 @@
 
 #skills{
   position: static;
-  padding-top: 5em;
-  background: url('./../../assets/img/background/skills-background.png');
-  background-repeat: no-repeat;
+  background-color: $skills-background;
+  clip-path: polygon(0% 10%, 100% 0%, 100% 100%, 0% 100%);
+  background-image: $flowers;
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 
   p {
     font-size: 1.1em;
     color: $background;
+  }
+
+  h1{
+    background-color: #fce98071;
+    padding: 10vh 9vh 13vh 120vh;
+    margin: 0;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 25%);
+    text-align: right;
+    font-size: 8vh;
+    float: left;
+    position: absolute;
+    right: 0;
   }
 }
 
 #skills-box{
   align-self: center;
   margin: 0;
-  padding-bottom: 10em;
+  padding-top: 15em;
+  padding-bottom: 8em;
 }
 
 .skill-column{
   align-self: center;
-
 }
 
 .skill-image{
   width: 6em;
   margin: 2vw;
-  padding-top: 3em;
+  padding-top: 0em;
   padding-bottom: 1.5em;
 
   @media only screen and (max-width: 599px){

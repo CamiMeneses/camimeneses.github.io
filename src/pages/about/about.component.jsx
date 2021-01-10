@@ -12,9 +12,9 @@ const About = () => {
   return (
     <div className='about-container'>
       <div id='about' className='section'>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#5000CA" fill-opacity="1" d="M0,128L40,128C80,128,160,128,240,128C320,128,400,128,480,154.7C560,181,640,235,720,261.3C800,288,880,288,960,272C1040,256,1120,224,1200,202.7C1280,181,1360,171,1400,165.3L1440,160L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z"></path></svg>
+      <div id='about-form-1' />
         <Container>
-          <Row className='pt-3 pb-3 align-items-center'>
+          <Row className='align-items-center'>
             <Col xs={12} sm={12} md={12} lg={12} xl={6} className="nospace">
               <Fade left>
                 <Row className='justify-content-center mb-2'>

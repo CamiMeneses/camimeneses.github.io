@@ -41,7 +41,7 @@ h1 {
 $h3-shadow: #205f553a;
 h3{
   color: $experience-title;
-  //text-shadow: 1px 1px .5px $h3-shadow, -1px 1px .5px $h3-shadow, 1px -1px .5px $h3-shadow, -1px -1px .5px $h3-shadow;
+  text-shadow: none;
   font-size: 1.1em;
   font-weight: 300;
 }
@@ -66,12 +66,6 @@ h4{
   padding-left: 15px;
 }
 
-.background-skills{
-  background: url('./assets/img/background/skills-girl-power.jpg');
-  background-repeat: repeat;
-  background-position: center;
-}
-
 .nospace{
   margin: 0;
   padding: 0;
@@ -88,4 +82,18 @@ h1{
   padding-top: 1.1em;
   padding-bottom: 0.7em;
   color: $titles;
+  text-shadow: $shadow-white;
+}
+
+a {
+  color: $purple;
+  font-weight: bolder;
+  font-weight: 500;
+}
+
+ a:hover{
+  font-weight: 700;
+  text-decoration: none;
+  text-shadow: $links-color;
+  color: white;
 }

@@ -12,9 +12,9 @@ const MyNavbar = () => {
           <Nav className="ml-auto">
             <Nav.Link href="#welcome">HOME</Nav.Link>
             <Nav.Link href="#about">ABOUT ME</Nav.Link>
-            <Nav.Link href="#experience">EXPERIENCE</Nav.Link>
-            <Nav.Link href="#education">EDUCATION</Nav.Link>
             <Nav.Link href="#skills">SKILLS</Nav.Link>
+            <Nav.Link href="#education">EDUCATION</Nav.Link>
+            <Nav.Link href="#experience">EXPERIENCE</Nav.Link>
             <Nav.Link href="#contact">CONTACT</Nav.Link>
           </Nav>
         </Navbar.Collapse>
