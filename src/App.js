@@ -22,29 +22,21 @@ import ParticlesBg from "particles-bg";
 const App = () =>{
   return (
     <div className='App'>
-      <MyNavbar />
-      <Parallax
-        blur={40}
-        bgImage={require('./assets/img/background/transparent_map.png')}
-        bgImageAlt="about"
-        strength={9000}
-        style={{position: "relative"}}
-      >
-      </Parallax>
-          <>
+      <div class="parallax">
+        <MyNavbar />
         <Welcome >
           <ParticlesBg type="cobweb" color="#fc7979" num={10} bg={true}/>
         </Welcome>
         <TitleMessage />
         <About />
         <Skills />
-      </>
-      <EducationSection />
-      <ExperienceSection />
-      <Contact>
-        <ParticlesBg type="lines" num={100} bg={true}/>
-      </Contact>
-      <Links />
+        <EducationSection />
+        <ExperienceSection />
+        <Contact>
+          <ParticlesBg type="lines" num={100} bg={true}/>
+        </Contact>
+        <Links />
+      </div>
     </div>
   );
 }

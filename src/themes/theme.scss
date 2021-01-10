@@ -16,14 +16,13 @@ $super-pink: #FA3989;
 $light-yellow: #fff79e; //Canary
 $yellow-transparent: #fcf6b283;
 $light-green: #23EFC6;
-$green: #23EFC6; //Cadet Blue
 $dark-blue: #3A405A; //Independence - 456990 Queen Blue
 $blue: #0099FF;
 
 // Generals
 $links-color: .5px .5px .5px $blue, -.5px .5px .5px $light-green, .5px -.5px .5px $super-pink, -.5px -.5px .5px $light-yellow;
-$shadow-white: 1px 1px 4px $barbie, -1px 1px 4px $barbie, 1px -1px 4px $barbie, -1px -1px 4px $barbie;
-$titles: $light-yellow;
+$shadow-white: 1px 1px 4px $light-purple, -1px 1px 4px $light-purple, 1px -1px 4px $light-purple, -1px -1px 4px $light-purple;
+$titles: white;
 
 $about-color: $light;
 $about-name: $light;
@@ -33,7 +32,7 @@ $about-subtitle: $light;
 $welcome-message: $light;
 $welcome-contrast: $light;
 $welcome-shadow1: $dark-blue;
-$welcome-shadow2: $light-yellow;
+$welcome-shadow2: $barbie;
 $contrast-shadow1: $light-purple;
 $contrast-shadow2: $light-purple;
 
@@ -63,12 +62,12 @@ $piloto-border: $pink;
 $piloto-background: rgba(248, 205, 212, 0.466);
 $education-type: $light-yellow;
 $education-primary: $light-yellow;
-$education-secundary: $barbie;
+$education-secundary: rgb(253, 173, 240);
 $education-description: $light;
 $a-text-subtitle-ec: $light-yellow;
 
 // skills
-$skills-background: #5f18ca80;
+$skills-background: #271244da; //301d49da
 
 // contact
 $contact-info: rgba(255, 255, 255, 0.747);
