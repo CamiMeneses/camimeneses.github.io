@@ -15,10 +15,10 @@
   }
 
   h1{
-    background-color: #fce98071;
-    padding: 10vh 9vh 13vh 120vh;
+    background-color: $light;
+    padding: 10vh 9vh 15vh 120vh;
     margin: 0;
-    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 25%);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 40% 10%);
     text-align: right;
     font-size: 8vh;
     float: left;
