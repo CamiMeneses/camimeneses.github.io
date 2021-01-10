@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.847135f0.chunk.css",
-    "main.js": "/static/js/main.cc457b08.chunk.js",
-    "main.js.map": "/static/js/main.cc457b08.chunk.js.map",
+    "main.css": "/static/css/main.a2c31e1d.chunk.css",
+    "main.js": "/static/js/main.da35af24.chunk.js",
+    "main.js.map": "/static/js/main.da35af24.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.36a00852.js",
     "runtime-main.js.map": "/static/js/runtime-main.36a00852.js.map",
     "static/css/2.ac1ab58b.chunk.css": "/static/css/2.ac1ab58b.chunk.css",
-    "static/js/2.ec874ca9.chunk.js": "/static/js/2.ec874ca9.chunk.js",
-    "static/js/2.ec874ca9.chunk.js.map": "/static/js/2.ec874ca9.chunk.js.map",
+    "static/js/2.6fecc5c6.chunk.js": "/static/js/2.6fecc5c6.chunk.js",
+    "static/js/2.6fecc5c6.chunk.js.map": "/static/js/2.6fecc5c6.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.ad8b6fee58e5eec7d30395d37dc48569.js": "/precache-manifest.ad8b6fee58e5eec7d30395d37dc48569.js",
+    "precache-manifest.c22b835cdd6aec78042c6fb0d2ecac6b.js": "/precache-manifest.c22b835cdd6aec78042c6fb0d2ecac6b.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.ac1ab58b.chunk.css.map": "/static/css/2.ac1ab58b.chunk.css.map",
-    "static/css/main.847135f0.chunk.css.map": "/static/css/main.847135f0.chunk.css.map",
-    "static/js/2.ec874ca9.chunk.js.LICENSE.txt": "/static/js/2.ec874ca9.chunk.js.LICENSE.txt",
+    "static/css/main.a2c31e1d.chunk.css.map": "/static/css/main.a2c31e1d.chunk.css.map",
+    "static/js/2.6fecc5c6.chunk.js.LICENSE.txt": "/static/js/2.6fecc5c6.chunk.js.LICENSE.txt",
     "static/media/bb.png": "/static/media/bb.a7a81780.png",
     "static/media/bitbucket.png": "/static/media/bitbucket.802f372b.png",
     "static/media/css.png": "/static/media/css.1cc55961.png",
@@ -31,12 +31,9 @@
     "static/media/miriadax.png": "/static/media/miriadax.9e620271.png",
     "static/media/picap.jpg": "/static/media/picap.82d05752.jpg",
     "static/media/profile.png": "/static/media/profile.b2d3f7df.png",
-    "static/media/profile.jpg": "/static/media/profile.d899fa6d.jpg",
     "static/media/rails.png": "/static/media/rails.4dd71429.png",
     "static/media/ruby.png": "/static/media/ruby.2d3730cf.png",
     "static/media/scrum.png": "/static/media/scrum.885b8e6e.png",
-    "static/media/skills.style.scss": "/static/media/skills-background.58fe9fa7.png",
-    "static/media/skills-girl-power.jpg": "/static/media/skills-girl-power.0f459e5f.jpg",
     "static/media/trello.png": "/static/media/trello.5dba6f59.png",
     "static/media/unidad.png": "/static/media/unidad.f5e27ddc.png",
     "static/media/youse.png": "/static/media/youse.96bec0eb.png"
@@ -44,8 +41,8 @@
   "entrypoints": [
     "static/js/runtime-main.36a00852.js",
     "static/css/2.ac1ab58b.chunk.css",
-    "static/js/2.ec874ca9.chunk.js",
-    "static/css/main.847135f0.chunk.css",
-    "static/js/main.cc457b08.chunk.js"
+    "static/js/2.6fecc5c6.chunk.js",
+    "static/css/main.a2c31e1d.chunk.css",
+    "static/js/main.da35af24.chunk.js"
   ]
 }

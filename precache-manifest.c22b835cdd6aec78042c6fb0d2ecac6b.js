@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "eef6755e188cba220005a561744cb3d7",
+    "revision": "385beaf8166a8117b2afc9becd8fa552",
     "url": "/index.html"
   },
   {
-    "revision": "bbd811b42e29870acc77",
+    "revision": "37cc154e352579a7ee9c",
     "url": "/static/css/2.ac1ab58b.chunk.css"
   },
   {
-    "revision": "8abdf497aad4b11a48b6",
-    "url": "/static/css/main.847135f0.chunk.css"
+    "revision": "7ecfa9061a5fa0b30220",
+    "url": "/static/css/main.a2c31e1d.chunk.css"
   },
   {
-    "revision": "bbd811b42e29870acc77",
-    "url": "/static/js/2.ec874ca9.chunk.js"
+    "revision": "37cc154e352579a7ee9c",
+    "url": "/static/js/2.6fecc5c6.chunk.js"
   },
   {
     "revision": "a5f655d830d088aa9894c35a94634b59",
-    "url": "/static/js/2.ec874ca9.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.6fecc5c6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8abdf497aad4b11a48b6",
-    "url": "/static/js/main.cc457b08.chunk.js"
+    "revision": "7ecfa9061a5fa0b30220",
+    "url": "/static/js/main.da35af24.chunk.js"
   },
   {
     "revision": "ef5d77dd4d7885cc0476",
@@ -96,10 +96,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/profile.b2d3f7df.png"
   },
   {
-    "revision": "d899fa6d70324837c81efc9e8ad301a5",
-    "url": "/static/media/profile.d899fa6d.jpg"
-  },
-  {
     "revision": "4dd71429939a43e7d6322ad6f5d2d279",
     "url": "/static/media/rails.4dd71429.png"
   },
@@ -110,14 +106,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "885b8e6e839390294bf0f136d4ffeb45",
     "url": "/static/media/scrum.885b8e6e.png"
-  },
-  {
-    "revision": "58fe9fa7338262f97e5393a3510e6a0d",
-    "url": "/static/media/skills-background.58fe9fa7.png"
-  },
-  {
-    "revision": "0f459e5f38f179f945267a9b1f7b1e18",
-    "url": "/static/media/skills-girl-power.0f459e5f.jpg"
   },
   {
     "revision": "5dba6f591a8ca8d6c90546d2b6641066",
