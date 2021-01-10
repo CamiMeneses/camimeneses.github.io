@@ -92,7 +92,7 @@ const Bachelor = () => {
             </Row>
         </div>
 
-      <div className='text-subtitle'>Bogotá | 2017</div>
+      <div className='text-description'><b>Bogotá | 2017</b></div>
 
       <OverlayTrigger placement="bottom" delay={{ show: 250, hide: 400 }}
         overlay={

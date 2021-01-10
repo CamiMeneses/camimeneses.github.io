@@ -1,27 +1,33 @@
+@import "./backgrounds_svg.scss";
+
 $background: #0E091A; //
 $background-transparent: #0e091af6;
 $background-transparent2: #0e091ad2;
 $background-transparent3: #b199e054;
 
-$light: white;
+$light: #E8E8E8;
 $orange: #fc7979;
 $light-purple: #A682FF;
-$purple: #5000CA;
+$purple: #a31ed8;
 $dark-purple: #3c245c;
 $pink: #d64d88;
+$barbie: #f87df2;
 $super-pink: #FA3989;
-$light-yellow: #FFF689; //Canary
-$yellow: #fcdd57;
-$light-green: #23EFC6; //#23EFC6
-$green: #59bbbb; //Cadet Blue
+$light-yellow: #fff79e; //Canary
+$yellow-transparent: #fcf6b283;
+$light-green: #23EFC6;
+$green: #23EFC6; //Cadet Blue
 $dark-blue: #3A405A; //Independence - 456990 Queen Blue
 $blue: #0099FF;
 
 // Generals
-$titles: $blue;
-$about: $purple;
-$about-name: $light-green;
-$about-subtitle: $green;
+$links-color: .5px .5px .5px $blue, -.5px .5px .5px $light-green, .5px -.5px .5px $super-pink, -.5px -.5px .5px $light-yellow;
+$shadow-white: 1px 1px 4px $barbie, -1px 1px 4px $barbie, 1px -1px 4px $barbie, -1px -1px 4px $barbie;
+$titles: $light-yellow;
+
+$about-color: $light;
+$about-name: $light;
+$about-subtitle: $light;
 
 // Welcome
 $welcome-message: $light;
@@ -45,21 +51,24 @@ $background-navbar-small: linear-gradient(to right, rgba(0,0,0,0.7) 0%, rgba(0,0
 $success-botton: #85e285;
 
 // Experience
-$experience-date-letter: white;
-$experience-date-background: #3A405A;
+$experience-date-letter: $light;
+$experience-date-background: $super-pink;
 $experience-title: $pink;
-$experience-subtitle: $green;
-$background-box-experience: white;
+$experience-subtitle: $blue;
+$background-box-experience: $light;
 
 // Education
-$piloto-color: $pink;
+$piloto-color: $light-yellow;
 $piloto-border: $pink;
 $piloto-background: rgba(248, 205, 212, 0.466);
-$education-type: $pink;
+$education-type: $light-yellow;
 $education-primary: $light-yellow;
-$education-secundary: $dark-purple;
-$education-description: white;
+$education-secundary: $barbie;
+$education-description: $light;
 $a-text-subtitle-ec: $light-yellow;
+
+// skills
+$skills-background: #5f18ca80;
 
 // contact
 $contact-info: rgba(255, 255, 255, 0.747);

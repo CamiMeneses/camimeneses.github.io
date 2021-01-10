@@ -23,13 +23,22 @@ const App = () =>{
   return (
     <div className='App'>
       <MyNavbar />
-      <Welcome >
-        <ParticlesBg type="cobweb" color="#fa84c3" num={20} bg={true}/>
-      </Welcome>
-      <TitleMessage />
-      <div id="forma1">.</div>
-      <About />
-      <SkillsSection />
+      <Parallax
+        blur={40}
+        bgImage={require('./assets/img/background/transparent_map.png')}
+        bgImageAlt="about"
+        strength={9000}
+        style={{position: "relative"}}
+      >
+      </Parallax>
+          <>
+        <Welcome >
+          <ParticlesBg type="cobweb" color="#fc7979" num={10} bg={true}/>
+        </Welcome>
+        <TitleMessage />
+        <About />
+        <Skills />
+      </>
       <EducationSection />
       <ExperienceSection />
       <Contact>
@@ -46,6 +55,7 @@ const EducationSection = () =>{
     bgImage={require('./assets/img/background/education-croquis.png')}
     bgImageAlt="about"
     strength={600}
+    bgImageStyle = {{opacity: '.4'}}
     >
       <div id="background-papel">
         <Education />
@@ -63,14 +73,6 @@ const ExperienceSection = () =>{
     >
       <Experience />
     </Parallax>
-  )
-}
-
-const SkillsSection = () =>{
-  return (
-    <div id="background-skills">
-      <Skills />
-    </div>
   )
 }
 

@@ -23,7 +23,6 @@ import Bitbucket from '../../assets/icons/skills/bitbucket.png'
 import Scrum from '../../assets/icons/skills/scrum.png'
 import Jira from '../../assets/icons/skills/jira.png'
 import Trello from '../../assets/icons/skills/trello.png'
-import Computer from '../../assets/img/background/skills-girl-power.jpg'
 
 export default function Skills(props) {
   return (
@@ -33,8 +32,7 @@ export default function Skills(props) {
         <div id="skills-box">
           <Container>
             <Row>
-              <Theme2 />
-
+              <Theme1 />
             </Row>
           </Container>
         </div>
@@ -43,15 +41,9 @@ export default function Skills(props) {
   );
 }
 
-const Theme2 = () => {
+const Theme1 = () => {
   return (
     <>
-      {/*Primera columna*
-      <Col xs={12} sm={12} md={12} lg={4} className="skill-column">
-        <Image className='skill-computer-image' alt='profile' src={Computer}/>
-      </Col>/}
-      */}
-      {/*Segunda columna*/}
       <Col xs={12} sm={12} md={12} lg={12} className="skill-column">
           <Row className="skill-row">
             <Fade bottom>
