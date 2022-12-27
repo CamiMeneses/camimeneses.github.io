@@ -15,6 +15,7 @@ import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timel
 import 'react-vertical-timeline-component/style.min.css';
 
 // Images
+import skydropx from '../../assets/icons/experience/skydropx.png';
 import picap from '../../assets/icons/experience/picap.jpg'
 import twoTransfair from '../../assets/icons/experience/2transfair.png'
 import youse from '../../assets/icons/experience/youse.png'
@@ -29,6 +30,7 @@ const Experience = () => {
       <h1>EXPERIENCE</h1>
       <Container>
         <VerticalTimeline>
+          <Skydropx />
           <Picap />
           <TwoTransfair />
           <Youse />
@@ -41,11 +43,51 @@ const Experience = () => {
   )
 }
 
+const Skydropx = () => {
+  return (
+    <VerticalTimelineElement
+      className="vertical-timeline-element--work"
+      date="Oct 2021 - Current"
+      iconStyle={{ background: '#ffffff'}}
+
+    >
+      <OverlayTrigger placement="bottom" delay={{ show: 250, hide: 400 }}
+        overlay={
+          <Tooltip> {"About Skydropx"} </Tooltip>
+        }
+      >
+        <a href='https://www.skydropx.com/' target='_blank' rel='noopener noreferrer'>
+          <Row className='nospace'>
+            <Col xs={12} sm={3} md={3} lg={3}>
+              <img className='logo' id='picap' alt='2tf' src={picap}/>
+            </Col>
+            <Col xs={12} sm={9} md={9} lg={9}>
+              <h3 className="vertical-timeline-element-title">SOFTWARE DEVELOPER</h3>
+              <h4 className="vertical-timeline-element-subtitle"> Skydropx/Shipkraken | MX | Remote</h4>
+            </Col>
+          </Row>
+        </a>
+      </OverlayTrigger>
+    <p>
+      <ul>
+        <li><b>Ruby on Rails</b></li>
+        <li>Microservices - <b>API REST</b></li>
+        <li>Unit tests<b>Rspec</b></li>
+        <li>Use <b>Heroku</b></li>
+        <li>Postman</li>
+        <li>Use version control tool <b>Git</b> and code storage tool <b>Github</b></li>
+        <li><b>Scrum - Jira</b></li>
+      </ul>
+    </p>
+  </VerticalTimelineElement>
+  )
+}
+
 const Picap = () => {
   return (
     <VerticalTimelineElement
       className="vertical-timeline-element--work"
-      date="Dec 2020 - Current"
+      date="Dec 2020 - Sep 2021"
       iconStyle={{ background: '#ffffff'}}
 
     >
