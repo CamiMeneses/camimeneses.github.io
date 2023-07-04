@@ -4,7 +4,7 @@
   position: static;
   background-color: $skills-background;
   clip-path: polygon(0% 10%, 100% 0%, 100% 100%, 0% 100%);
-  background-image: $flowers;
+  background-image: $skills;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -15,7 +15,7 @@
   }
 
   h1{
-    background-color: $light;
+    background-color: $skills-background;
     padding: 10vh 9vh 15vh 120vh;
     margin: 0;
     clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 40% 10%);

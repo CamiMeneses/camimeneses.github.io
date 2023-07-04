@@ -25,7 +25,7 @@
   vertical-align: middle;
   text-align: center;
   color: $about-color;
-  background: linear-gradient(180deg, rgba(247, 112, 180, 0.945) 0%, $super-pink 20%);
+  background: linear-gradient(180deg, rgba(69, 1, 93, 0.02) 0%, rgba(56, 9, 95, 0.222) 50%);
   clip-path: polygon(0% 15%, 100% 0%, 100% 90%, 0 100%);
   padding: 20vh 0%;
 
@@ -39,7 +39,7 @@
   height: 100%;
   width: 100%;
   clip-path: polygon(0% 15%, 100% 100%, 50% 100%, 0 100%);
-  background: linear-gradient(0deg, rgba(252, 97, 175, 0.945) 0%, #ff0077 60%);
+  background: linear-gradient(0deg, rgba(135, 21, 196, 0.945) 0%, #ff379b 90%);
   position: absolute;
   bottom: 0;
 }
@@ -50,4 +50,3 @@
   max-width: 90vw;
   height: auto;
 }
-

@@ -34,12 +34,10 @@ const About = () => {
               <Fade right>
                 <Row className=' align-items-start rounded profile-text'>
                   <p>
-                    I began my journey as a Web Developer in <b> 2019 </b> with Bogotá Dev & Bootcamp
-                    where I learned the basics of multiples languages<br />
-                    <br />
-
-                    I've been working mainly as a <b>Ruby on Rails</b> developer, with <b>HTML</b> and <b>CSS</b>.
-                    Used <b>Git</b>, and code hosting platforms like <b>GitHub</b> and <b>Bitbucket</b><br />
+                    I began my journey as a Web Developer in <b>2019</b>, since then I've been working mainly as a <b>Ruby on Rails</b> backend developer, 
+                    and sometimes I take the risk with the frontend part using <b>HTML</b>, <b>CSS</b> and even <b>Typescript</b>.
+                    
+                    Apart from this I use <b>Git</b> in my daily routine, and code hosting platforms like <b>GitHub</b> and <b>Bitbucket</b><br />
                     <br />
 
                     I keep learning about this world of development <br /> and I want to work hand in hand with best developers and <br />people of all cultures to grow in many ways.<br />
@@ -48,7 +46,7 @@ const About = () => {
                     <br />
 
                     Check out my website, learn more about me <br />
-                    and feel free to <b><a href='#contact' target='contact me'>contact me</a> </b>. <br />
+                    and feel free to <b><a  href="#contact" target='contact me'>contact me</a> </b>. <br />
                     <br />
                   </p>
                 </Row>
