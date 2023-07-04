@@ -1,6 +1,5 @@
 import React from 'react'
 import { Container } from 'react-bootstrap'
-import { TfiEmail } from 'react-icons/tfi';
 import './contact.style.scss'
 
 export default function Contact(props) {
