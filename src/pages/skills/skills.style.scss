@@ -2,9 +2,8 @@
 
 #skills{
   position: static;
-  background-color: $skills-background;
+  background-color: rgba(0, 0, 0, 0.401);
   clip-path: polygon(0% 10%, 100% 0%, 100% 100%, 0% 100%);
-  background-image: $skills;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -15,7 +14,7 @@
   }
 
   h1{
-    background-color: $skills-background;
+    background-color: $skills-background-title;
     padding: 10vh 9vh 15vh 120vh;
     margin: 0;
     clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 40% 10%);

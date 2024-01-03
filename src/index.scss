@@ -8,11 +8,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
   font-family: 'Poppins', sans-serif;
 
-  /*font-family: 'Titillium Web', sans-serif;*/
-
-  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#959595+0,0d0d0d+46,010101+50,0a0a0a+53,4e4e4e+76,383838+87,1b1b1b+100;Black+Gloss+Pipe */
-  /* Add the blur effect */
-  //background: linear-gradient(to bottom, $orange 0%, #7E21B5 40%, $purple 50%, $purple 100%);
   background-image: $mini-spots;
   background-attachment: fixed;
   background-size: cover;
@@ -20,15 +15,6 @@ body {
   /* Full height */
   height: 100%;
   width: 100vw;
-
-  /* Center and scale the image nicely */
-
-  /*
-
-  background-position: center;
-  background-size: cover;
-  */
-
 }
 
 code {

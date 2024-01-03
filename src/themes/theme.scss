@@ -23,6 +23,9 @@ $blue: #0099FF;
 $links-color: .5px .5px .5px $blue, -.5px .5px .5px $light-green, .5px -.5px .5px $super-pink, -.5px -.5px .5px $light-yellow;
 $shadow-white: 1px 1px 4px $light-purple, -1px 1px 4px $light-purple, 1px -1px 4px $light-purple, -1px -1px 4px $light-purple;
 $titles: white;
+$background-glass: rgba(255, 255, 255, 0.2);
+$blur-glass: blur(5px);
+$border-glass: 1px solid rgba(255, 255, 255, 0.3);
 
 $about-color: $light;
 $about-name: $light;
@@ -67,7 +70,8 @@ $education-description: $light;
 $a-text-subtitle-ec: $light-yellow;
 
 // skills
-$skills-background: #301d49da;
+$skills-background: rgba(255, 255, 255, 0.2); ;
+$skills-background-title: #301d49da;
 
 // contact
 $contact-info: rgba(255, 255, 255, 0.747);
