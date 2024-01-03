@@ -25,9 +25,12 @@
   vertical-align: middle;
   text-align: center;
   color: $about-color;
-  background: linear-gradient(180deg, rgba(69, 1, 93, 0.02) 0%, rgba(56, 9, 95, 0.222) 50%);
   clip-path: polygon(0% 15%, 100% 0%, 100% 90%, 0 100%);
   padding: 20vh 0%;
+
+  background: $background-glass;
+  backdrop-filter: $blur-glass;
+  border: $border-glass;
 
   a{
     color: $light-yellow;
