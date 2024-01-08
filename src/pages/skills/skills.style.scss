@@ -1,9 +1,9 @@
 @import "../../themes/theme.scss";
 
-#skills{
+#skills {
   position: static;
-  background-color: rgba(0, 0, 0, 0.401);
-  clip-path: polygon(0% 10%, 100% 0%, 100% 100%, 0% 100%);
+  background-color: #00000066;
+  clip-path: polygon(0% 3%, 100% 0%, 100% 100%, 0% 100%);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -13,47 +13,55 @@
     color: $background;
   }
 
-  h1{
+  h1 {
     background-color: $skills-background-title;
-    padding: 10vh 9vh 15vh 120vh;
+    padding: 10vh 8vh 10vh 120vh;
     margin: 0;
     clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 40% 10%);
     text-align: right;
-    font-size: 8vh;
     float: left;
     position: absolute;
     right: 0;
   }
 }
 
-#skills-box{
+#skills-box {
   align-self: center;
   margin: 0;
-  padding-top: 15em;
-  padding-bottom: 8em;
-}
+  padding-top: 12em;
+  padding-bottom: 4em;
 
-.skill-column{
-  align-self: center;
-}
+  @include media-breakpoint-down(md) {
+    padding-top: 250px;
 
-.skill-image{
-  width: 6em;
-  margin: 2vw;
-  padding-top: 0em;
-  padding-bottom: 1.5em;
-
-  @media only screen and (max-width: 599px){
-    width: 4em;
-    margin: 1vw;
+    h1 {
+      clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 10%);
+    }
   }
 }
 
-.skill-computer-image{
+.skill-column {
+  align-self: center;
+  margin: 25px;
+}
+
+.skill-image {
+  width: 70px;
+  margin: 20px;
+  padding-top: 0em;
+  padding-bottom: 1.5em;
+
+  @include media-breakpoint-down(md) {
+    width: 50px;
+    margin: 10px;
+  }
+}
+
+.skill-computer-image {
   width: 100%;
   background: transparent;
 }
 
-.skill-row{
+.skill-row {
   justify-content: center;
 }
