@@ -1,18 +1,30 @@
-.links{
+@import "../../themes/theme.scss";
+
+.links {
   height: 3em;
-  position:absolute;
-  left:0;
-  bottom:0;
-  right:0;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
   margin-bottom: 3em;
 
-  @media only screen and (max-width: 599px){
+  @include media-breakpoint-down(md) {
     height: 2em;
+    bottom: 1em;
     margin-bottom: 2em;
 
-    button{
+    button {
       font-size: 0.7em;
     }
   }
+}
 
+.btn-outline-info {
+  color: $linkedin-button !important;
+  border-color: $linkedin-button !important;
+}
+
+.btn-outline-info:hover {
+  color: white !important;
+  background-color: $linkedin-button !important;
 }
