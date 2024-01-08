@@ -1,5 +1,7 @@
 import React from 'react';
 import './App.scss';
+import { Parallax }  from "react-parallax";
+import ParticlesBg from "particles-bg";
 
 // Components
 import MyNavbar from './components/my-navbar/mynavbar.component';
@@ -13,11 +15,6 @@ import Skills from './pages/skills/skills.component';
 import Education from './pages/education/education.component';
 import Experience from './pages/experience/experience.component';
 import Contact from './pages/contact/contact.component';
-
-//Parallax Background
-import { Parallax }  from "react-parallax";
-
-import ParticlesBg from "particles-bg";
 
 const App = () =>{
   return (
