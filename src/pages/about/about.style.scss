@@ -2,54 +2,80 @@
 
 .about-container {
   min-height: 100vh;
+  height: 90%;
   width: 100%;
   position: relative;
   margin-top: 0em;
 
-  h1{
+  h1 {
     font-size: 2em;
     color: $about-name;
     text-shadow: unset;
   }
 
-  h2{
+  h2 {
     font-size: 1.3em;
     color: $about-subtitle;
     font-weight: 600;
   }
 }
 
-#about{
+#about {
   font-size: 1em;
   font-weight: 350;
   vertical-align: middle;
   text-align: center;
   color: $about-color;
-  clip-path: polygon(0% 15%, 100% 0%, 100% 90%, 0 100%);
-  padding: 20vh 0%;
-
+  clip-path: polygon(0% 5%, 100% 0%, 100% 95%, 0 100%);
+  padding: 2vh 0%;
   background: $background-glass;
   backdrop-filter: $blur-glass;
   border: $border-glass;
 
-  a{
+  a {
     color: $light-yellow;
-    text-shadow: .5px .5px .5px white, -.5px .5px .5px white, .5px -.5px .5px white, -.5px -.5px .5px white;
+    text-shadow: 0.3px 0.3px 0.3px white, -0.3px 0.3px 0.3px white,
+      0.3px -0.3px 0.3px white, -0.3px -0.3px 0.3px white;
   }
 }
 
-#about-form-1{
+#about-form-1 {
   height: 100%;
   width: 100%;
-  clip-path: polygon(0% 15%, 100% 100%, 50% 100%, 0 100%);
-  background: linear-gradient(0deg, rgba(135, 21, 196, 0.945) 0%, #ff379b 90%);
+  clip-path: polygon(0% 5%, 100% 100%, 50% 100%, 0% 100%);
+  background: linear-gradient(
+    0deg,
+    rgba(105, 14, 155, 0.945) 0%,
+    rgba(153, 24, 46, 0.439) 90%
+  );
   position: absolute;
   bottom: 0;
 }
 
-.profile{
-  margin: 2em;
-  width: 24em;
+.profile {
+  margin: 90px 25px 25px 25px !important;
+  width: 24em !important;
   max-width: 90vw;
   height: auto;
+}
+
+@include media-breakpoint-down(md) {
+  .about-form-1 {
+    padding: 2rem;
+  }
+
+  .profile {
+    margin: 10px 0px !important;
+    width: 20em !important;
+  }
+
+  .about-container {
+    h1 {
+      font-size: 1.5rem;
+    }
+  }
+
+  #about {
+    clip-path: polygon(0% 0%, 100% 0%, 100% 95%, 0 100%);
+  }
 }
