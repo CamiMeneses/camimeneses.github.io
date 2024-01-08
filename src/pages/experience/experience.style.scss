@@ -2,9 +2,15 @@
 
 #experience {
   position: static;
-  background: linear-gradient(to bottom, $background-transparent 0%, $background-transparent2 50%, $background-transparent 85%, $background 100%);
+  background: linear-gradient(
+    to bottom,
+    $background-transparent 0%,
+    $background-transparent2 50%,
+    $background-transparent 85%,
+    $background 100%
+  );
   padding-bottom: 3em;
-  .vertical-timeline-element-content.bounce-in{
+  .vertical-timeline-element-content.bounce-in {
     background: $background-box-experience;
   }
 
@@ -13,13 +19,26 @@
     font-weight: 200;
     color: $background;
   }
+
+  h3 {
+    color: $experience-title;
+    text-shadow: none;
+    font-size: 1.1em;
+    font-weight: 300;
+  }
+
+  h4 {
+    color: $experience-subtitle;
+    font-size: 1em;
+    font-weight: 300;
+  }
 }
 
-.vertical-timeline-element-subtitle{
+.vertical-timeline-element-subtitle {
   color: $experience-subtitle;
 }
 
-.vertical-timeline-element-date{
+.vertical-timeline-element-date {
   color: $experience-date-letter;
   font-weight: 900;
   background: $experience-date-background;
@@ -30,6 +49,6 @@
   opacity: 1 !important;
 }
 
-#experience .logo{
+#experience .logo {
   width: 10vh;
 }

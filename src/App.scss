@@ -1,6 +1,6 @@
 @import "./themes/theme.scss";
 
-.App{
+.App {
   margin: 0;
   padding: 0;
   width: 100vw;
@@ -12,18 +12,18 @@
   height: 100%;
   background-attachment: sticky;
   background-position: center;
-  background-size: cover
+  background-size: cover;
 }
 
-.section{
+.section {
   min-height: 100vh;
 }
 
-.container-box{
-  margin: 0vh 2vh 0vh 2vh;
+.container {
+  max-width: 98% !important;
 }
 
-.particles-box{
+.particles-box {
   position: absolute;
   top: 0;
   left: 0;
@@ -32,73 +32,46 @@
   z-index: 1;
 }
 
-.description{
+.description {
   font-weight: 100;
-  padding: .5em;
+  padding: 0.5em;
 }
 
 h1 {
-  padding-top: 0.25em;
-  padding-bottom: 0.25em;
   text-align: center;
   font-weight: bolder;
   font-size: 3em;
+  padding-top: 1.1em;
+  padding-bottom: 0.7em;
+  color: $titles !important;
+  text-shadow: $shadow-white;
 }
 
-$h3-shadow: #205f553a;
-h3{
-  color: $experience-title;
-  text-shadow: none;
-  font-size: 1.1em;
-  font-weight: 300;
-}
-
-$h4-shadow: #2c2c2c00;
-h4{
-  color: $experience-subtitle;
-  //text-shadow: 1px 1px .5px $h4-shadow, -1px 1px .5px $h4-shadow, 1px -1px .5px $h4-shadow, -1px -1px .5px $h4-shadow;;
-  font-size: 1em;
-  font-weight: 300;
-}
-
-.text-subtitle{
+.text-subtitle {
   font-weight: 400;
   color: $education-secundary;
   padding-left: 15px;
 }
 
-.text-description{
+.text-description {
   font-weight: 300;
   color: $education-description;
   padding-left: 15px;
 }
 
-.nospace{
+.nospace {
   margin: 0;
   padding: 0;
-}
-
-//buttons
-
-.btn-outline-success{
-  color: $success-botton;
-  border-color: $success-botton;
-}
-
-h1{
-  padding-top: 1.1em;
-  padding-bottom: 0.7em;
-  color: $titles;
-  text-shadow: $shadow-white;
 }
 
 a {
   color: $purple;
   font-weight: bolder;
   font-weight: 500;
+  text-decoration: none !important;
 }
 
- a:hover{
+a:hover {
   font-weight: 700;
   text-decoration: none;
   text-shadow: $links-color;

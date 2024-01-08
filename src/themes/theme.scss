@@ -1,27 +1,30 @@
 @import "./backgrounds_svg.scss";
+@import "../../node_modules/bootstrap/scss/bootstrap";
 
-$background: #0E091A; //
+$background: #0e091a; //
 $background-transparent: #0e091af6;
 $background-transparent2: #0e091ad2;
 $background-transparent3: #b199e054;
 
-$light: #E8E8E8;
+$light: #e8e8e8;
 $orange: #fc7979;
-$light-purple: #A682FF;
+$light-purple: #a682ff;
 $purple: #a31ed8;
 $dark-purple: #3c245c;
 $pink: #d64d88;
 $barbie: #f87df2;
-$super-pink: #FA3989;
+$super-pink: #fa3989;
 $light-yellow: #fff79e; //Canary
 $yellow-transparent: #fcf6b283;
-$light-green: #23EFC6;
-$dark-blue: #3A405A; //Independence - 456990 Queen Blue
-$blue: #0099FF;
+$light-green: #23efc6;
+$dark-blue: #3a405a; //Independence - 456990 Queen Blue
+$blue: #0099ff;
 
 // Generals
-$links-color: .5px .5px .5px $blue, -.5px .5px .5px $light-green, .5px -.5px .5px $super-pink, -.5px -.5px .5px $light-yellow;
-$shadow-white: 1px 1px 4px $light-purple, -1px 1px 4px $light-purple, 1px -1px 4px $light-purple, -1px -1px 4px $light-purple;
+$links-color: 0.5px 0.5px 0.5px $blue, -0.5px 0.5px 0.5px $light-green,
+  0.5px -0.5px 0.5px $super-pink, -0.5px -0.5px 0.5px $light-yellow;
+$shadow-white: 1px 1px 4px $light-purple, -1px 1px 4px $light-purple,
+  1px -1px 4px $light-purple, -1px -1px 4px $light-purple;
 $titles: white;
 $background-glass: rgba(255, 255, 255, 0.2);
 $blur-glass: blur(5px);
@@ -30,6 +33,8 @@ $border-glass: 1px solid rgba(255, 255, 255, 0.3);
 $about-color: $light;
 $about-name: $light;
 $about-subtitle: $light;
+
+$linkedin-button: $light-purple;
 
 // Welcome
 $welcome-message: $light;
@@ -46,8 +51,17 @@ $navbar-active: white;
 $navbar-active-shadow: $super-pink;
 $navbar-hover: white;
 $navbar-hover-shadow: $blue;
-$background-navbar-large: linear-gradient(to right, rgba(0,0,0,0) 30%, rgba(255,255,255,0.41) 70%, #a582ff6e 95%);
-$background-navbar-small: linear-gradient(to right, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.1) 100%);
+$background-navbar-large: linear-gradient(
+  to right,
+  rgba(0, 0, 0, 0) 30%,
+  rgba(255, 255, 255, 0.41) 70%,
+  #a582ff6e 95%
+);
+$background-navbar-small: linear-gradient(
+  to right,
+  rgba(0, 0, 0, 0.7) 0%,
+  rgba(0, 0, 0, 0.1) 100%
+);
 
 //buttons
 $success-botton: #85e285;
@@ -70,7 +84,7 @@ $education-description: $light;
 $a-text-subtitle-ec: $light-yellow;
 
 // skills
-$skills-background: rgba(255, 255, 255, 0.2); ;
+$skills-background: rgba(255, 255, 255, 0.2);
 $skills-background-title: #301d49da;
 
 // contact
