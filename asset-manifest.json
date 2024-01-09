@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.f6bb8e26.css",
-    "main.js": "/static/js/main.fb9f3daf.js",
-    "static/media/profile.png": "/static/media/profile.d65846b6d7dcc2e41877.png",
+    "main.css": "/static/css/main.99565675.css",
+    "main.js": "/static/js/main.607ec9fc.js",
+    "static/media/profile.png": "/static/media/profile.3c74296538a5f2e7e8fe.png",
     "static/media/experience-fucsia-spots.jpg": "/static/media/experience-fucsia-spots.584b8eff6641e9f939bb.jpg",
     "static/media/unidad.png": "/static/media/unidad.fd0eb6bf414ffa37ef81.png",
     "static/media/education-croquis.png": "/static/media/education-croquis.e6a1cc0484459b631500.png",
@@ -35,11 +35,11 @@
     "static/media/ef.svg": "/static/media/ef.58f045240c93113e17ca15a6be041a26.svg",
     "static/media/git.webp": "/static/media/git.ea4c55e7cdb5522cb4e8.webp",
     "index.html": "/index.html",
-    "main.f6bb8e26.css.map": "/static/css/main.f6bb8e26.css.map",
-    "main.fb9f3daf.js.map": "/static/js/main.fb9f3daf.js.map"
+    "main.99565675.css.map": "/static/css/main.99565675.css.map",
+    "main.607ec9fc.js.map": "/static/js/main.607ec9fc.js.map"
   },
   "entrypoints": [
-    "static/css/main.f6bb8e26.css",
-    "static/js/main.fb9f3daf.js"
+    "static/css/main.99565675.css",
+    "static/js/main.607ec9fc.js"
   ]
 }
