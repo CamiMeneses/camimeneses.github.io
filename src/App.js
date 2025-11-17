@@ -19,7 +19,7 @@ import Contact from './pages/contact/contact.component';
 const App = () =>{
   return (
     <div className='App'>
-      <div class="parallax">
+      <div className="parallax">
         <MyNavbar />
         <Welcome >
           <ParticlesBg type="cobweb" color="#fc7979" num={10} bg={true}/>

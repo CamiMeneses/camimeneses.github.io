@@ -6,7 +6,6 @@ import { Container } from "react-bootstrap";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Image from "react-bootstrap/Image";
-import Fade from "react-reveal/Fade";
 
 // Images
 import Ruby from "../../assets/icons/skills/ruby.png";

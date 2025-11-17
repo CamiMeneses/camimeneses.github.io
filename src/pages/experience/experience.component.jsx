@@ -69,13 +69,13 @@ const Linc = () => {
           </Row>
         </a>
       </OverlayTrigger>
-    <p>
+    <div>
       <ul>
-        <li>Project: <a href="https://linclearning.com/es/" target="_blank"><b>LincSpring</b></a> <b>Ruby on Rails developer</b></li>
+        <li>Project: <a href="https://linclearning.com/es/" target="_blank" rel="noreferrer"><b>LincSpring</b></a> <b>Ruby on Rails developer</b></li>
         <li>Project: Yourwai. <b>Fullstack developer</b>, <b>Typescript</b>, <b>NestJs</b></li>
         <li>Integrations with OpenAi</li>
       </ul>
-    </p>
+    </div>
   </VerticalTimelineElement>
   )
 }
@@ -104,12 +104,12 @@ const Skydropx = () => {
           </Row>
         </a>
       </OverlayTrigger>
-    <p>
+    <div>
       <ul>
         <li><b>Ruby on Rails</b></li>
         <li><b>Scrum - Jira</b></li>
       </ul>
-    </p>
+    </div>
   </VerticalTimelineElement>
   )
 }
@@ -138,17 +138,17 @@ const Picap = () => {
           </Row>
         </a>
       </OverlayTrigger>
-    <p>
+    <div>
       <ul>
         <li><b>Ruby on Rails</b></li>
-        <li>Build a project from scratch <a href="https://www.picap.app/#/pibox-storage" target="_blank"><b>Pibox Storage</b></a></li>
+        <li>Build a project from scratch <a href="https://www.picap.app/#/pibox-storage" target="_blank" rel="noreferrer"><b>Pibox Storage</b></a></li>
         <li>Unit tests <b>Rspec</b></li>
         <li>Use <b>Heroku</b></li>
         <li><b>API REST</b></li>
         <li>Use version control tool <b>Git</b> and code storage tool <b>Bitbucket</b></li>
         <li><b>Scrum - Clickup</b></li>
       </ul>
-    </p>
+    </div>
   </VerticalTimelineElement>
   )
 }
@@ -178,7 +178,7 @@ const TwoTransfair = () => {
           </Row>
         </a>
       </OverlayTrigger>
-    <p>
+    <div>
       <ul>
         <li><b>Ruby on Rails</b></li>
         <li>Worked with a team to build a platform to bring credits</li>
@@ -190,7 +190,7 @@ const TwoTransfair = () => {
         <li>Contact with client</li>
         <li><b>Trello</b></li>
       </ul>
-    </p>
+    </div>
   </VerticalTimelineElement>
   )
 }
@@ -220,7 +220,7 @@ const Youse = () => {
           </Row>
         </a>
       </OverlayTrigger>
-      <p>
+      <div>
         <ul>
           <li>Collaborated with a team to implement a platform for insurances</li>
           <li>Wrote Unit tests for application quality assurance using <b>Rspec</b></li>
@@ -232,7 +232,7 @@ const Youse = () => {
           <li>Used tools like <b>Rabbit MQ</b>, <b>Logentries</b></li>
           <li><b>Microservices</b></li>
         </ul>
-      </p>
+      </div>
     </VerticalTimelineElement>
   )
 }
@@ -261,11 +261,13 @@ const BB = () => {
         </Row>
       </a>
     </OverlayTrigger>
-    <p>
-      <li>Built an application from scratch to manage the coding bootcamp using <b>Ruby on Rails </b>and <b>Haml</b>,
-        <b>Bootstrap</b>, <b>Devise</b> gem and uploaded it to <b>Heroku</b></li>
-      <li>Implemented <b>CRUD</b> operations for the application using the <b>MVC</b> (Model View Controller) architecture</li>
-    </p>
+    <div>
+      <ul>
+        <li>Built an application from scratch to manage the coding bootcamp using <b>Ruby on Rails </b>and <b>Haml</b>,
+          <b>Bootstrap</b>, <b>Devise</b> gem and uploaded it to <b>Heroku</b></li>
+        <li>Implemented <b>CRUD</b> operations for the application using the <b>MVC</b> (Model View Controller) architecture</li>
+      </ul>
+    </div>
   </VerticalTimelineElement>
   )
 }
