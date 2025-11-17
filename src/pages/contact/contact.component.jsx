@@ -1,26 +1,36 @@
-import React from 'react'
-import { Container } from 'react-bootstrap'
-import './contact.style.scss'
+import React from "react";
+import { Container } from "react-bootstrap";
+import "./contact.style.scss";
 
-export default function Contact(props) {
+const Contact = ({ children }) => {
   return (
-    <div style={{backgroundColor:"transparent", position:"relative"}}>
-      <div className='section' id="contact">
+    <div className="contact-wrapper">
+      <div className="section" id="contact">
         <div id="contact-box">
-          <div className="title"><b>Say Hi!</b></div>
+          <div className="title">
+            <b>Say Hi!</b>
+          </div>
           <Container>
-            <div className='text-subtitle'>
+            <div className="text-subtitle">
               <p>
-                <b>Camila Andrea Meneses Torres</b><br />
-                Ing. Mecatrónica | Web Developer<br />
-                <img src= "https://cdn-icons-png.flaticon.com/512/2990/2990218.png"  alt="email"></img>
-                &nbsp; kam_1095@live.com<br />
+                <b>Camila Andrea Meneses Torres</b>
+                <br />
+                Ing. Mecatrónica | Web Developer
+                <br />
+                <img
+                  src="https://cdn-icons-png.flaticon.com/512/2990/2990218.png"
+                  alt="email icon"
+                />
+                &nbsp; kam_1095@live.com
+                <br />
               </p>
             </div>
           </Container>
-            {props.children}
+          {children}
         </div>
       </div>
     </div>
   );
-}
+};
+
+export default Contact;

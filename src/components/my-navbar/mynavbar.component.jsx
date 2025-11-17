@@ -1,12 +1,17 @@
-import React from 'react'
-import Navbar from 'react-bootstrap/Navbar'
-import Nav from 'react-bootstrap/Nav'
+import React from "react";
+import Navbar from "react-bootstrap/Navbar";
+import Nav from "react-bootstrap/Nav";
 import "./mynavbar.style.scss";
 
 const MyNavbar = () => {
   return (
-    <div className='cursive'>
-      <Navbar fixed="top" collapseOnSelect expand="md" className="animate-navbar nav-theme justify-content-between">
+    <div className="cursive">
+      <Navbar
+        fixed="top"
+        collapseOnSelect
+        expand="md"
+        className="animate-navbar nav-theme justify-content-between"
+      >
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ml-auto">
@@ -20,7 +25,7 @@ const MyNavbar = () => {
         </Navbar.Collapse>
       </Navbar>
     </div>
-  )
-}
+  );
+};
 
-export default MyNavbar
+export default MyNavbar;

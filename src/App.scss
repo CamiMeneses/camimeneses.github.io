@@ -3,8 +3,10 @@
 .App {
   margin: 0;
   padding: 0;
-  width: 100vw;
+  width: 100%;
   min-height: 100%;
+  overflow-x: hidden;
+  max-width: 100%;
 }
 
 .parallax {
@@ -13,6 +15,13 @@
   background-attachment: sticky;
   background-position: center;
   background-size: cover;
+  max-width: 100%;
+}
+
+.row {
+  margin-left: 0;
+  margin-right: 0;
+  max-width: 100%;
 }
 
 .section {
@@ -66,14 +75,12 @@ h1 {
 
 a {
   color: $purple;
-  font-weight: bolder;
   font-weight: 500;
   text-decoration: none !important;
 }
 
 a:hover {
   font-weight: 700;
-  text-decoration: none;
   text-shadow: $links-color;
   color: white;
 }

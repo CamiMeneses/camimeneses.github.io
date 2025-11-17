@@ -1,5 +1,9 @@
 @import "./themes/theme.scss";
 
+html {
+  overflow-x: hidden;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -9,14 +13,12 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: "Poppins", sans-serif;
-
   background-image: $mini-spots;
   background-attachment: fixed;
   background-size: cover;
-
-  /* Full height */
   height: 100%;
-  width: 100vw;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 code {

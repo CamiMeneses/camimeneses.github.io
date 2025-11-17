@@ -29,81 +29,79 @@ import Scrum from "../../assets/icons/skills/scrum.png";
 import Jira from "../../assets/icons/skills/jira.png";
 import Trello from "../../assets/icons/skills/trello.png";
 
-export default function Skills(props) {
+const Skills = () => {
   return (
-    <div>
-      <div id="skills" className="section">
-        <h1>SKILLS</h1>
-        <div id="skills-box">
-          <Container fluid="md">
-            <Row>
-              <Theme1 />
-            </Row>
-          </Container>
-        </div>
+    <div id="skills" className="section">
+      <h1>SKILLS</h1>
+      <div id="skills-box">
+        <Container fluid="md">
+          <Row>
+            <SkillsGrid />
+          </Row>
+        </Container>
       </div>
     </div>
   );
-}
+};
 
-const Theme1 = () => {
+export default Skills;
+
+const SkillsGrid = () => {
   return (
-    <>
-      <Col className="skill-column">
-        <Row className="skill-row" xs={3} sm={4} lg={6}>
-          <Col>
-            <Image className="skill-image" alt="ruby" src={Ruby} />
-          </Col>
-          <Col>
-            <Image className="skill-image" alt="rails" src={Rails} />
-          </Col>
-          <Col>
-            <Image className="skill-image" alt="NestJs" src={Nest} />
-          </Col>
-          <Col>
-            <Image className="skill-image" alt="html" src={Html} />
-          </Col>
-          <Col>
-            <Image className="skill-image" alt="css" src={Css} />
-          </Col>
-          <Col>
-            <Image className="skill-image" alt="Typescript" src={Typescript} />
-          </Col>
-          <Col>
-            <Image className="skill-image" alt="rspec" src={Rspec} />
-          </Col>
-          <Col>
-            <Image className="skill-image" alt="jest" src={Jest} />
-          </Col>
-          <Col>
-            <Image className="skill-image" alt="postgres" src={Postgres} />
-          </Col>
-          <Col>
-            <Image className="skill-image" alt="mongo" src={Mongo} />
-          </Col>
-          <Col>
-            <Image className="skill-image" alt="git" src={Git} />
-          </Col>
-          <Col>
-            <Image className="skill-image" alt="github" src={Github} />
-          </Col>
-          <Col>
-            <Image className="skill-image" alt="bitbucket" src={Bitbucket} />
-          </Col>
-          <Col>
-            <Image className="skill-image" alt="awss3t" src={Awss3} />
-          </Col>
-          <Col>
-            <Image className="skill-image" alt="scrum" src={Scrum} />
-          </Col>
-          <Col>
-            <Image className="skill-image" alt="jira" src={Jira} />
-          </Col>
-          <Col>
-            <Image className="skill-image" alt="trello" src={Trello} />
-          </Col>
-        </Row>
-      </Col>
-    </>
+    <Col className="skill-column">
+      <Row className="skill-row" xs={3} sm={4} lg={6}>
+        <Col>
+          <Image className="skill-image" alt="ruby" src={Ruby} />
+        </Col>
+        <Col>
+          <Image className="skill-image" alt="rails" src={Rails} />
+        </Col>
+        <Col>
+          <Image className="skill-image" alt="NestJs" src={Nest} />
+        </Col>
+        <Col>
+          <Image className="skill-image" alt="html" src={Html} />
+        </Col>
+        <Col>
+          <Image className="skill-image" alt="css" src={Css} />
+        </Col>
+        <Col>
+          <Image className="skill-image" alt="typescript" src={Typescript} />
+        </Col>
+        <Col>
+          <Image className="skill-image" alt="rspec" src={Rspec} />
+        </Col>
+        <Col>
+          <Image className="skill-image" alt="jest" src={Jest} />
+        </Col>
+        <Col>
+          <Image className="skill-image" alt="postgres" src={Postgres} />
+        </Col>
+        <Col>
+          <Image className="skill-image" alt="mongo" src={Mongo} />
+        </Col>
+        <Col>
+          <Image className="skill-image" alt="git" src={Git} />
+        </Col>
+        <Col>
+          <Image className="skill-image" alt="github" src={Github} />
+        </Col>
+        <Col>
+          <Image className="skill-image" alt="bitbucket" src={Bitbucket} />
+        </Col>
+        <Col>
+          <Image className="skill-image" alt="aws s3" src={Awss3} />
+        </Col>
+        <Col>
+          <Image className="skill-image" alt="scrum" src={Scrum} />
+        </Col>
+        <Col>
+          <Image className="skill-image" alt="jira" src={Jira} />
+        </Col>
+        <Col>
+          <Image className="skill-image" alt="trello" src={Trello} />
+        </Col>
+      </Row>
+    </Col>
   );
 };

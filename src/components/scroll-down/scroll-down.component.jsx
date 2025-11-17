@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import styled from "styled-components";
 
 const MyScroll = styled.div`
@@ -16,7 +16,7 @@ const MyScroll = styled.div`
     cursor: pointer;
     transform: rotate(90deg);
   }
-`
+`;
 
 const ScrollDown = () => {
   return (
@@ -25,7 +25,7 @@ const ScrollDown = () => {
         <span> &gt; </span>
       </div>
     </MyScroll>
-  )
-}
+  );
+};
 
-export default ScrollDown
+export default ScrollDown;
