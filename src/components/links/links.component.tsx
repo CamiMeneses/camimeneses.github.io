@@ -4,6 +4,8 @@ import Col from "react-bootstrap/Col";
 import Navbar from "react-bootstrap/Navbar";
 import "./links.style.scss";
 
+import { socialLinks, type SocialLink } from "../../data/profile";
+
 const Links = () => {
   return (
     <div>
@@ -11,39 +13,9 @@ const Links = () => {
         <div className="links">
           <Row>
             <Col className="d-flex justify-content-center flex-wrap">
-              <div>
-                <a
-                  href="https://drive.google.com/file/d/19_SCdFnqdS_J-f0YIU4dVdSYBL-MnTRT/view?usp=sharing"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <Button className="m-2" variant="outline-success">
-                    Resume
-                  </Button>
-                </a>
-              </div>
-              <div>
-                <a
-                  href="https://www.linkedin.com/in/camimeneses/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <Button className="m-2" variant="outline-info">
-                    LinkedIn
-                  </Button>
-                </a>
-              </div>
-              <div>
-                <a
-                  href="https://github.com/CamiMeneses"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <Button className="m-2" variant="outline-primary">
-                    Github
-                  </Button>
-                </a>
-              </div>
+              {socialLinks.map((link) => (
+                <LinkButton key={link.id} link={link} />
+              ))}
             </Col>
           </Row>
         </div>
@@ -51,5 +23,19 @@ const Links = () => {
     </div>
   );
 };
+
+interface LinkButtonProps {
+  link: SocialLink;
+}
+
+const LinkButton = ({ link }: LinkButtonProps) => (
+  <div>
+    <a href={link.url} target="_blank" rel="noopener noreferrer">
+      <Button className="m-2" variant={link.variant}>
+        {link.label}
+      </Button>
+    </a>
+  </div>
+);
 
 export default Links;

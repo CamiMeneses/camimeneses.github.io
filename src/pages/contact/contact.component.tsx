@@ -1,6 +1,8 @@
-import React, { ReactNode } from "react";
+import { ReactNode } from "react";
 import { Container } from "react-bootstrap";
 import "./contact.style.scss";
+
+import { profile } from "../../data/profile";
 
 interface ContactProps {
   children?: ReactNode;
@@ -17,16 +19,16 @@ const Contact = ({ children }: ContactProps) => {
           <Container>
             <div className="text-subtitle">
               <p>
-                <b>Camila Andrea Meneses Torres</b>
+                <b>{profile.fullName}</b>
                 <br />
-                Ing. Mecatrónica | Web Developer
+                {profile.shortTitle}
                 <br />
                 <img
                   src="https://cdn-icons-png.flaticon.com/512/2990/2990218.png"
                   alt="email icon"
                   loading="lazy"
                 />
-                &nbsp; kam_1095@live.com
+                &nbsp; {profile.email}
                 <br />
               </p>
             </div>
