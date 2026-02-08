@@ -67,7 +67,7 @@ const Bachelor = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img className="logo" id="upc" alt="upc" src={upc} />
+                <img className="logo" id="upc" alt="upc" src={upc} loading="lazy" />
               </a>
             </OverlayTrigger>
           </Col>
@@ -138,7 +138,7 @@ const Courses = () => {
               >
                 <Row>
                   <Col>
-                    <img className="logo" id="bb" alt="BB" src={bb} />
+                    <img className="logo" id="bb" alt="BB" src={bb} loading="lazy" />
                   </Col>
                   <Col>
                     <div className="text-subtitle">
@@ -188,6 +188,7 @@ const Courses = () => {
                   id="miriadax"
                   alt="MiriadaX"
                   src={miriadax}
+                  loading="lazy"
                 />
               </Col>
               <Col>
@@ -225,7 +226,7 @@ const Languages = () => {
                 <b>Native</b>
               </div>
             </div>
-            <img className="logo" id="esp" alt="esp" src={esp} />
+            <img className="logo" id="esp" alt="esp" src={esp} loading="lazy" />
           </Col>
 
           <Col xs={6} sm={6} md={6} lg={6} xl={12} className="nospace">
@@ -235,7 +236,7 @@ const Languages = () => {
                 <b>Advanced</b>
               </div>
             </div>
-            <img className="logo" id="eng" alt="eng" src={eng} />
+            <img className="logo" id="eng" alt="eng" src={eng} loading="lazy" />
           </Col>
         </Row>
         {/*EC*/}
@@ -247,7 +248,7 @@ const Languages = () => {
           </div>
           <Row>
             <Col className="course nospace" xs={3} sm={3} md={3} lg={3} xl={3}>
-              <img className="logo" id="ec" alt="ec" src={ec} />
+              <img className="logo" id="ec" alt="ec" src={ec} loading="lazy" />
             </Col>
             <Col
               className="nospace text-subtitle"
@@ -300,7 +301,7 @@ const Languages = () => {
                 lg={3}
                 xl={3}
               >
-                <img className="logo" id="ef" alt="ef" src={ef} />
+                <img className="logo" id="ef" alt="ef" src={ef} loading="lazy" />
               </Col>
               <Col
                 className="nospace text-subtitle"

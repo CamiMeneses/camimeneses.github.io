@@ -59,7 +59,7 @@ const Linc = () => {
         >
           <Row className="nospace">
             <Col xs={12} sm={3} md={3} lg={3}>
-              <img className="logo" id="linc" alt="Linc" src={linc} />
+              <img className="logo" id="linc" alt="Linc" src={linc} loading="lazy" />
             </Col>
             <Col xs={12} sm={9} md={9} lg={9}>
               <h3 className="vertical-timeline-element-title">
@@ -115,7 +115,7 @@ const Skydropx = () => {
         >
           <Row className="nospace">
             <Col xs={12} sm={3} md={3} lg={3}>
-              <img className="logo" id="skydropx" alt="Skydropx" src={skydropx} />
+              <img className="logo" id="skydropx" alt="Skydropx" src={skydropx} loading="lazy" />
             </Col>
             <Col xs={12} sm={9} md={9} lg={9}>
               <h3 className="vertical-timeline-element-title">
@@ -161,7 +161,7 @@ const Picap = () => {
         >
           <Row className="nospace">
             <Col xs={12} sm={3} md={3} lg={3}>
-              <img className="logo" id="picap" alt="Picap" src={picap} />
+              <img className="logo" id="picap" alt="Picap" src={picap} loading="lazy" />
             </Col>
             <Col xs={12} sm={9} md={9} lg={9}>
               <h3 className="vertical-timeline-element-title">
@@ -235,6 +235,7 @@ const TwoTransfair = () => {
                 id="twotransfair"
                 alt="2Transfair"
                 src={twoTransfair}
+                loading="lazy"
               />
             </Col>
             <Col xs={12} sm={9} md={9} lg={9}>
@@ -299,7 +300,7 @@ const Youse = () => {
         >
           <Row className="nospace">
             <Col xs={12} sm={3} md={3} lg={3}>
-              <img className="logo" id="youse" alt="Youse" src={youse} />
+              <img className="logo" id="youse" alt="Youse" src={youse} loading="lazy" />
             </Col>
             <Col xs={12} sm={9} md={9} lg={9}>
               <h3 className="vertical-timeline-element-title">
@@ -363,7 +364,7 @@ const BB = () => {
         >
           <Row className="nospace">
             <Col xs={12} sm={3} md={3} lg={3}>
-              <img className="logo" id="bb" alt="Bogota Bootcamp" src={bb} />
+              <img className="logo" id="bb" alt="Bogota Bootcamp" src={bb} loading="lazy" />
             </Col>
             <Col xs={12} sm={9} md={9} lg={9}>
               <h3 className="vertical-timeline-element-title">
@@ -402,7 +403,7 @@ const Victimas = () => {
     >
       <Row className="nospace">
         <Col xs={12} sm={3} md={3} lg={3}>
-          <img className="logo" id="unidad" alt="Unidad" src={unidad} />
+          <img className="logo" id="unidad" alt="Unidad" src={unidad} loading="lazy" />
         </Col>
         <Col xs={12} sm={9} md={9} lg={9}>
           <h3 className="vertical-timeline-element-title">
@@ -440,7 +441,7 @@ const Distrital = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img className="logo" id="distrital" alt="Distrital" src={distrital} />
+                <img className="logo" id="distrital" alt="Distrital" src={distrital} loading="lazy" />
               </a>
             </OverlayTrigger>
           </Row>
@@ -455,7 +456,7 @@ const Distrital = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img className="logo" id="upc" alt="UPC" src={upc} />
+                <img className="logo" id="upc" alt="UPC" src={upc} loading="lazy" />
               </a>
             </OverlayTrigger>
           </Row>

@@ -22,6 +22,7 @@ const About = () => {
                   src={Profile}
                   roundedCircle
                   fluid
+                  loading="lazy"
                 />
               </Row>
               <Row className="justify-content-center nospace">

@@ -20,6 +20,7 @@ const Contact = ({ children }) => {
                 <img
                   src="https://cdn-icons-png.flaticon.com/512/2990/2990218.png"
                   alt="email icon"
+                  loading="lazy"
                 />
                 &nbsp; kam_1095@live.com
                 <br />
