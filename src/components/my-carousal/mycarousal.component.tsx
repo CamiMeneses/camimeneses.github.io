@@ -1,4 +1,3 @@
-import React from "react";
 import Carousel from "react-bootstrap/Carousel";
 import Slide1 from "../../assets/img/carousal/slider1.webp";
 import Slide2 from "../../assets/img/html.gif";
@@ -14,7 +13,7 @@ const MyCarousal = () => {
         controls={false}
         indicators
         interval={2500}
-        pauseOnHover={false}
+        pause={false}
       >
         <Carousel.Item className="carousel-box">
           <img

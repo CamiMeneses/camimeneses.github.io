@@ -1,7 +1,11 @@
-import React from "react";
+import React, { ReactNode } from "react";
 import "./welcome.style.scss";
 
-const Welcome = ({ children }) => {
+interface WelcomeProps {
+  children?: ReactNode;
+}
+
+const Welcome = ({ children }: WelcomeProps) => {
   return (
     <div className="section" id="welcome">
       {children}

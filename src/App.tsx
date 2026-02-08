@@ -1,4 +1,3 @@
-import React from "react";
 import "./App.scss";
 import { Parallax } from "react-parallax";
 import ParticlesBg from "particles-bg";

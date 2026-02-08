@@ -1,8 +1,12 @@
-import React from "react";
+import React, { ReactNode } from "react";
 import { Container } from "react-bootstrap";
 import "./contact.style.scss";
 
-const Contact = ({ children }) => {
+interface ContactProps {
+  children?: ReactNode;
+}
+
+const Contact = ({ children }: ContactProps) => {
   return (
     <div className="contact-wrapper">
       <div className="section" id="contact">

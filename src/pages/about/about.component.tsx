@@ -1,4 +1,3 @@
-import React from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -40,13 +39,13 @@ const About = () => {
                   backend developer.
                   <br />
                   <br />
-                  In my daily routine I use <b>Git</b>, <b>Postman</b>, I
-                  manage databases and code hosting platforms such as{" "}
-                  <b>GitHub</b> and <b>Bitbucket</b>
+                  In my daily routine I use <b>Git</b>, <b>Postman</b>, I manage
+                  databases and code hosting platforms such as <b>GitHub</b> and{" "}
+                  <b>Bitbucket</b>
                   <br />
                   <br />
-                  I keep learning about this world of development and I want
-                  to work hand in hand with best developers and people of all
+                  I keep learning about this world of development and I want to
+                  work hand in hand with best developers and people of all
                   cultures to grow in many ways.
                   <br />
                   I am going to take any challenge!
@@ -55,9 +54,7 @@ const About = () => {
                   Check out my website, learn more about me <br />
                   and feel free to{" "}
                   <b>
-                    <a href="#contact">
-                      contact me
-                    </a>{" "}
+                    <a href="#contact">contact me</a>{" "}
                   </b>
                   . <br />
                   <br />

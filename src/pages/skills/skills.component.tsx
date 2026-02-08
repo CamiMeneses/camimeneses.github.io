@@ -1,4 +1,3 @@
-import React from "react";
 import "./skills.style.scss";
 import { Container } from "react-bootstrap";
 import Row from "react-bootstrap/Row";

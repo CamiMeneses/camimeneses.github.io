@@ -1,4 +1,3 @@
-import React from "react";
 import "./education.style.scss";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
