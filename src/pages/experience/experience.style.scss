@@ -10,6 +10,7 @@
     $background 100%
   );
   padding-bottom: 3em;
+
   .vertical-timeline-element-content.bounce-in {
     background: $background-box-experience;
   }
@@ -32,23 +33,23 @@
     font-size: 1em;
     font-weight: 300;
   }
-}
 
-.vertical-timeline-element-subtitle {
-  color: $experience-subtitle;
-}
+  .vertical-timeline-element-subtitle {
+    color: $experience-subtitle;
+  }
 
-.vertical-timeline-element-date {
-  color: $experience-date-letter;
-  font-weight: 900;
-  background: $experience-date-background;
-  border-radius: 10px;
-  text-align: center !important;
-  margin: 0;
-  padding: 0;
-  opacity: 1 !important;
-}
+  .vertical-timeline-element-date {
+    color: $experience-date-letter;
+    font-weight: 900;
+    background: $experience-date-background;
+    border-radius: 10px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    opacity: 1;
+  }
 
-#experience .logo {
-  width: 10vh;
+  .logo {
+    width: 10vh;
+  }
 }

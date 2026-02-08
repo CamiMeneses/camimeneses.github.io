@@ -17,14 +17,16 @@
       font-size: 0.7em;
     }
   }
-}
 
-.btn-outline-info {
-  color: $linkedin-button !important;
-  border-color: $linkedin-button !important;
-}
+  .btn.btn-outline-info {
+    color: $linkedin-button;
+    border-color: $linkedin-button;
 
-.btn-outline-info:hover {
-  color: white !important;
-  background-color: $linkedin-button !important;
+    &:hover,
+    &:focus,
+    &:active {
+      color: white;
+      background-color: $linkedin-button;
+    }
+  }
 }
