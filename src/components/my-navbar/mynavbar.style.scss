@@ -1,93 +1,158 @@
 @import "../../themes/theme.scss";
 
+@mixin nav-text-shadow($color) {
+  text-shadow: 1px 1px 1px $color, -1px 1px 1px $color, -1px -1px 1px $color,
+    1px -1px 1px $color;
+}
+
+body .cursive .navbar.fixed-top {
+  top: 0;
+  padding: 0;
+  margin: 0;
+}
+
 .nav-theme {
   background: transparent;
   font-size: 0.8em;
-}
-
-@media only screen and (min-width: 600px){
-  #responsive-navbar-nav {
-    background-color: transparent;
-    text-shadow: none;
-    height: 10px;
-    background: $background-navbar-large;
-
-    .nav-link{
-      color: transparent;
-    }
-  }
-
-  #responsive-navbar-nav:hover{
-    height: 40px;
-    transition: height 2s;
-  }
-
-  #responsive-navbar-nav:hover{
-    background: $background-navbar-large;
-
-    .nav-link{
-      color: $navbar-color;
-      text-shadow: 1px 1px 1px $navbar-color-shadow,-1px 1px 1px $navbar-color-shadow,-1px -1px 1px $navbar-color-shadow, 1px -1px 1px $navbar-color-shadow;
-    }
-
-    a.nav-link.active{
-      color: $navbar-active;
-      text-shadow: 1px 1px 1px $navbar-active-shadow, -1px 1px 1px $navbar-active-shadow, 1px -1px 1px $navbar-active-shadow, -1px -1px 1px $navbar-active-shadow;
-    }
-
-    .nav-link:hover{
-      color: $navbar-hover;
-      text-shadow: 1px 1px 1px $navbar-hover-shadow, -1px -1px 1px $navbar-hover-shadow, 1px -1px 1px $navbar-hover-shadow, -1px 1px 1px $navbar-hover-shadow;
-    }
-  }
-}
-
-@media only screen and (max-width: 599px){
-  #responsive-navbar-nav{
-    padding-left: 5px;
-    background: $background-navbar-small;
-
-    .nav-link{
-      color: $navbar-color;
-      text-shadow: 1px 1px 1px $navbar-color-shadow,-1px 1px 1px $navbar-color-shadow,-1px -1px 1px $navbar-color-shadow, 1px -1px 1px $navbar-color-shadow;
-    }
-
-    a.nav-link.active{
-      color: $navbar-active;
-      text-shadow: 1px 1px 1px $navbar-active-shadow, -1px 1px 1px $navbar-active-shadow, 1px -1px 1px $navbar-active-shadow, -1px -1px 1px $navbar-active-shadow;
-    }
-
-    .nav-link:hover{
-      color: $navbar-hover;
-      text-shadow: 1px 1px 1px $navbar-hover-shadow, -1px -1px 1px $navbar-hover-shadow, 1px -1px 1px $navbar-hover-shadow, -1px 1px 1px $navbar-hover-shadow;
-    }
-  }
 }
 
 .animate-navbar {
   animation: moveDown 0.8s ease-in-out;
   padding: 0;
 }
-.navbar-toggler-icon, .navbar-toggler{
-  padding: 0.2rem;
-  height: 1px;
-  background: rgba(248, 213, 255, 0.452);
-  border: transparent;
+
+button.navbar-toggler {
+  width: 28px;
+  height: 28px;
+  min-width: 28px;
+  min-height: 28px;
+  padding: 0;
+  margin: 8px 0 0 8px;
+  border: none;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.2s ease;
+  box-shadow: none;
+}
+
+button.navbar-toggler:hover {
+  background: rgba(255, 255, 255, 0.25);
+}
+
+button.navbar-toggler:focus,
+button.navbar-toggler:active,
+button.navbar-toggler:focus-visible {
+  box-shadow: none;
+  outline: none;
+  border: none;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.navbar-toggler .navbar-toggler-icon {
+  background-image: none;
+  width: 12px;
+  height: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.navbar-toggler .navbar-toggler-icon::before,
+.navbar-toggler .navbar-toggler-icon::after {
+  content: '';
+  display: block;
+  width: 12px;
+  height: 1.5px;
+  background: #444;
+  border-radius: 1px;
+}
+
+.navbar-toggler .navbar-toggler-icon::after {
+  box-shadow: 0 -4px 0 #444;
+}
+
+@media only screen and (min-width: 600px) {
+  #responsive-navbar-nav {
+    text-shadow: none;
+    height: 10px;
+    background: $background-navbar-large;
+
+    .nav-link {
+      color: transparent;
+    }
+
+    &:hover {
+      height: 40px;
+      transition: height 2s;
+      background: $background-navbar-large;
+
+      .nav-link {
+        color: $navbar-color;
+        @include nav-text-shadow($navbar-color-shadow);
+      }
+
+      a.nav-link.active {
+        color: $navbar-active;
+        @include nav-text-shadow($navbar-active-shadow);
+      }
+
+      .nav-link:hover {
+        color: $navbar-hover;
+        @include nav-text-shadow($navbar-hover-shadow);
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 599px) {
+  .navbar-collapse {
+    transition: height 0.35s ease;
+  }
+
+  .collapsing {
+    transition: height 0.35s ease;
+  }
+
+  #responsive-navbar-nav {
+    padding: 0.8rem;
+    margin-top: 0.3rem;
+    background: rgba(20, 10, 30, 0.9);
+    backdrop-filter: blur(10px);
+    border-radius: 6px;
+
+    .nav-link {
+      color: $navbar-color;
+      padding: 0.4rem 0;
+      font-size: 0.7rem;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+      transition: color 0.2s ease;
+      @include nav-text-shadow($navbar-color-shadow);
+    }
+
+    .nav-link:last-child {
+      border-bottom: none;
+    }
+
+    a.nav-link.active {
+      color: $navbar-active;
+      @include nav-text-shadow($navbar-active-shadow);
+    }
+
+    .nav-link:hover {
+      color: $navbar-hover;
+      @include nav-text-shadow($navbar-hover-shadow);
+    }
+  }
 }
 
 @keyframes moveDown {
   from {
     transform: translateY(-4rem);
-  }to{
+  }
+  to {
     transform: translateY(0rem);
   }
 }
-
-@keyframes moveUp {
-  from {
-    transform: translateY(0rem);
-  }to{
-    transform: translateY(-4rem);
-  }
-}
-
