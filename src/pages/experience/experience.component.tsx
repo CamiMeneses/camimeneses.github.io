@@ -10,20 +10,19 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 
-import {
-  experiences,
-  type Experience as ExperienceType,
-  type ExperienceItem as ExperienceItemType,
-} from "data/experience";
+import { getExperienceMeta } from "data/experience";
+import { useTranslation } from "i18n";
 
 const Experience = () => {
+  const { t } = useTranslation();
+
   return (
     <div className="section" id="experience">
-      <h1>EXPERIENCE</h1>
+      <h1>{t.sections.experience}</h1>
       <Container>
         <VerticalTimeline>
-          {experiences.map((experience) => (
-            <ExperienceCard key={experience.id} experience={experience} />
+          {t.experiences.map((exp) => (
+            <ExperienceCard key={exp.id} experience={exp} />
           ))}
         </VerticalTimeline>
       </Container>
@@ -31,27 +30,44 @@ const Experience = () => {
   );
 };
 
+interface ExperienceData {
+  id: string;
+  date: string;
+  title: string;
+  subtitle: string;
+  tooltip?: string;
+  secondTooltip?: string;
+  description?: string;
+  isEducation?: boolean;
+  items: Array<{
+    text?: string;
+    link?: string;
+    linkText?: string;
+    highlight?: string;
+  }>;
+}
+
 interface ExperienceCardProps {
-  experience: ExperienceType;
+  experience: ExperienceData;
 }
 
 const ExperienceCard = ({ experience }: ExperienceCardProps) => {
+  const meta = getExperienceMeta(experience.id);
+
+  if (!meta) return null;
+
   const {
     date,
     title,
     subtitle,
-    url,
     tooltip,
-    logo,
-    logoId,
-    secondLogo,
-    secondLogoId,
-    secondUrl,
     secondTooltip,
     items,
     description,
     isEducation,
   } = experience;
+
+  const { logo, url, secondLogo, secondUrl } = meta;
 
   const timelineClass = isEducation
     ? "vertical-timeline-element--education"
@@ -65,7 +81,7 @@ const ExperienceCard = ({ experience }: ExperienceCardProps) => {
             <Row>
               <LogoWithTooltip
                 logo={logo}
-                logoId={logoId}
+                logoId={experience.id}
                 url={url}
                 tooltip={tooltip}
               />
@@ -73,7 +89,7 @@ const ExperienceCard = ({ experience }: ExperienceCardProps) => {
             <Row>
               <LogoWithTooltip
                 logo={secondLogo}
-                logoId={secondLogoId!}
+                logoId={`${experience.id}-second`}
                 url={secondUrl!}
                 tooltip={secondTooltip!}
               />
@@ -82,7 +98,7 @@ const ExperienceCard = ({ experience }: ExperienceCardProps) => {
         ) : (
           <img
             className="logo"
-            id={logoId}
+            id={experience.id}
             alt={title}
             src={logo}
             loading="lazy"
@@ -117,22 +133,14 @@ const ExperienceCard = ({ experience }: ExperienceCardProps) => {
       )}
 
       {items.length > 0 && (
-        <div>
-          <ul>
-            {items.map((item, index) => (
-              <ExperienceItemRow key={index} item={item} />
-            ))}
-          </ul>
-        </div>
+        <ul>
+          {items.map((item, index) => (
+            <ExperienceItemRow key={index} item={item} />
+          ))}
+        </ul>
       )}
 
-      {description && (
-        <div>
-          <p>
-            <b>Project:</b> {description}
-          </p>
-        </div>
-      )}
+      {description && <p>{description}</p>}
     </VerticalTimelineElement>
   );
 };
@@ -156,16 +164,27 @@ const LogoWithTooltip = ({
     overlay={<Tooltip>{tooltip}</Tooltip>}
   >
     <a href={url} target="_blank" rel="noopener noreferrer">
-      <img className="logo" id={logoId} alt={tooltip} src={logo} loading="lazy" />
+      <img
+        className="logo"
+        id={logoId}
+        alt={tooltip}
+        src={logo}
+        loading="lazy"
+      />
     </a>
   </OverlayTrigger>
 );
 
-interface ExperienceItemRowProps {
-  item: ExperienceItemType;
+interface ExperienceItemProps {
+  item: {
+    text?: string;
+    link?: string;
+    linkText?: string;
+    highlight?: string;
+  };
 }
 
-const ExperienceItemRow = ({ item }: ExperienceItemRowProps) => {
+const ExperienceItemRow = ({ item }: ExperienceItemProps) => {
   const { text, link, linkText, highlight } = item;
 
   return (

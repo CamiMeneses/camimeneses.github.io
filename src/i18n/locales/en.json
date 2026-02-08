@@ -1,0 +1,224 @@
+{
+  "nav": {
+    "home": "HOME",
+    "about": "ABOUT ME",
+    "skills": "SKILLS",
+    "education": "EDUCATION",
+    "experience": "EXPERIENCE",
+    "contact": "CONTACT"
+  },
+  "welcome": {
+    "hello": "Hello!",
+    "im": "I'm",
+    "name": "Camila Meneses",
+    "welcomeTo": "Welcome to my",
+    "website": "website",
+    "knowMore": "Know more",
+    "aboutMe": "about me"
+  },
+  "about": {
+    "title": "Mechatronics Engineer & Web Developer",
+    "bio": [
+      "Mechatronics Engineer and Web Developer with proficiency in <b>Ruby on Rails</b> and <b>NestJS</b> development, using <b>RSpec</b> and <b>Jest</b> for testing, along with <b>HTML</b>, <b>CSS</b>, and <b>ReactJS</b>.",
+      "Experienced in working with <b>Redis</b>, <b>RabbitMQ</b>, and <b>GitHub</b>, and utilizing Scrum methodology with <b>Jira</b> and <b>Trello</b>.",
+      "Additionally, I have hands-on experience integrating <b>Large Language Models (LLMs)</b> into applications, including API consumption and AI-driven feature development.",
+      "I keep learning about this world of development and I want to work hand in hand with the best developers and people of all cultures to grow in many ways.",
+      "I am going to take any challenge!"
+    ],
+    "checkOut": "Check out my website, learn more about me",
+    "andFeelFree": "and feel free to",
+    "contactMe": "contact me"
+  },
+  "sections": {
+    "skills": "SKILLS",
+    "education": "EDUCATION",
+    "experience": "EXPERIENCE",
+    "contact": "CONTACT"
+  },
+  "contact": {
+    "title": "CONTACT",
+    "getInTouch": "Get in touch",
+    "email": "Email",
+    "location": "Location",
+    "colombia": "Colombia"
+  },
+  "experiences": [
+    {
+      "id": "linc",
+      "date": "Dec 2023 - Current",
+      "title": "SOFTWARE DEVELOPER",
+      "subtitle": "Lincspring & Yourwai | US | Remote",
+      "tooltip": "About Linc",
+      "items": [
+        {
+          "text": "Project: LincSpring",
+          "link": "https://linclearning.com/es/",
+          "highlight": "Ruby on Rails developer"
+        },
+        {
+          "text": "Project: Yourwai.",
+          "highlight": "Fullstack developer, Typescript, NestJs"
+        },
+        { "text": "Integrations with OpenAi" }
+      ]
+    },
+    {
+      "id": "skydropx",
+      "date": "Oct 2021 - Dec 2022",
+      "title": "RUBY ON RAILS DEVELOPER",
+      "subtitle": "Skydropx | MX | Remote",
+      "tooltip": "About Skydropx",
+      "items": [
+        { "highlight": "Ruby on Rails" },
+        { "highlight": "Scrum - Jira" }
+      ]
+    },
+    {
+      "id": "picap",
+      "date": "Dec 2020 - Sep 2021",
+      "title": "RUBY ON RAILS DEVELOPER",
+      "subtitle": "Picap | Bogota, CO | Remote",
+      "tooltip": "About Picap",
+      "items": [
+        { "highlight": "Ruby on Rails" },
+        {
+          "text": "Build a project from scratch",
+          "link": "https://www.picap.app/#/pibox-storage",
+          "linkText": "Pibox Storage"
+        },
+        { "text": "Unit tests", "highlight": "Rspec" },
+        { "text": "Use", "highlight": "Heroku" },
+        { "highlight": "API REST" },
+        {
+          "text": "Use version control tool Git and code storage tool Bitbucket"
+        },
+        { "highlight": "Scrum - Clickup" }
+      ]
+    },
+    {
+      "id": "twotransfair",
+      "date": "Mar - Jul 2020",
+      "title": "INTERMEDIATE DEVELOPER",
+      "subtitle": "2Transfair | FINTECH | Bogota, CO | Partly remote",
+      "tooltip": "About 2Transfair",
+      "items": [
+        { "highlight": "Ruby on Rails" },
+        { "text": "Worked with a team to build a platform to bring credits" },
+        { "text": "Used", "highlight": "HTML, CSS, bootstrap" },
+        { "text": "Built PDFs with dynamic data" },
+        { "highlight": "Monolithic" },
+        { "highlight": "API REST" },
+        {
+          "text": "Used version control tool Git and code storage tool Bitbucket and reviewed Pull Requests."
+        },
+        { "text": "Contact with client" },
+        { "highlight": "Trello" }
+      ]
+    },
+    {
+      "id": "youse",
+      "date": "May - Dec 2019",
+      "title": "IT TRAINEE | RUBY ON RAILS DEVELOPER",
+      "subtitle": "Youse Colombia - CNPX | INSURTECH | Bogota, CO",
+      "tooltip": "About CNPX | Youse",
+      "items": [
+        {
+          "text": "Collaborated with a team to implement a platform for insurances"
+        },
+        {
+          "text": "Wrote Unit tests for application quality assurance using",
+          "highlight": "Rspec"
+        },
+        {
+          "text": "Used version control tool Git and code storage tool GitHub and reviewed Pull Requests"
+        },
+        { "text": "Worked with a third-party to implement Salesforce" },
+        {
+          "text": "Followed the Scrum methodology and used",
+          "highlight": "Jira"
+        },
+        {
+          "text": "Set, updated and used data from",
+          "highlight": "AWS S3 and Redis"
+        },
+        { "text": "Served as bug-fixer and fixed intermittent test" },
+        { "text": "Used tools like", "highlight": "Rabbit MQ, Logentries" },
+        { "highlight": "Microservices" }
+      ]
+    },
+    {
+      "id": "bb",
+      "date": "Mar - May 2019",
+      "title": "FREELANCE WEB DEVELOPER",
+      "subtitle": "Bogota Dev. Bootcamp & Dev Shop | Bogota, CO",
+      "tooltip": "About Bogota Dev. Bootcamp & Dev Shop",
+      "items": [
+        {
+          "text": "Built an application from scratch to manage the coding bootcamp using Ruby on Rails and Haml, Bootstrap, Devise gem and uploaded it to Heroku"
+        },
+        {
+          "text": "Implemented CRUD operations for the application using the MVC (Model View Controller) architecture"
+        }
+      ]
+    },
+    {
+      "id": "unidad",
+      "date": "Nov - Dec 2017",
+      "title": "TECNICO 1 DATA QUALITY",
+      "subtitle": "Unión temporal proceso unidad para la atención y reparación integral a las victimas 2017 | Bogota, CO",
+      "items": []
+    },
+    {
+      "id": "distrital",
+      "date": "Jul - Dec 2016",
+      "title": "STUDENT RESEARCHER | INTERN",
+      "subtitle": "Universidad Distrital Francisco José de Caldas | Universidad Piloto de Colombia | Bogota, CO",
+      "tooltip": "About Universidad Distrital Francisco José de Caldas",
+      "secondTooltip": "About Universidad Piloto de Colombia",
+      "description": "Project: Diseño de un sistema domótico con la placa Intel Galileo Gen1. This project was based on the internet of things IoT, using programming languages like Python, HTML5, CSS, others",
+      "isEducation": true,
+      "items": []
+    }
+  ],
+  "education": {
+    "degree": "Degree",
+    "course": "Course",
+    "items": {
+      "ef": {
+        "title": "ENGLISH COURSE",
+        "subtitle": "EF Education First | Vancouver, CA",
+        "description": "Intermediate English course (B1-B2)"
+      },
+      "bb": {
+        "title": "CODING BOOTCAMP",
+        "subtitle": "Bogota Dev. Bootcamp & Dev Shop | Bogota, CO",
+        "description": "Full-stack web development bootcamp focused on Ruby on Rails"
+      },
+      "distrital": {
+        "title": "MECHATRONICS ENGINEERING",
+        "subtitle": "Universidad Distrital Francisco José de Caldas | Bogota, CO",
+        "description": "Bachelor's degree in Mechatronics Engineering"
+      }
+    }
+  },
+  "socialLinks": [
+    {
+      "label": "Resume",
+      "url": "https://drive.google.com/file/d/19_SCdFnqdS_J-f0YIU4dVdSYBL-MnTRT/view?usp=sharing",
+      "variant": "outline-success"
+    },
+    {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/camimeneses/",
+      "variant": "outline-info"
+    },
+    {
+      "label": "Github",
+      "url": "https://github.com/CamiMeneses",
+      "variant": "outline-primary"
+    }
+  ],
+  "language": {
+    "switchTo": "ES"
+  }
+}

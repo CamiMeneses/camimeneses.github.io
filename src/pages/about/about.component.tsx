@@ -7,8 +7,12 @@ import Profile from "assets/img/profile/profile.png";
 import "./about.style.scss";
 
 import { profile } from "data/profile";
+import { useTranslation } from "i18n";
 
 const About = () => {
+  const { t } = useTranslation();
+  const { about } = t;
+
   return (
     <div className="about-container">
       <div id="about" className="section">
@@ -28,24 +32,24 @@ const About = () => {
               </Row>
               <Row className="justify-content-center nospace">
                 <h1>{profile.name}</h1>
-                <h2>{profile.title}</h2>
+                <h2>{about.title}</h2>
                 <br />
               </Row>
             </Col>
             <Col xs={12} sm={12} md={6} lg={6} xl={6}>
               <Row className="align-items-start rounded profile-text">
                 <p>
-                  {profile.bio.map((paragraph, index) => (
+                  {about.bio.map((paragraph, index) => (
                     <span key={index}>
                       <span dangerouslySetInnerHTML={{ __html: paragraph }} />
                       <br />
                       <br />
                     </span>
                   ))}
-                  Check out my website, learn more about me <br />
-                  and feel free to{" "}
+                  {about.checkOut} <br />
+                  {about.andFeelFree}{" "}
                   <b>
-                    <a href="#contact">contact me</a>
+                    <a href="#contact">{about.contactMe}</a>
                   </b>
                   .
                 </p>

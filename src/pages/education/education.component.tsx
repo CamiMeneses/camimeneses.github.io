@@ -14,10 +14,14 @@ import eng from "../../assets/icons/education/eng.webp";
 import ec from "../../assets/icons/education/ec.png";
 import ef from "../../assets/icons/education/ef.svg";
 
+import { useTranslation } from "i18n";
+
 const Education = () => {
+  const { t } = useTranslation();
+
   return (
     <div id="education" className="section">
-      <h1>EDUCATION</h1>
+      <h1>{t.sections.education}</h1>
       <Container>
         <Row className="pt-1 pb-4 align-items-center">
           {/*Courses*/}

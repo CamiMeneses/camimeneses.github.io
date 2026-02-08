@@ -2,7 +2,9 @@ import "./App.scss";
 import { Parallax } from "react-parallax";
 import ParticlesBg from "particles-bg";
 
+import { LanguageProvider } from "i18n";
 import MyNavbar from "components/my-navbar/mynavbar.component";
+import LanguageToggle from "components/language-toggle/language-toggle.component";
 import Links from "components/links/links.component";
 import TitleMessage from "components/title-message/title-message.component";
 import Welcome from "pages/welcome/welcome.component";
@@ -14,23 +16,26 @@ import Contact from "pages/contact/contact.component";
 
 const App = () => {
   return (
-    <div className="App">
-      <div className="parallax">
-        <MyNavbar />
-        <Welcome>
-          <ParticlesBg type="cobweb" color="#fc7979" num={10} bg={true} />
-        </Welcome>
-        <TitleMessage />
-        <About />
-        <Skills />
-        <EducationSection />
-        <ExperienceSection />
-        <Contact>
-          <ParticlesBg type="lines" num={100} bg={true} />
-        </Contact>
-        <Links />
+    <LanguageProvider>
+      <LanguageToggle />
+      <div className="App">
+        <div className="parallax">
+          <MyNavbar />
+          <Welcome>
+            <ParticlesBg type="cobweb" color="#fc7979" num={10} bg={true} />
+          </Welcome>
+          <TitleMessage />
+          <About />
+          <Skills />
+          <EducationSection />
+          <ExperienceSection />
+          <Contact>
+            <ParticlesBg type="lines" num={100} bg={true} />
+          </Contact>
+          <Links />
+        </div>
       </div>
-    </div>
+    </LanguageProvider>
   );
 };
 

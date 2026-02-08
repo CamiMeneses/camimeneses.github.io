@@ -1,0 +1,226 @@
+{
+  "nav": {
+    "home": "INICIO",
+    "about": "SOBRE MÍ",
+    "skills": "HABILIDADES",
+    "education": "EDUCACIÓN",
+    "experience": "EXPERIENCIA",
+    "contact": "CONTACTO"
+  },
+  "welcome": {
+    "hello": "¡Hola!",
+    "im": "Soy",
+    "name": "Camila Meneses",
+    "welcomeTo": "Bienvenido a mi",
+    "website": "sitio web",
+    "knowMore": "Conoce más",
+    "aboutMe": "sobre mí"
+  },
+  "about": {
+    "title": "Ingeniera Mecatrónica & Desarrolladora Web",
+    "bio": [
+      "Ingeniera Mecatrónica y Desarrolladora Web con experiencia en desarrollo con <b>Ruby on Rails</b> y <b>NestJS</b>, utilizando <b>RSpec</b> y <b>Jest</b> para testing, junto con <b>HTML</b>, <b>CSS</b> y <b>ReactJS</b>.",
+      "Experiencia trabajando con <b>Redis</b>, <b>RabbitMQ</b> y <b>GitHub</b>, aplicando metodología Scrum con <b>Jira</b> y <b>Trello</b>.",
+      "Además, tengo experiencia práctica integrando <b>Large Language Models (LLMs)</b> en aplicaciones, incluyendo consumo de APIs y desarrollo de funcionalidades impulsadas por IA.",
+      "Sigo aprendiendo sobre este mundo del desarrollo y quiero trabajar de la mano con los mejores desarrolladores y personas de todas las culturas para crecer en muchos aspectos.",
+      "¡Acepto cualquier desafío!"
+    ],
+    "checkOut": "Explora mi sitio web, conoce más sobre mí",
+    "andFeelFree": "y no dudes en",
+    "contactMe": "contactarme"
+  },
+  "sections": {
+    "skills": "HABILIDADES",
+    "education": "EDUCACIÓN",
+    "experience": "EXPERIENCIA",
+    "contact": "CONTACTO"
+  },
+  "contact": {
+    "title": "CONTACTO",
+    "getInTouch": "Ponte en contacto",
+    "email": "Correo",
+    "location": "Ubicación",
+    "colombia": "Colombia"
+  },
+  "experiences": [
+    {
+      "id": "linc",
+      "date": "Dic 2023 - Actual",
+      "title": "DESARROLLADORA DE SOFTWARE",
+      "subtitle": "Lincspring & Yourwai | US | Remoto",
+      "tooltip": "Sobre Linc",
+      "items": [
+        {
+          "text": "Proyecto: LincSpring",
+          "link": "https://linclearning.com/es/",
+          "highlight": "Desarrolladora Ruby on Rails"
+        },
+        {
+          "text": "Proyecto: Yourwai.",
+          "highlight": "Desarrolladora Fullstack, Typescript, NestJs"
+        },
+        { "text": "Integraciones con OpenAi" }
+      ]
+    },
+    {
+      "id": "skydropx",
+      "date": "Oct 2021 - Dic 2022",
+      "title": "DESARROLLADORA RUBY ON RAILS",
+      "subtitle": "Skydropx | MX | Remoto",
+      "tooltip": "Sobre Skydropx",
+      "items": [
+        { "highlight": "Ruby on Rails" },
+        { "highlight": "Scrum - Jira" }
+      ]
+    },
+    {
+      "id": "picap",
+      "date": "Dic 2020 - Sep 2021",
+      "title": "DESARROLLADORA RUBY ON RAILS",
+      "subtitle": "Picap | Bogotá, CO | Remoto",
+      "tooltip": "Sobre Picap",
+      "items": [
+        { "highlight": "Ruby on Rails" },
+        {
+          "text": "Construcción de proyecto desde cero",
+          "link": "https://www.picap.app/#/pibox-storage",
+          "linkText": "Pibox Storage"
+        },
+        { "text": "Pruebas unitarias", "highlight": "Rspec" },
+        { "text": "Uso de", "highlight": "Heroku" },
+        { "highlight": "API REST" },
+        {
+          "text": "Uso de herramienta de control de versiones Git y plataforma Bitbucket"
+        },
+        { "highlight": "Scrum - Clickup" }
+      ]
+    },
+    {
+      "id": "twotransfair",
+      "date": "Mar - Jul 2020",
+      "title": "DESARROLLADORA INTERMEDIA",
+      "subtitle": "2Transfair | FINTECH | Bogotá, CO | Parcialmente remoto",
+      "tooltip": "Sobre 2Transfair",
+      "items": [
+        { "highlight": "Ruby on Rails" },
+        {
+          "text": "Trabajé con un equipo para construir una plataforma de créditos"
+        },
+        { "text": "Uso de", "highlight": "HTML, CSS, bootstrap" },
+        { "text": "Construcción de PDFs con datos dinámicos" },
+        { "highlight": "Monolítico" },
+        { "highlight": "API REST" },
+        {
+          "text": "Uso de herramienta de control de versiones Git y plataforma Bitbucket, revisión de Pull Requests."
+        },
+        { "text": "Contacto con cliente" },
+        { "highlight": "Trello" }
+      ]
+    },
+    {
+      "id": "youse",
+      "date": "May - Dic 2019",
+      "title": "IT TRAINEE | DESARROLLADORA RUBY ON RAILS",
+      "subtitle": "Youse Colombia - CNPX | INSURTECH | Bogotá, CO",
+      "tooltip": "Sobre CNPX | Youse",
+      "items": [
+        {
+          "text": "Colaboré con un equipo para implementar una plataforma de seguros"
+        },
+        {
+          "text": "Escribí pruebas unitarias para asegurar la calidad usando",
+          "highlight": "Rspec"
+        },
+        {
+          "text": "Uso de herramienta de control de versiones Git y plataforma GitHub, revisión de Pull Requests"
+        },
+        { "text": "Trabajé con terceros para implementar Salesforce" },
+        { "text": "Seguí la metodología Scrum y usé", "highlight": "Jira" },
+        {
+          "text": "Configuré, actualicé y usé datos de",
+          "highlight": "AWS S3 y Redis"
+        },
+        { "text": "Serví como bug-fixer y arreglé tests intermitentes" },
+        {
+          "text": "Uso de herramientas como",
+          "highlight": "Rabbit MQ, Logentries"
+        },
+        { "highlight": "Microservicios" }
+      ]
+    },
+    {
+      "id": "bb",
+      "date": "Mar - May 2019",
+      "title": "DESARROLLADORA WEB FREELANCE",
+      "subtitle": "Bogota Dev. Bootcamp & Dev Shop | Bogotá, CO",
+      "tooltip": "Sobre Bogota Dev. Bootcamp & Dev Shop",
+      "items": [
+        {
+          "text": "Construí una aplicación desde cero para gestionar el bootcamp usando Ruby on Rails, Haml, Bootstrap, Devise gem y la subí a Heroku"
+        },
+        {
+          "text": "Implementé operaciones CRUD usando la arquitectura MVC (Model View Controller)"
+        }
+      ]
+    },
+    {
+      "id": "unidad",
+      "date": "Nov - Dic 2017",
+      "title": "TÉCNICO 1 CALIDAD DE DATOS",
+      "subtitle": "Unión temporal proceso unidad para la atención y reparación integral a las víctimas 2017 | Bogotá, CO",
+      "items": []
+    },
+    {
+      "id": "distrital",
+      "date": "Jul - Dic 2016",
+      "title": "INVESTIGADORA ESTUDIANTIL | PASANTE",
+      "subtitle": "Universidad Distrital Francisco José de Caldas | Universidad Piloto de Colombia | Bogotá, CO",
+      "tooltip": "Sobre Universidad Distrital Francisco José de Caldas",
+      "secondTooltip": "Sobre Universidad Piloto de Colombia",
+      "description": "Proyecto: Diseño de un sistema domótico con la placa Intel Galileo Gen1. Este proyecto se basó en el internet de las cosas IoT, usando lenguajes de programación como Python, HTML5, CSS, entre otros",
+      "isEducation": true,
+      "items": []
+    }
+  ],
+  "education": {
+    "degree": "Título",
+    "course": "Curso",
+    "items": {
+      "ef": {
+        "title": "CURSO DE INGLÉS",
+        "subtitle": "EF Education First | Vancouver, CA",
+        "description": "Curso de inglés intermedio (B1-B2)"
+      },
+      "bb": {
+        "title": "BOOTCAMP DE PROGRAMACIÓN",
+        "subtitle": "Bogota Dev. Bootcamp & Dev Shop | Bogotá, CO",
+        "description": "Bootcamp de desarrollo web full-stack enfocado en Ruby on Rails"
+      },
+      "distrital": {
+        "title": "INGENIERÍA MECATRÓNICA",
+        "subtitle": "Universidad Distrital Francisco José de Caldas | Bogotá, CO",
+        "description": "Título profesional en Ingeniería Mecatrónica"
+      }
+    }
+  },
+  "socialLinks": [
+    {
+      "label": "Currículum",
+      "url": "https://drive.google.com/file/d/19_SCdFnqdS_J-f0YIU4dVdSYBL-MnTRT/view?usp=sharing",
+      "variant": "outline-success"
+    },
+    {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/camimeneses/",
+      "variant": "outline-info"
+    },
+    {
+      "label": "Github",
+      "url": "https://github.com/CamiMeneses",
+      "variant": "outline-primary"
+    }
+  ],
+  "language": {
+    "switchTo": "EN"
+  }
+}

@@ -62,7 +62,7 @@ button.navbar-toggler:focus-visible {
 
 .navbar-toggler .navbar-toggler-icon::before,
 .navbar-toggler .navbar-toggler-icon::after {
-  content: '';
+  content: "";
   display: block;
   width: 12px;
   height: 1.5px;
@@ -79,6 +79,7 @@ button.navbar-toggler:focus-visible {
     text-shadow: none;
     height: 10px;
     background: $background-navbar-large;
+    padding-right: 4rem;
 
     .nav-link {
       color: transparent;

@@ -5,11 +5,14 @@ import Col from "react-bootstrap/Col";
 import Image from "react-bootstrap/Image";
 
 import { skills } from "data/skills";
+import { useTranslation } from "i18n";
 
 const Skills = () => {
+  const { t } = useTranslation();
+
   return (
     <div id="skills" className="section">
-      <h1>SKILLS</h1>
+      <h1>{t.sections.skills}</h1>
       <div id="skills-box">
         <Container fluid="md">
           <Row>

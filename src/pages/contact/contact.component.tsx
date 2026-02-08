@@ -3,18 +3,22 @@ import { Container } from "react-bootstrap";
 import "./contact.style.scss";
 
 import { profile } from "data/profile";
+import { useTranslation } from "i18n";
 
 interface ContactProps {
   children?: ReactNode;
 }
 
 const Contact = ({ children }: ContactProps) => {
+  const { t } = useTranslation();
+  const { contact } = t;
+
   return (
     <div className="contact-wrapper">
       <div className="section" id="contact">
         <div id="contact-box">
           <div className="title">
-            <b>Say Hi!</b>
+            <b>{contact.getInTouch}!</b>
           </div>
           <Container>
             <div className="text-subtitle">

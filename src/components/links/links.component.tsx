@@ -4,17 +4,25 @@ import Col from "react-bootstrap/Col";
 import Navbar from "react-bootstrap/Navbar";
 import "./links.style.scss";
 
-import { socialLinks, type SocialLink } from "data/profile";
+import { useTranslation } from "i18n";
 
 const Links = () => {
+  const { t } = useTranslation();
+
   return (
     <div>
       <Navbar fixed="bottom">
         <div className="links">
           <Row>
             <Col className="d-flex justify-content-center flex-wrap">
-              {socialLinks.map((link) => (
-                <LinkButton key={link.id} link={link} />
+              {t.socialLinks.map((link) => (
+                <div key={link.label}>
+                  <a href={link.url} target="_blank" rel="noopener noreferrer">
+                    <Button className="m-2" variant={link.variant}>
+                      {link.label}
+                    </Button>
+                  </a>
+                </div>
               ))}
             </Col>
           </Row>
@@ -23,19 +31,5 @@ const Links = () => {
     </div>
   );
 };
-
-interface LinkButtonProps {
-  link: SocialLink;
-}
-
-const LinkButton = ({ link }: LinkButtonProps) => (
-  <div>
-    <a href={link.url} target="_blank" rel="noopener noreferrer">
-      <Button className="m-2" variant={link.variant}>
-        {link.label}
-      </Button>
-    </a>
-  </div>
-);
 
 export default Links;
