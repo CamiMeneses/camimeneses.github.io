@@ -1,7 +1,7 @@
 @import "./backgrounds_svg.scss";
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
-$background: #0e091a; //
+$background: #0e091a;
 $background-transparent: #0e091af6;
 $background-transparent2: #0e091ad2;
 $background-transparent3: #b199e054;
@@ -14,13 +14,12 @@ $dark-purple: #3c245c;
 $pink: #d64d88;
 $barbie: #f87df2;
 $super-pink: #fa3989;
-$light-yellow: #fff79e; //Canary
+$light-yellow: #fff79e;
 $yellow-transparent: #fcf6b283;
 $light-green: #23efc6;
-$dark-blue: #3a405a; //Independence - 456990 Queen Blue
+$dark-blue: #3a405a;
 $blue: #0099ff;
 
-// Generals
 $links-color: 0.5px 0.5px 0.5px $blue, -0.5px 0.5px 0.5px $light-green,
   0.5px -0.5px 0.5px $super-pink, -0.5px -0.5px 0.5px $light-yellow;
 $shadow-white: 1px 1px 4px $light-purple, -1px 1px 4px $light-purple,
@@ -36,7 +35,6 @@ $about-subtitle: $light;
 
 $linkedin-button: $light-purple;
 
-// Welcome
 $welcome-message: $light;
 $welcome-contrast: $light;
 $welcome-shadow1: $dark-blue;
@@ -44,7 +42,6 @@ $welcome-shadow2: $barbie;
 $contrast-shadow1: $light-purple;
 $contrast-shadow2: $light-purple;
 
-//navabar
 $navbar-color: white;
 $navbar-color-shadow: $light-green;
 $navbar-active: white;
@@ -63,17 +60,14 @@ $background-navbar-small: linear-gradient(
   rgba(0, 0, 0, 0.1) 100%
 );
 
-//buttons
 $success-botton: #85e285;
 
-// Experience
 $experience-date-letter: $light;
 $experience-date-background: $super-pink;
 $experience-title: $pink;
 $experience-subtitle: $blue;
 $background-box-experience: $light;
 
-// Education
 $piloto-color: $light-yellow;
 $piloto-border: $pink;
 $piloto-background: rgba(248, 205, 212, 0.466);
@@ -83,11 +77,9 @@ $education-secundary: rgb(253, 173, 240);
 $education-description: $light;
 $a-text-subtitle-ec: $light-yellow;
 
-// skills
 $skills-background: rgba(255, 255, 255, 0.2);
 $skills-background-title: #301d49da;
 
-// contact
 $contact-info: rgba(255, 255, 255, 0.747);
 $contact-title: $light-green;
 $contact-gradient1: $orange;

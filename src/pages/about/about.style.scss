@@ -50,11 +50,17 @@
   );
   position: absolute;
   bottom: 0;
+  z-index: 0;
 }
 
-.profile {
-  margin: 90px 25px 25px 25px !important;
-  width: 24em !important;
+#about .container {
+  position: relative;
+  z-index: 1;
+}
+
+#about .profile {
+  margin: 25px;
+  width: 24em;
   max-width: 90vw;
   height: auto;
 }
@@ -64,9 +70,9 @@
     padding: 2rem;
   }
 
-  .profile {
-    margin: 10px 0px !important;
-    width: 20em !important;
+  #about .profile {
+    margin: 10px 0px;
+    width: 20em;
   }
 
   .about-container {

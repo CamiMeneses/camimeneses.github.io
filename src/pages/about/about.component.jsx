@@ -55,7 +55,7 @@ const About = () => {
                   Check out my website, learn more about me <br />
                   and feel free to{" "}
                   <b>
-                    <a href="#contact" target="contact me">
+                    <a href="#contact">
                       contact me
                     </a>{" "}
                   </b>
