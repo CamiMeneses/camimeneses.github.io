@@ -3,10 +3,10 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Image from "react-bootstrap/Image";
 
-import Profile from "../../assets/img/profile/profile.png";
+import Profile from "assets/img/profile/profile.png";
 import "./about.style.scss";
 
-import { profile } from "../../data/profile";
+import { profile } from "data/profile";
 
 const About = () => {
   return (

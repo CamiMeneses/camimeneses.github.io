@@ -1,22 +1,28 @@
-import Ruby from "../assets/icons/skills/ruby.png";
-import Rails from "../assets/icons/skills/rails.png";
-import Nest from "../assets/icons/skills/nest.png";
-import Html from "../assets/icons/skills/html.png";
-import Css from "../assets/icons/skills/css.png";
-import Typescript from "../assets/icons/skills/typescript.png";
-import Rspec from "../assets/icons/skills/rspec.png";
-import Jest from "../assets/icons/skills/jest.png";
-import Postgres from "../assets/icons/skills/postgres.png";
-import Mongo from "../assets/icons/skills/mongo.png";
-import Git from "../assets/icons/skills/git.webp";
-import Github from "../assets/icons/skills/github.png";
-import Bitbucket from "../assets/icons/skills/bitbucket.png";
-import Awss3 from "../assets/icons/skills/awss3.png";
-import Scrum from "../assets/icons/skills/scrum.png";
-import Jira from "../assets/icons/skills/jira.png";
-import Trello from "../assets/icons/skills/trello.png";
+import Ruby from "assets/icons/skills/ruby.png";
+import Rails from "assets/icons/skills/rails.png";
+import Nest from "assets/icons/skills/nest.png";
+import Html from "assets/icons/skills/html.png";
+import Css from "assets/icons/skills/css.png";
+import Typescript from "assets/icons/skills/typescript.png";
+import Rspec from "assets/icons/skills/rspec.png";
+import Jest from "assets/icons/skills/jest.png";
+import Postgres from "assets/icons/skills/postgres.png";
+import Mongo from "assets/icons/skills/mongo.png";
+import Git from "assets/icons/skills/git.webp";
+import Github from "assets/icons/skills/github.png";
+import Bitbucket from "assets/icons/skills/bitbucket.png";
+import Awss3 from "assets/icons/skills/awss3.png";
+import Scrum from "assets/icons/skills/scrum.png";
+import Jira from "assets/icons/skills/jira.png";
+import Trello from "assets/icons/skills/trello.png";
 
-export const skills = [
+export interface Skill {
+  id: string;
+  name: string;
+  icon: string;
+}
+
+export const skills: Skill[] = [
   { id: "ruby", name: "Ruby", icon: Ruby },
   { id: "rails", name: "Rails", icon: Rails },
   { id: "nest", name: "NestJs", icon: Nest },

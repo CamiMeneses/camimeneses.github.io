@@ -14,7 +14,7 @@ import {
   experiences,
   type Experience as ExperienceType,
   type ExperienceItem as ExperienceItemType,
-} from "../../data/experience";
+} from "data/experience";
 
 const Experience = () => {
   return (
@@ -156,13 +156,7 @@ const LogoWithTooltip = ({
     overlay={<Tooltip>{tooltip}</Tooltip>}
   >
     <a href={url} target="_blank" rel="noopener noreferrer">
-      <img
-        className="logo"
-        id={logoId}
-        alt={tooltip}
-        src={logo}
-        loading="lazy"
-      />
+      <img className="logo" id={logoId} alt={tooltip} src={logo} loading="lazy" />
     </a>
   </OverlayTrigger>
 );

@@ -2,7 +2,7 @@ import { ReactNode } from "react";
 import { Container } from "react-bootstrap";
 import "./contact.style.scss";
 
-import { profile } from "../../data/profile";
+import { profile } from "data/profile";
 
 interface ContactProps {
   children?: ReactNode;

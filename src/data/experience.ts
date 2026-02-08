@@ -1,12 +1,12 @@
-import linc from "../assets/icons/experience/linc.webp";
-import skydropx from "../assets/icons/experience/skydropx.png";
-import picap from "../assets/icons/experience/picap.jpg";
-import twoTransfair from "../assets/icons/experience/2transfair.png";
-import youse from "../assets/icons/experience/youse.png";
-import bb from "../assets/icons/experience/bb.png";
-import upc from "../assets/icons/experience/upc.png";
-import distrital from "../assets/icons/experience/distrital.png";
-import unidad from "../assets/icons/experience/unidad.png";
+import linc from "assets/icons/experience/linc.webp";
+import skydropx from "assets/icons/experience/skydropx.png";
+import picap from "assets/icons/experience/picap.jpg";
+import twoTransfair from "assets/icons/experience/2transfair.png";
+import youse from "assets/icons/experience/youse.png";
+import bb from "assets/icons/experience/bb.png";
+import upc from "assets/icons/experience/upc.png";
+import distrital from "assets/icons/experience/distrital.png";
+import unidad from "assets/icons/experience/unidad.png";
 
 export interface ExperienceItem {
   text?: string;

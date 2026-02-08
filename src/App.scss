@@ -7,32 +7,10 @@
   min-height: 100%;
   overflow-x: hidden;
   max-width: 100%;
+}
 
-  .container {
-    max-width: 98%;
-  }
-
-  h1 {
-    text-align: center;
-    font-weight: bolder;
-    font-size: 3em;
-    padding-top: 1.1em;
-    padding-bottom: 0.7em;
-    color: $titles;
-    text-shadow: $shadow-white;
-  }
-
-  a {
-    color: $purple;
-    font-weight: 500;
-    text-decoration: none;
-
-    &:hover {
-      font-weight: 700;
-      text-shadow: $links-color;
-      color: white;
-    }
-  }
+.App .container {
+  max-width: 98%;
 }
 
 .parallax {
@@ -68,6 +46,16 @@
   padding: 0.5em;
 }
 
+.App h1 {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 3em;
+  padding-top: 1.1em;
+  padding-bottom: 0.7em;
+  color: $titles;
+  text-shadow: $shadow-white;
+}
+
 .text-subtitle {
   font-weight: 400;
   color: $education-secundary;
@@ -83,4 +71,16 @@
 .nospace {
   margin: 0;
   padding: 0;
+}
+
+.App a {
+  color: $purple;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.App a:hover {
+  font-weight: 700;
+  text-shadow: $links-color;
+  color: white;
 }

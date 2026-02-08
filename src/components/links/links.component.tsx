@@ -4,7 +4,7 @@ import Col from "react-bootstrap/Col";
 import Navbar from "react-bootstrap/Navbar";
 import "./links.style.scss";
 
-import { socialLinks, type SocialLink } from "../../data/profile";
+import { socialLinks, type SocialLink } from "data/profile";
 
 const Links = () => {
   return (

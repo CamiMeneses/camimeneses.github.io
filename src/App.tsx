@@ -2,15 +2,15 @@ import "./App.scss";
 import { Parallax } from "react-parallax";
 import ParticlesBg from "particles-bg";
 
-import MyNavbar from "./components/my-navbar/mynavbar.component";
-import Links from "./components/links/links.component";
-import TitleMessage from "./components/title-message/title-message.component";
-import Welcome from "./pages/welcome/welcome.component";
-import About from "./pages/about/about.component";
-import Skills from "./pages/skills/skills.component";
-import Education from "./pages/education/education.component";
-import Experience from "./pages/experience/experience.component";
-import Contact from "./pages/contact/contact.component";
+import MyNavbar from "components/my-navbar/mynavbar.component";
+import Links from "components/links/links.component";
+import TitleMessage from "components/title-message/title-message.component";
+import Welcome from "pages/welcome/welcome.component";
+import About from "pages/about/about.component";
+import Skills from "pages/skills/skills.component";
+import Education from "pages/education/education.component";
+import Experience from "pages/experience/experience.component";
+import Contact from "pages/contact/contact.component";
 
 const App = () => {
   return (
