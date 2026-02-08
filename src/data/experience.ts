@@ -8,7 +8,32 @@ import upc from "../assets/icons/experience/upc.png";
 import distrital from "../assets/icons/experience/distrital.png";
 import unidad from "../assets/icons/experience/unidad.png";
 
-export const experiences = [
+export interface ExperienceItem {
+  text?: string;
+  link?: string;
+  linkText?: string;
+  highlight?: string;
+}
+
+export interface Experience {
+  id: string;
+  logo: string;
+  logoId: string;
+  date: string;
+  title: string;
+  subtitle: string;
+  url: string | null;
+  tooltip: string | null;
+  items: ExperienceItem[];
+  secondLogo?: string;
+  secondLogoId?: string;
+  secondUrl?: string;
+  secondTooltip?: string;
+  description?: string;
+  isEducation?: boolean;
+}
+
+export const experiences: Experience[] = [
   {
     id: "linc",
     logo: linc,
@@ -166,5 +191,6 @@ export const experiences = [
     description:
       "Project: Diseño de un sistema domótico con la placa Intel Galileo Gen1. This project was based on the internet of things IoT, using programming languages like Python, HTML5, CSS, others",
     isEducation: true,
+    items: [],
   },
 ];
