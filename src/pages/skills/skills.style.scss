@@ -2,7 +2,7 @@
 
 #skills {
   position: static;
-  background-color: #00000066;
+  background-color: $skills-overlay;
   clip-path: polygon(0% 3%, 100% 0%, 100% 100%, 0% 100%);
   background-size: cover;
   background-position: center;

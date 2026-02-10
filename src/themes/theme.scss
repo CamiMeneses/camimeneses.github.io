@@ -1,58 +1,100 @@
 @import "./backgrounds_svg.scss";
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
-$background: #0e091a;
-$background-transparent: #0e091af6;
-$background-transparent2: #0e091ad2;
-$background-transparent3: #b199e054;
+// =============================================================================
+// COLOR PALETTE - Base Colors
+// =============================================================================
 
-$light: #e8e8e8;
-$orange: #fc7979;
-$light-purple: #a682ff;
-$purple: #a31ed8;
-$dark-purple: #3c245c;
-$pink: #d64d88;
-$barbie: #f87df2;
-$super-pink: #fa3989;
-$light-yellow: #fff79e;
-$yellow-transparent: #fcf6b283;
-$light-green: #23efc6;
-$dark-blue: #3a405a;
-$blue: #0099ff;
+// Background colors
+$color-background: #0e091a;
+$color-background-light: #301d49;
 
-$links-color: 0.5px 0.5px 0.5px $blue, -0.5px 0.5px 0.5px $light-green,
-  0.5px -0.5px 0.5px $super-pink, -0.5px -0.5px 0.5px $light-yellow;
-$shadow-white: 1px 1px 4px $light-purple, -1px 1px 4px $light-purple,
-  1px -1px 4px $light-purple, -1px -1px 4px $light-purple;
-$titles: white;
-$background-glass: rgba(255, 255, 255, 0.2);
+// Neutral colors
+$color-white: #ffffff;
+$color-light: #e8e8e8;
+$color-gray: #444444;
+$color-dark: #0b0c10;
+
+// Primary palette - Purples
+$color-purple-light: #a682ff;
+$color-purple: #a31ed8;
+$color-purple-dark: #3c245c;
+
+// Secondary palette - Pinks
+$color-pink: #d64d88;
+$color-pink-hot: #fa3989;
+$color-pink-bright: #f87df2;
+
+// Accent colors
+$color-coral: #fc7979;
+$color-teal: #23efc6;
+$color-blue: #0099ff;
+$color-yellow: #fff79e;
+$color-green: #85e285;
+
+// =============================================================================
+// SEMANTIC TOKENS - Usage-based variables
+// =============================================================================
+
+// Background variations
+$background: $color-background;
+$background-transparent: #{$color-background}f6;
+$background-transparent-medium: #{$color-background}d2;
+$background-transparent-light: #{$color-purple-light}54;
+
+// Text colors
+$text-primary: $color-light;
+$text-secondary: $color-pink-bright;
+$text-accent: $color-yellow;
+$text-inverse: $color-background;
+
+// Link colors
+$link-color: $color-purple;
+$link-hover: $color-white;
+
+// Title styling
+$titles: $color-white;
+$shadow-white: 1px 1px 4px $color-purple-light, -1px 1px 4px $color-purple-light,
+  1px -1px 4px $color-purple-light, -1px -1px 4px $color-purple-light;
+$links-color: 0.5px 0.5px 0.5px $color-blue, -0.5px 0.5px 0.5px $color-teal,
+  0.5px -0.5px 0.5px $color-pink-hot, -0.5px -0.5px 0.5px $color-yellow;
+
+// Glass effect
+$background-glass: rgba($color-white, 0.2);
 $blur-glass: blur(5px);
-$border-glass: 1px solid rgba(255, 255, 255, 0.3);
+$border-glass: 1px solid rgba($color-white, 0.3);
 
-$about-color: $light;
-$about-name: $light;
-$about-subtitle: $light;
+// =============================================================================
+// COMPONENT TOKENS - Section-specific variables
+// =============================================================================
 
-$linkedin-button: $light-purple;
+// About section
+$about-color: $text-primary;
+$about-name: $text-primary;
+$about-subtitle: $text-primary;
 
-$welcome-message: $light;
-$welcome-contrast: $light;
-$welcome-shadow1: $dark-blue;
-$welcome-shadow2: $barbie;
-$contrast-shadow1: $light-purple;
-$contrast-shadow2: $light-purple;
+// Welcome section
+$welcome-message: $text-primary;
+$welcome-contrast: $text-primary;
+$welcome-shadow1: $color-purple-dark;
+$welcome-shadow2: $color-pink-bright;
+$contrast-shadow1: $color-purple-light;
+$contrast-shadow2: $color-purple-light;
 
-$navbar-color: white;
-$navbar-color-shadow: $light-green;
-$navbar-active: white;
-$navbar-active-shadow: $super-pink;
-$navbar-hover: white;
-$navbar-hover-shadow: $blue;
+// Navbar
+$navbar-color: $color-white;
+$navbar-color-shadow: $color-teal;
+$navbar-active: $color-white;
+$navbar-active-shadow: $color-pink-hot;
+$navbar-hover: $color-white;
+$navbar-hover-shadow: $color-blue;
+$navbar-toggler-color: $color-gray;
+$navbar-mobile-bg: rgba(20, 10, 30, 0.9);
 $background-navbar-large: linear-gradient(
   to right,
   rgba(0, 0, 0, 0) 30%,
-  rgba(255, 255, 255, 0.41) 70%,
-  #a582ff6e 95%
+  rgba($color-white, 0.41) 70%,
+  #{$color-purple-light}6e 95%
 );
 $background-navbar-small: linear-gradient(
   to right,
@@ -60,33 +102,87 @@ $background-navbar-small: linear-gradient(
   rgba(0, 0, 0, 0.1) 100%
 );
 
-$success-botton: #85e285;
+// Links component
+$linkedin-button: $color-purple-light;
 
-$experience-date-letter: $light;
-$experience-date-background: $super-pink;
-$experience-title: $pink;
-$experience-subtitle: $blue;
-$background-box-experience: $light;
+// Experience section
+$experience-date-letter: $text-primary;
+$experience-date-background: $color-pink-hot;
+$experience-title: $color-pink;
+$experience-subtitle: $color-blue;
+$experience-icon-background: $color-white;
+$background-box-experience: $color-light;
 
-$piloto-color: $light-yellow;
-$piloto-border: $pink;
+// Education section
+$piloto-color: $color-yellow;
+$piloto-border: $color-pink;
 $piloto-background: rgba(248, 205, 212, 0.466);
-$education-type: $light-yellow;
-$education-primary: $light-yellow;
-$education-secundary: rgb(253, 173, 240);
-$education-description: $light;
-$a-text-subtitle-ec: $light-yellow;
+$education-type: $color-yellow;
+$education-primary: $color-yellow;
+$education-secundary: $color-pink-bright;
+$education-description: $text-primary;
+$a-text-subtitle-ec: $color-yellow;
 
-$skills-background: rgba(255, 255, 255, 0.2);
-$skills-background-title: #301d49da;
+// Skills section
+$skills-background: $background-glass;
+$skills-background-title: #{$color-background-light}da;
+$skills-overlay: rgba(0, 0, 0, 0.4);
 
-$contact-info: rgba(255, 255, 255, 0.747);
-$contact-title: $light-green;
-$contact-gradient1: $orange;
-$contact-gradient2: $super-pink;
+// Contact section
+$contact-info: rgba($color-white, 0.747);
+$contact-title: $color-teal;
+$contact-gradient1: $color-coral;
+$contact-gradient2: $color-pink-hot;
 $background-contact: $background;
-$background-description: white;
+$background-description: $color-white;
+$success-button: $color-green;
+
+// Particles
+$particles-color: $color-coral;
+
+// Scroll indicator
+$scroll-text-shadow: $color-teal;
+$scroll-color: $color-white;
+
+// Carousel
+$carousel-shadow: rgba(0, 0, 0, 1);
+
+// =============================================================================
+// EXPORTS - For JavaScript/TypeScript usage
+// =============================================================================
 
 :export {
+  // Base colors
+  colorBackground: $color-background;
+  colorBackgroundLight: $color-background-light;
+  colorWhite: $color-white;
+  colorLight: $color-light;
+  colorGray: $color-gray;
+  colorDark: $color-dark;
+
+  // Primary palette
+  colorPurpleLight: $color-purple-light;
+  colorPurple: $color-purple;
+  colorPurpleDark: $color-purple-dark;
+
+  // Secondary palette
+  colorPink: $color-pink;
+  colorPinkHot: $color-pink-hot;
+  colorPinkBright: $color-pink-bright;
+
+  // Accent colors
+  colorCoral: $color-coral;
+  colorTeal: $color-teal;
+  colorBlue: $color-blue;
+  colorYellow: $color-yellow;
+  colorGreen: $color-green;
+
+  // Semantic tokens
+  background: $background;
+  textPrimary: $text-primary;
+  textSecondary: $text-secondary;
+  textAccent: $text-accent;
+
+  // Legacy export (for backwards compatibility)
   dark: $background;
 }

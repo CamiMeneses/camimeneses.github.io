@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import colors from "themes/theme";
 
 const MyScroll = styled.div`
   position: relative;
@@ -9,8 +10,8 @@ const MyScroll = styled.div`
   justify-content: center;
   background-color: transparent;
   font-weight: bold;
-  text-shadow: 1px 1px #45a296;
-  color: #fff;
+  text-shadow: 1px 1px ${colors.teal};
+  color: ${colors.white};
   .turn {
     cursor: pointer;
     transform: rotate(90deg);

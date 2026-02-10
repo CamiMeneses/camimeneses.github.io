@@ -1,24 +1,24 @@
+@import "../../themes/theme.scss";
 
-.custom-img{
+.custom-img {
   height: 500px;
   object-fit: cover;
 }
 
-#img-skill-ruby{
+#img-skill-ruby {
   height: 200px;
 }
 
-#img-skill-html{
+#img-skill-html {
   height: 400px;
-  box-shadow: 1px 1px 1px 1px red;
+  box-shadow: 1px 1px 1px 1px $color-pink-hot;
 }
 
-.slider-caption{
+.slider-caption {
   padding-top: 2em;
   font-size: 3em;
 }
 
 .carousel-box {
-  box-shadow: inset 0 0 10px #000000, 1px 1px 1px 1px red;
+  box-shadow: inset 0 0 10px $carousel-shadow, 1px 1px 1px 1px $color-pink-hot;
 }
-

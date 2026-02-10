@@ -12,6 +12,7 @@ import "react-vertical-timeline-component/style.min.css";
 
 import { getExperienceMeta } from "data/experience";
 import { useTranslation } from "i18n";
+import { semantic } from "themes/theme";
 
 const Experience = () => {
   const { t } = useTranslation();
@@ -116,7 +117,7 @@ const ExperienceCard = ({ experience }: ExperienceCardProps) => {
     <VerticalTimelineElement
       className={timelineClass}
       date={date}
-      iconStyle={{ background: "#ffffff" }}
+      iconStyle={{ background: semantic.experienceIconBg }}
     >
       {url && tooltip ? (
         <OverlayTrigger

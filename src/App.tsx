@@ -3,6 +3,7 @@ import { Parallax } from "react-parallax";
 import ParticlesBg from "particles-bg";
 
 import { LanguageProvider } from "i18n";
+import colors from "themes/theme";
 import MyNavbar from "components/my-navbar/mynavbar.component";
 import LanguageToggle from "components/language-toggle/language-toggle.component";
 import Links from "components/links/links.component";
@@ -22,7 +23,12 @@ const App = () => {
         <div className="parallax">
           <MyNavbar />
           <Welcome>
-            <ParticlesBg type="cobweb" color="#fc7979" num={10} bg={true} />
+            <ParticlesBg
+              type="cobweb"
+              color={colors.coral}
+              num={10}
+              bg={true}
+            />
           </Welcome>
           <TitleMessage />
           <About />

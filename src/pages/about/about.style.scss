@@ -33,9 +33,9 @@
   border: $border-glass;
 
   a {
-    color: $light-yellow;
-    text-shadow: 0.3px 0.3px 0.3px white, -0.3px 0.3px 0.3px white,
-      0.3px -0.3px 0.3px white, -0.3px -0.3px 0.3px white;
+    color: $color-yellow;
+    text-shadow: 0.3px 0.3px 0.3px $color-white, -0.3px 0.3px 0.3px $color-white,
+      0.3px -0.3px 0.3px $color-white, -0.3px -0.3px 0.3px $color-white;
   }
 }
 

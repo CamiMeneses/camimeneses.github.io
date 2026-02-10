@@ -66,12 +66,12 @@ button.navbar-toggler:focus-visible {
   display: block;
   width: 12px;
   height: 1.5px;
-  background: #444;
+  background: $navbar-toggler-color;
   border-radius: 1px;
 }
 
 .navbar-toggler .navbar-toggler-icon::after {
-  box-shadow: 0 -4px 0 #444;
+  box-shadow: 0 -4px 0 $navbar-toggler-color;
 }
 
 @media only screen and (min-width: 600px) {
@@ -120,7 +120,7 @@ button.navbar-toggler:focus-visible {
   #responsive-navbar-nav {
     padding: 0.8rem;
     margin-top: 0.3rem;
-    background: rgba(20, 10, 30, 0.9);
+    background: $navbar-mobile-bg;
     backdrop-filter: blur(10px);
     border-radius: 6px;
 
