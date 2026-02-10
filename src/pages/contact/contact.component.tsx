@@ -25,7 +25,7 @@ const Contact = ({ children }: ContactProps) => {
               <p>
                 <b>{profile.fullName}</b>
                 <br />
-                {profile.shortTitle}
+                {contact.shortTitle}
                 <br />
                 <img
                   src="https://cdn-icons-png.flaticon.com/512/2990/2990218.png"

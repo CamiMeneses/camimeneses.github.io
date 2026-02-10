@@ -40,7 +40,8 @@
     "getInTouch": "Get in touch",
     "email": "Email",
     "location": "Location",
-    "colombia": "Colombia"
+    "colombia": "Colombia",
+    "shortTitle": "Mechatronics Engineer | Web Developer"
   },
   "experiences": [
     {
@@ -199,6 +200,50 @@
         "subtitle": "Universidad Distrital Francisco José de Caldas | Bogota, CO",
         "description": "Bachelor's degree in Mechatronics Engineering"
       }
+    },
+    "tooltips": {
+      "aboutUniversity": "About this university",
+      "aboutProject": "About this project | ESP",
+      "whatIsMechatronics": "What's Mechatronics?",
+      "aboutBootcamp": "About this bootcamp",
+      "showCertification": "Show certification",
+      "aboutEc": "About EC",
+      "seeCredential": "See Credential"
+    },
+    "bachelor": {
+      "title": "Bachelor of",
+      "degree": "Mechatronics Engineering",
+      "location": "Bogotá | 2017",
+      "projectLabel": "Project:",
+      "projectDescription": "Sistema de Monitoreo en la Nube para Medir los Riesgos Ambientales Basados en Sensores de Bajo Costo."
+    },
+    "courses": {
+      "title": "COURSES",
+      "fullstackBootcamp": "Fullstack Bootcamp",
+      "bootcampName": "Bogotá Dev",
+      "bootcampSubname": "Bootcamp & Dev Shop",
+      "bootcampLocation": "Bogotá | 2019",
+      "bootcampContent": "Ruby, Rails, HTML, CSS, Javascript, Jquery, GitHub, Rspec, React.js",
+      "duration": "Duration:",
+      "bootcampDuration": "10 weeks | day",
+      "miriadaCourse": "Desarrollo en HTML5, CSS y Javascript de Apps Web, Android, Ios(7ed.)",
+      "miriadaInstitution": "Miriada X | Universidad Politécnica de Madrid",
+      "miriadaDuration": "5 weeks | 50 study hours",
+      "virtual": "Virtual 2017"
+    },
+    "languages": {
+      "title": "LANGUAGES",
+      "spanish": "Spanish",
+      "english": "English",
+      "native": "Native",
+      "advanced": "Advanced",
+      "proficiencyLevel": "PROFICIENCY LEVEL",
+      "academicYear": "ACADEMIC YEAR 30 LESSONS",
+      "ecVancouver": "English Languages Centres - EC Vancouver",
+      "ecLocation": "Vancouver | Canada",
+      "ecDate": "2018 | Jan - Sep",
+      "ecDuration": "36 weeks",
+      "efCertificate": "EF English Certificate C1 Advanced | 2020"
     }
   },
   "socialLinks": [
