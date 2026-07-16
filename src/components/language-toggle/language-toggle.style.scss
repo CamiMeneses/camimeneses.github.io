@@ -2,24 +2,26 @@
 
 .language-toggle-fixed {
   position: fixed;
-  top: 12px;
-  right: 12px;
+  top: 14px;
+  right: 14px;
   z-index: 9999;
-  background: rgba(255, 255, 255, 0.15);
+  background: var(--color-surface-glass);
   backdrop-filter: blur(8px);
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  color: white;
-  padding: 0.4rem 0.8rem;
-  border-radius: 6px;
+  border: 1px solid var(--card-border);
+  color: var(--color-text-primary);
+  padding: 0.5rem 0.9rem;
+  border-radius: 8px;
   font-size: 0.75rem;
   font-weight: 600;
   letter-spacing: 0.5px;
   cursor: pointer;
-  transition: all 0.2s ease;
+  transition: all 0.3s ease;
 
   &:hover {
-    background: rgba(255, 255, 255, 0.25);
+    background: var(--color-primary);
+    color: var(--color-white);
     transform: scale(1.05);
+    box-shadow: var(--shadow-glow);
   }
 
   &:active {

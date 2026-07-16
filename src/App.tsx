@@ -1,74 +1,43 @@
-import "./App.scss";
-import { Parallax } from "react-parallax";
-import ParticlesBg from "particles-bg";
-
 import { LanguageProvider } from "i18n";
-import colors from "themes/theme";
-import MyNavbar from "components/my-navbar/mynavbar.component";
+import { ThemeProvider } from "themes/ThemeContext";
+import { GlobalStyles } from "styles/GlobalStyles";
+import Navbar from "components/navbar/Navbar";
+import Layout from "components/layout/layout.component";
+import Contact from "components/sections/contact/Contact";
+import Hero from "components/sections/hero/Hero";
+import About from "components/sections/about/About";
+import Skills from "components/sections/skills/Skills";
+import Education from "components/sections/education/Education";
+import Experience from "components/sections/experience/Experience";
+import ThemeToggle from "components/theme-toggle/theme-toggle.component";
 import LanguageToggle from "components/language-toggle/language-toggle.component";
-import Links from "components/links/links.component";
-import TitleMessage from "components/title-message/title-message.component";
-import Welcome from "pages/welcome/welcome.component";
-import About from "pages/about/about.component";
-import Skills from "pages/skills/skills.component";
-import Education from "pages/education/education.component";
-import Experience from "pages/experience/experience.component";
-import Contact from "pages/contact/contact.component";
+
+const AppContent = () => {
+  return (
+    <>
+      <ThemeToggle />
+      <LanguageToggle />
+      <Layout>
+        <Navbar />
+        <Hero />
+        <About />
+        <Skills />
+        <Education />
+        <Experience />
+        <Contact />
+      </Layout>
+    </>
+  );
+};
 
 const App = () => {
   return (
-    <LanguageProvider>
-      <LanguageToggle />
-      <div className="App">
-        <div className="parallax">
-          <MyNavbar />
-          <Welcome>
-            <ParticlesBg
-              type="cobweb"
-              color={colors.coral}
-              num={10}
-              bg={true}
-            />
-          </Welcome>
-          <TitleMessage />
-          <About />
-          <Skills />
-          <EducationSection />
-          <ExperienceSection />
-          <Contact>
-            <ParticlesBg type="lines" num={100} bg={true} />
-          </Contact>
-          <Links />
-        </div>
-      </div>
-    </LanguageProvider>
-  );
-};
-
-const EducationSection = () => {
-  return (
-    <Parallax
-      bgImage={require("./assets/img/background/education-croquis.png")}
-      bgImageAlt="education background"
-      strength={600}
-      bgImageStyle={{ opacity: ".4" }}
-    >
-      <div id="background-papel">
-        <Education />
-      </div>
-    </Parallax>
-  );
-};
-
-const ExperienceSection = () => {
-  return (
-    <Parallax
-      bgImage={require("./assets/img/background/experience-fucsia-spots.jpg")}
-      bgImageAlt="experience background"
-      strength={1000}
-    >
-      <Experience />
-    </Parallax>
+    <ThemeProvider>
+      <LanguageProvider>
+        <GlobalStyles />
+        <AppContent />
+      </LanguageProvider>
+    </ThemeProvider>
   );
 };
 

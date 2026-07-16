@@ -14,7 +14,7 @@
 }
 
 .parallax {
-  background-color: rgba(115, 100, 121, 0);
+  background-color: transparent;
   height: 100%;
   background-attachment: fixed;
   background-position: center;
@@ -41,9 +41,15 @@
   z-index: 1;
 }
 
+
 .description {
   font-weight: 100;
   padding: 0.5em;
+  color: #e8e8e8;
+}
+
+[data-theme="light"] .description {
+  color: #4a3f5c;
 }
 
 .App h1 {
@@ -52,20 +58,35 @@
   font-size: 3em;
   padding-top: 1.1em;
   padding-bottom: 0.7em;
-  color: $titles;
-  text-shadow: $shadow-white;
+  color: #ffffff;
+  text-shadow: 1px 1px 4px #a682ff, -1px 1px 4px #a682ff, 1px -1px 4px #a682ff,
+    -1px -1px 4px #a682ff;
+}
+
+[data-theme="light"] .App h1 {
+  color: #5e35b1;
+  text-shadow: 1px 1px 3px rgba(124, 77, 255, 0.2),
+    -1px 1px 3px rgba(124, 77, 255, 0.2);
 }
 
 .text-subtitle {
   font-weight: 400;
-  color: $education-secundary;
+  color: #f87df2;
   padding-left: 15px;
 }
 
 .text-description {
   font-weight: 300;
-  color: $education-description;
+  color: #e8e8e8;
   padding-left: 15px;
+}
+
+[data-theme="light"] .text-subtitle {
+  color: #ad1457;
+}
+
+[data-theme="light"] .text-description {
+  color: #4a3f5c;
 }
 
 .nospace {
@@ -74,7 +95,7 @@
 }
 
 .App a {
-  color: $purple;
+  color: #a31ed8;
   font-weight: 500;
   text-decoration: none;
 }
@@ -83,4 +104,13 @@
   font-weight: 700;
   text-shadow: $links-color;
   color: white;
+}
+
+[data-theme="light"] .App a {
+  color: #7c4dff;
+}
+
+[data-theme="light"] .App a:hover {
+  color: #e91e63;
+  text-shadow: none;
 }
