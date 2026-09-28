@@ -46,121 +46,158 @@
   "experiences": [
     {
       "id": "linc",
-      "date": "Dic 2023 - Actual",
+      "date": "Ene 2023 - Ago 2026",
       "title": "DESARROLLADORA DE SOFTWARE",
       "subtitle": "Lincspring & Yourwai | US | Remoto",
       "tooltip": "Sobre Linc",
       "items": [
         {
-          "text": "Proyecto: LincSpring",
-          "link": "https://linclearning.com/es/",
-          "highlight": "Desarrolladora Ruby on Rails"
+          "text": "Construí y mantuve servicios backend escalables en una arquitectura de microservicios orientada a eventos usando",
+          "highlight": "NestJS y NATS"
         },
         {
-          "text": "Proyecto: Yourwai.",
-          "highlight": "Desarrolladora Fullstack, Typescript, NestJs"
+          "text": "Diseñé y optimicé bases de datos para soportar requerimientos escalables del producto usando",
+          "highlight": "PostgreSQL"
         },
-        { "text": "Integraciones con OpenAi" }
+        {
+          "text": "Desarrollé funcionalidades backend con IA, respuestas en streaming, salidas estructuradas y flujos de varios pasos usando",
+          "highlight": "APIs de LLM"
+        },
+        {
+          "text": "Diseñé e implementé herramientas de IA personalizadas que permiten a los LLMs interactuar con microservicios internos mediante",
+          "highlight": "tool calls validados"
+        },
+        {
+          "text": "Construí funcionalidades de IA basadas en documentos, con recuperación de archivos para respuestas contextuales, usando",
+          "highlight": "OpenAI Vector Stores"
+        },
+        {
+          "text": "Desarrollé funcionalidades colaborativas en tiempo real para sincronizar el estado de la aplicación usando",
+          "highlight": "Convex"
+        },
+        {
+          "text": "Mejoré la estabilidad y mantenibilidad de una aplicación legacy en",
+          "highlight": "Ruby on Rails"
+        },
+        {
+          "text": "Automaticé tareas operativas y backups de bases de datos con",
+          "highlight": "AWS Lambda"
+        },
+        {
+          "text": "Construí aplicaciones responsive, integré APIs REST, rendericé respuestas de IA en streaming, implementé diseños de Figma pixel-perfect y mantuve pruebas unitarias y de componentes usando",
+          "highlight": "React"
+        }
       ]
     },
     {
       "id": "skydropx",
       "date": "Oct 2021 - Dic 2022",
-      "title": "DESARROLLADORA RUBY ON RAILS",
+      "title": "INGENIERA DE SOFTWARE",
       "subtitle": "Skydropx | MX | Remoto",
       "tooltip": "Sobre Skydropx",
       "items": [
-        { "highlight": "Ruby on Rails" },
-        { "highlight": "Scrum - Jira" }
+        {
+          "text": "Trabajé en una plataforma logística que ofrece servicios de envío en LATAM como",
+          "highlight": "desarrolladora Ruby on Rails"
+        },
+        {
+          "text": "Desarrollé integraciones con múltiples transportadoras usando APIs REST y webhooks para procesar actualizaciones de envíos en tiempo real",
+          "highlight": "B2B"
+        },
+        {
+          "text": "Desarrollé procesamiento de eventos en tiempo real usando",
+          "highlight": "Apache Kafka"
+        },
+        {
+          "text": "Brindé soporte técnico y resolución de incidentes en ambientes de producción"
+        }
       ]
     },
     {
       "id": "picap",
       "date": "Dic 2020 - Sep 2021",
-      "title": "DESARROLLADORA RUBY ON RAILS",
+      "title": "DESARROLLADORA RUBY ON RAILS & LÍDER DE EQUIPO",
       "subtitle": "Picap | Bogotá, CO | Remoto",
       "tooltip": "Sobre Picap",
       "items": [
-        { "highlight": "Ruby on Rails" },
         {
-          "text": "Construcción de proyecto desde cero",
+          "text": "Lideré y fui la principal desarrolladora backend del equipo que construyó desde cero la plataforma de gestión de bodegas",
           "link": "https://www.picap.app/#/pibox-storage",
           "linkText": "Pibox Storage"
         },
-        { "text": "Pruebas unitarias", "highlight": "Rspec" },
-        { "text": "Uso de", "highlight": "Heroku" },
-        { "highlight": "API REST" },
         {
-          "text": "Uso de herramienta de control de versiones Git y plataforma Bitbucket"
+          "text": "Gestioné reportes y lideré las reuniones diarias siguiendo",
+          "highlight": "Scrum - ClickUp"
         },
-        { "highlight": "Scrum - Clickup" }
+        {
+          "text": "Organicé, supervisé y monitoreé en producción una base de datos no relacional usando",
+          "highlight": "MongoDB"
+        },
+        { "text": "Desplegué funcionalidades en", "highlight": "Heroku" },
+        {
+          "text": "Brindé soporte al cliente y creé documentación de APIs usando",
+          "highlight": "Postman"
+        }
       ]
     },
     {
       "id": "twotransfair",
       "date": "Mar - Jul 2020",
-      "title": "DESARROLLADORA INTERMEDIA",
+      "title": "DESARROLLADORA FULLSTACK INTERMEDIA",
       "subtitle": "2Transfair | FINTECH | Bogotá, CO | Parcialmente remoto",
       "tooltip": "Sobre 2Transfair",
       "items": [
-        { "highlight": "Ruby on Rails" },
         {
-          "text": "Trabajé con un equipo para construir una plataforma de créditos"
+          "text": "Desarrollé una plataforma para el otorgamiento rápido y seguro de créditos usando",
+          "highlight": "Ruby on Rails"
         },
-        { "text": "Uso de", "highlight": "HTML, CSS, bootstrap" },
-        { "text": "Construcción de PDFs con datos dinámicos" },
-        { "highlight": "Monolítico" },
-        { "highlight": "API REST" },
         {
-          "text": "Uso de herramienta de control de versiones Git y plataforma Bitbucket, revisión de Pull Requests."
+          "text": "Construí integraciones con empresas de servicios públicos para el pago de facturas",
+          "highlight": "B2B"
         },
-        { "text": "Contacto con cliente" },
-        { "highlight": "Trello" }
+        { "text": "Manejé datos personales sensibles" },
+        {
+          "text": "Generé documentos automatizados y los almacené en",
+          "highlight": "AWS S3"
+        },
+        { "text": "Brindé soporte directo al cliente" }
       ]
     },
     {
       "id": "youse",
       "date": "May - Dic 2019",
-      "title": "IT TRAINEE | DESARROLLADORA RUBY ON RAILS",
+      "title": "DESARROLLADORA RUBY ON RAILS",
       "subtitle": "Youse Colombia - CNPX | INSURTECH | Bogotá, CO",
       "tooltip": "Sobre CNPX | Youse",
       "items": [
         {
-          "text": "Colaboré con un equipo para implementar una plataforma de seguros"
+          "text": "Trabajé como desarrolladora backend en la implementación de una plataforma de seguros siguiendo la",
+          "highlight": "metodología Scrum"
         },
         {
-          "text": "Escribí pruebas unitarias para asegurar la calidad usando",
-          "highlight": "Rspec"
+          "text": "Trabajé con microservicios, calculando precios con alta precisión, usando",
+          "highlight": "Redis y RabbitMQ"
         },
         {
-          "text": "Uso de herramienta de control de versiones Git y plataforma GitHub, revisión de Pull Requests"
+          "text": "Trabajé con un tercero para implementar",
+          "highlight": "Salesforce"
         },
-        { "text": "Trabajé con terceros para implementar Salesforce" },
-        { "text": "Seguí la metodología Scrum y usé", "highlight": "Jira" },
         {
-          "text": "Configuré, actualicé y usé datos de",
-          "highlight": "AWS S3 y Redis"
-        },
-        { "text": "Serví como bug-fixer y arreglé tests intermitentes" },
-        {
-          "text": "Uso de herramientas como",
-          "highlight": "Rabbit MQ, Logentries"
-        },
-        { "highlight": "Microservicios" }
+          "text": "Fui bug-fixer, corregí tests intermitentes y revisé código en",
+          "highlight": "GitHub"
+        }
       ]
     },
     {
       "id": "bb",
-      "date": "Mar - May 2019",
+      "date": "Abr - May 2019",
       "title": "DESARROLLADORA WEB FREELANCE",
       "subtitle": "Bogota Dev. Bootcamp & Dev Shop | Bogotá, CO",
       "tooltip": "Sobre Bogota Dev. Bootcamp & Dev Shop",
       "items": [
         {
-          "text": "Construí una aplicación desde cero para gestionar el bootcamp usando Ruby on Rails, Haml, Bootstrap, Devise gem y la subí a Heroku"
-        },
-        {
-          "text": "Implementé operaciones CRUD usando la arquitectura MVC (Model View Controller)"
+          "text": "Trabajé como desarrolladora full-stack construyendo desde cero una aplicación para gestionar el bootcamp usando",
+          "highlight": "Ruby on Rails, HTML, CSS y JavaScript"
         }
       ]
     },
@@ -178,7 +215,7 @@
       "subtitle": "Universidad Distrital Francisco José de Caldas | Universidad Piloto de Colombia | Bogotá, CO",
       "tooltip": "Sobre Universidad Distrital Francisco José de Caldas",
       "secondTooltip": "Sobre Universidad Piloto de Colombia",
-      "description": "Proyecto: Diseño de un sistema domótico con la placa Intel Galileo Gen1. Este proyecto se basó en el internet de las cosas IoT, usando lenguajes de programación como Python, HTML5, CSS, entre otros",
+      "description": "Proyecto: Diseño de un sistema domótico con la placa Intel Galileo Gen1. Creé una guía de usuario sobre el Internet de las Cosas (IoT) con la placa embebida Intel Galileo Gen1, mostrando ejemplos con sensores y código usando Python, HTML y CSS.",
       "isEducation": true,
       "items": []
     }
