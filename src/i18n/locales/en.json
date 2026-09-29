@@ -46,119 +46,158 @@
   "experiences": [
     {
       "id": "linc",
-      "date": "Dec 2023 - Current",
+      "date": "Jan 2023 - Aug 2026",
       "title": "SOFTWARE DEVELOPER",
       "subtitle": "Lincspring & Yourwai | US | Remote",
       "tooltip": "About Linc",
       "items": [
         {
-          "text": "Project: LincSpring",
-          "link": "https://linclearning.com/es/",
-          "highlight": "Ruby on Rails developer"
+          "text": "Built and maintained scalable backend services in a microservices, event-driven architecture using",
+          "highlight": "NestJS and NATS"
         },
         {
-          "text": "Project: Yourwai.",
-          "highlight": "Fullstack developer, Typescript, NestJs"
+          "text": "Designed and optimized databases to support scalable product requirements using",
+          "highlight": "PostgreSQL"
         },
-        { "text": "Integrations with OpenAi" }
+        {
+          "text": "Developed AI-powered backend features with streaming responses, structured outputs and multi-step workflows using",
+          "highlight": "LLM APIs"
+        },
+        {
+          "text": "Designed and implemented custom AI tools that let LLMs interact with internal microservices through validated",
+          "highlight": "tool calls"
+        },
+        {
+          "text": "Built document-aware AI features with file retrieval for contextual responses using",
+          "highlight": "OpenAI Vector Stores"
+        },
+        {
+          "text": "Developed real-time collaborative features to synchronize application state using",
+          "highlight": "Convex"
+        },
+        {
+          "text": "Improved the stability and maintainability of a legacy",
+          "highlight": "Ruby on Rails application"
+        },
+        {
+          "text": "Automated operational tasks and database backups with",
+          "highlight": "AWS Lambda"
+        },
+        {
+          "text": "Built responsive applications, integrated REST APIs, rendered streaming AI responses, delivered pixel-perfect Figma implementations and maintained unit and component tests using",
+          "highlight": "React"
+        }
       ]
     },
     {
       "id": "skydropx",
       "date": "Oct 2021 - Dec 2022",
-      "title": "RUBY ON RAILS DEVELOPER",
+      "title": "SOFTWARE ENGINEER",
       "subtitle": "Skydropx | MX | Remote",
       "tooltip": "About Skydropx",
       "items": [
-        { "highlight": "Ruby on Rails" },
-        { "highlight": "Scrum - Jira" }
+        {
+          "text": "Worked on a logistics platform providing shipping services across LATAM as a",
+          "highlight": "Ruby on Rails developer"
+        },
+        {
+          "text": "Developed integrations with multiple shipping carriers using REST APIs and webhooks to process real-time shipment status updates",
+          "highlight": "B2B"
+        },
+        {
+          "text": "Developed real-time event processing using",
+          "highlight": "Apache Kafka"
+        },
+        {
+          "text": "Provided technical support and issue resolution for production environments"
+        }
       ]
     },
     {
       "id": "picap",
       "date": "Dec 2020 - Sep 2021",
-      "title": "RUBY ON RAILS DEVELOPER",
+      "title": "RUBY ON RAILS DEVELOPER & TEAM LEAD",
       "subtitle": "Picap | Bogota, CO | Remote",
       "tooltip": "About Picap",
       "items": [
-        { "highlight": "Ruby on Rails" },
         {
-          "text": "Build a project from scratch",
+          "text": "Led and served as the primary backend developer of the team that built from the ground up the warehouse management platform",
           "link": "https://www.picap.app/#/pibox-storage",
           "linkText": "Pibox Storage"
         },
-        { "text": "Unit tests", "highlight": "Rspec" },
-        { "text": "Use", "highlight": "Heroku" },
-        { "highlight": "API REST" },
         {
-          "text": "Use version control tool Git and code storage tool Bitbucket"
+          "text": "Managed reporting and led daily meetings following",
+          "highlight": "Scrum - ClickUp"
         },
-        { "highlight": "Scrum - Clickup" }
+        {
+          "text": "Organized, oversaw and monitored in production a non-relational database using",
+          "highlight": "MongoDB"
+        },
+        { "text": "Deployed features via", "highlight": "Heroku" },
+        {
+          "text": "Provided client support and created API documentation using",
+          "highlight": "Postman"
+        }
       ]
     },
     {
       "id": "twotransfair",
       "date": "Mar - Jul 2020",
-      "title": "INTERMEDIATE DEVELOPER",
+      "title": "INTERMEDIATE - FULLSTACK DEVELOPER",
       "subtitle": "2Transfair | FINTECH | Bogota, CO | Partly remote",
       "tooltip": "About 2Transfair",
       "items": [
-        { "highlight": "Ruby on Rails" },
-        { "text": "Worked with a team to build a platform to bring credits" },
-        { "text": "Used", "highlight": "HTML, CSS, bootstrap" },
-        { "text": "Built PDFs with dynamic data" },
-        { "highlight": "Monolithic" },
-        { "highlight": "API REST" },
         {
-          "text": "Used version control tool Git and code storage tool Bitbucket and reviewed Pull Requests."
+          "text": "Developed a platform for fast and secure credit provision using",
+          "highlight": "Ruby on Rails"
         },
-        { "text": "Contact with client" },
-        { "highlight": "Trello" }
+        {
+          "text": "Built integrations with utility service providers for bill payments",
+          "highlight": "B2B"
+        },
+        { "text": "Managed sensitive personal data" },
+        {
+          "text": "Generated automated documents and stored them on",
+          "highlight": "AWS S3"
+        },
+        { "text": "Provided direct client support" }
       ]
     },
     {
       "id": "youse",
       "date": "May - Dec 2019",
-      "title": "IT TRAINEE | RUBY ON RAILS DEVELOPER",
+      "title": "RUBY ON RAILS DEVELOPER",
       "subtitle": "Youse Colombia - CNPX | INSURTECH | Bogota, CO",
       "tooltip": "About CNPX | Youse",
       "items": [
         {
-          "text": "Collaborated with a team to implement a platform for insurances"
+          "text": "Worked as a backend developer to implement an insurance platform following the",
+          "highlight": "Scrum methodology"
         },
         {
-          "text": "Wrote Unit tests for application quality assurance using",
-          "highlight": "Rspec"
+          "text": "Worked with microservices, calculating prices with high accuracy, using",
+          "highlight": "Redis and RabbitMQ"
         },
         {
-          "text": "Used version control tool Git and code storage tool GitHub and reviewed Pull Requests"
-        },
-        { "text": "Worked with a third-party to implement Salesforce" },
-        {
-          "text": "Followed the Scrum methodology and used",
-          "highlight": "Jira"
+          "text": "Worked with a third party to implement",
+          "highlight": "Salesforce"
         },
         {
-          "text": "Set, updated and used data from",
-          "highlight": "AWS S3 and Redis"
-        },
-        { "text": "Served as bug-fixer and fixed intermittent test" },
-        { "text": "Used tools like", "highlight": "Rabbit MQ, Logentries" },
-        { "highlight": "Microservices" }
+          "text": "Served as bug-fixer, fixed intermittent tests and reviewed code on",
+          "highlight": "GitHub"
+        }
       ]
     },
     {
       "id": "bb",
-      "date": "Mar - May 2019",
+      "date": "Apr - May 2019",
       "title": "FREELANCE WEB DEVELOPER",
       "subtitle": "Bogota Dev. Bootcamp & Dev Shop | Bogota, CO",
       "tooltip": "About Bogota Dev. Bootcamp & Dev Shop",
       "items": [
         {
-          "text": "Built an application from scratch to manage the coding bootcamp using Ruby on Rails and Haml, Bootstrap, Devise gem and uploaded it to Heroku"
-        },
-        {
-          "text": "Implemented CRUD operations for the application using the MVC (Model View Controller) architecture"
+          "text": "Worked as a full-stack developer to build from the ground up an application for managing the coding bootcamp using",
+          "highlight": "Ruby on Rails, HTML, CSS and JavaScript"
         }
       ]
     },
@@ -176,7 +215,7 @@
       "subtitle": "Universidad Distrital Francisco José de Caldas | Universidad Piloto de Colombia | Bogota, CO",
       "tooltip": "About Universidad Distrital Francisco José de Caldas",
       "secondTooltip": "About Universidad Piloto de Colombia",
-      "description": "Project: Diseño de un sistema domótico con la placa Intel Galileo Gen1. This project was based on the internet of things IoT, using programming languages like Python, HTML5, CSS, others",
+      "description": "Project: Diseño de un sistema domótico con la placa Intel Galileo Gen1. Created a user guide about the Internet of Things (IoT) with the Intel Galileo Gen1 embedded board, showing examples with sensors and code using Python, HTML and CSS.",
       "isEducation": true,
       "items": []
     }
