@@ -1,7 +1,10 @@
 @import "../../themes/theme.scss";
 
 #skills {
-  position: static;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
   background-color: $skills-overlay;
   clip-path: polygon(0% 3%, 100% 0%, 100% 100%, 0% 100%);
   background-size: cover;
@@ -21,15 +24,15 @@
     text-align: right;
     float: left;
     position: absolute;
+    top: 0;
     right: 0;
   }
 }
 
 #skills-box {
-  align-self: center;
+  width: 100%;
   margin: 0;
-  padding-top: 12em;
-  padding-bottom: 4em;
+  padding: 4em 0;
 
   @include media-breakpoint-down(md) {
     padding-top: 250px;
@@ -64,4 +67,11 @@
 
 .skill-row {
   justify-content: center;
+  text-align: center;
+}
+
+// Bootstrap's negative row gutters shift the grid off-center
+#skills .row {
+  margin-left: 0;
+  margin-right: 0;
 }
