@@ -72,6 +72,8 @@ $border-glass: 1px solid rgba($color-white, 0.3);
 $about-color: $text-primary;
 $about-name: $text-primary;
 $about-subtitle: $text-primary;
+// Dark overlay keeps light text >= 4.5:1 (WCAG AA) over the whole page gradient
+$about-background: rgba($color-background, 0.55);
 
 // Welcome section
 $welcome-message: $text-primary;
@@ -104,6 +106,10 @@ $background-navbar-small: linear-gradient(
 
 // Links component
 $linkedin-button: $color-purple-light;
+$resume-button: $color-green;
+$github-button: $color-blue;
+$links-button-background: rgba($color-background, 0.9);
+$links-button-hover-text: $color-background;
 
 // Experience section
 $experience-date-letter: $text-primary;
