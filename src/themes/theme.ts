@@ -17,6 +17,8 @@ export const colors = {
   purpleLight: "#a682ff",
   purple: "#a31ed8",
   purpleDark: "#3c245c",
+  purpleDeep: "#24123a",
+  purpleSoft: "#b99cff",
 
   // Secondary palette - Pinks
   pink: "#d64d88",
@@ -27,6 +29,7 @@ export const colors = {
   coral: "#fc7979",
   teal: "#23efc6",
   blue: "#0099ff",
+  blueLight: "#4db8ff",
   yellow: "#fff79e",
   green: "#85e285",
 } as const;

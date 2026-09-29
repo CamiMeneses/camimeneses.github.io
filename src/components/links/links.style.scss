@@ -1,5 +1,18 @@
 @import "../../themes/theme.scss";
 
+// Outline button with a dark backing so text/border stay >= 4.5:1 (WCAG AA)
+// over any section; filled states use dark text for the same reason.
+@mixin links-button($color) {
+  --bs-btn-color: #{$color};
+  --bs-btn-border-color: #{$color};
+  --bs-btn-hover-color: #{$links-button-hover-text};
+  --bs-btn-hover-bg: #{$color};
+  --bs-btn-hover-border-color: #{$color};
+  --bs-btn-active-color: #{$links-button-hover-text};
+  --bs-btn-active-bg: #{$color};
+  --bs-btn-active-border-color: #{$color};
+}
+
 .links {
   height: 3em;
   position: absolute;
@@ -18,15 +31,19 @@
     }
   }
 
-  .btn.btn-outline-info {
-    color: $linkedin-button;
-    border-color: $linkedin-button;
+  .btn {
+    --bs-btn-bg: #{$links-button-background};
+  }
 
-    &:hover,
-    &:focus,
-    &:active {
-      color: white;
-      background-color: $linkedin-button;
-    }
+  .btn.btn-outline-success {
+    @include links-button($resume-button);
+  }
+
+  .btn.btn-outline-info {
+    @include links-button($linkedin-button);
+  }
+
+  .btn.btn-outline-primary {
+    @include links-button($github-button);
   }
 }

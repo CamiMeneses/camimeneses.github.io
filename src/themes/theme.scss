@@ -19,6 +19,8 @@ $color-dark: #0b0c10;
 $color-purple-light: #a682ff;
 $color-purple: #a31ed8;
 $color-purple-dark: #3c245c;
+$color-purple-deep: #24123a;
+$color-purple-soft: #b99cff;
 
 // Secondary palette - Pinks
 $color-pink: #d64d88;
@@ -29,6 +31,7 @@ $color-pink-bright: #f87df2;
 $color-coral: #fc7979;
 $color-teal: #23efc6;
 $color-blue: #0099ff;
+$color-blue-light: #4db8ff;
 $color-yellow: #fff79e;
 $color-green: #85e285;
 
@@ -72,6 +75,8 @@ $border-glass: 1px solid rgba($color-white, 0.3);
 $about-color: $text-primary;
 $about-name: $text-primary;
 $about-subtitle: $text-primary;
+// Dark overlay keeps light text >= 4.5:1 (WCAG AA) over the whole page gradient
+$about-background: rgba($color-background, 0.55);
 
 // Welcome section
 $welcome-message: $text-primary;
@@ -103,7 +108,12 @@ $background-navbar-small: linear-gradient(
 );
 
 // Links component
-$linkedin-button: $color-purple-light;
+// Colors keep >= 4.5:1 (WCAG AA) over the backing, even above white surfaces
+$linkedin-button: $color-purple-soft;
+$resume-button: $color-green;
+$github-button: $color-blue-light;
+$links-button-background: rgba($color-purple-deep, 0.85);
+$links-button-hover-text: $color-background;
 
 // Experience section
 $experience-date-letter: $text-primary;

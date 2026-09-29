@@ -21,14 +21,15 @@
 }
 
 #about {
+  display: flex;
+  align-items: center;
   font-size: 1em;
   font-weight: 350;
-  vertical-align: middle;
   text-align: center;
   color: $about-color;
   clip-path: polygon(0% 5%, 100% 0%, 100% 95%, 0 100%);
   padding: 2vh 0%;
-  background: $background-glass;
+  background: $about-background;
   backdrop-filter: $blur-glass;
   border: $border-glass;
 
@@ -54,6 +55,7 @@
 }
 
 #about .container {
+  width: 100%;
   position: relative;
   z-index: 1;
 }
