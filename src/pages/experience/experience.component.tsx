@@ -76,7 +76,7 @@ const ExperienceCard = ({ experience }: ExperienceCardProps) => {
 
   const headerContent = (
     <Row className="nospace">
-      <Col xs={12} sm={3} md={3} lg={3}>
+      <Col xs={12} sm={3} md={3} lg={3} className="experience-logo">
         {secondLogo && url && tooltip ? (
           <>
             <Row>

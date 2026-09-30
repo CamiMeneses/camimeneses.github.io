@@ -45,11 +45,23 @@
     border-radius: 10px;
     text-align: center;
     margin: 0;
-    padding: 0;
+    padding: 0.15em 0.9em;
     opacity: 1;
   }
 
   .logo {
     width: 10vh;
+    max-width: 100%;
+  }
+
+  // Space between the company logo and the job title: below it when
+  // stacked (xs), beside it from sm up
+  .experience-logo {
+    margin-bottom: 1rem;
+
+    @include media-breakpoint-up(sm) {
+      margin-bottom: 0;
+      padding-right: 1.5rem;
+    }
   }
 }
