@@ -94,7 +94,10 @@
     }
   }
 
+  // A percentage slant grows with the (tall) mobile section and cut into
+  // the last lines; use a fixed depth and pad the content clear of it
   #about {
-    clip-path: polygon(0% 0%, 100% 0%, 100% 95%, 0 100%);
+    clip-path: polygon(0% 0%, 100% 0%, 100% calc(100% - 3rem), 0 100%);
+    padding-bottom: 4.5rem;
   }
 }
