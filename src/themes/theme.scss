@@ -63,17 +63,36 @@ $links-color: 0.5px 0.5px 0.5px $color-blue, -0.5px 0.5px 0.5px $color-teal,
   0.5px -0.5px 0.5px $color-pink-hot, -0.5px -0.5px 0.5px $color-yellow;
 
 // Side vignette: dark purple bands at the left/right edges fading inward
-$vignette-color: rgba($color-purple-deep, 0.85);
-$vignette-width: clamp(2rem, 12vw, 16rem);
+$vignette-color: $color-purple-deep;
+$vignette-alpha: 0.85;
+$vignette-width: clamp(3rem, 25vw, 30rem);
+// Eased falloff (position within the band: opacity factor) so the band
+// dissolves gradually toward the center instead of ending in a visible edge
+$vignette-falloff: (
+  0: 1,
+  0.2: 0.72,
+  0.45: 0.4,
+  0.7: 0.15,
+  1: 0,
+);
 
-@function side-vignette($color: $vignette-color, $width: $vignette-width) {
-  @return linear-gradient(
-    to right,
-    $color 0,
-    transparent $width,
-    transparent calc(100% - #{$width}),
-    $color 100%
-  );
+@function side-vignette(
+  $color: $vignette-color,
+  $alpha: $vignette-alpha,
+  $width: $vignette-width
+) {
+  $left: ();
+  $right: ();
+  @each $pos, $factor in $vignette-falloff {
+    $stop-color: rgba($color, $alpha * $factor);
+    $left: append($left, $stop-color calc(#{$width} * #{$pos}), comma);
+    $right: join(
+      ($stop-color calc(100% - #{$width} * #{$pos}),),
+      $right,
+      comma
+    );
+  }
+  @return linear-gradient(to right, join($left, $right, comma));
 }
 
 // Glass effect
