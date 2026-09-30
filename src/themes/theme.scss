@@ -126,8 +126,11 @@ $navbar-active: $color-white;
 $navbar-active-shadow: $color-pink-hot;
 $navbar-hover: $color-white;
 $navbar-hover-shadow: $color-blue;
-$navbar-toggler-color: $color-gray;
+$navbar-toggler-color: $color-white;
+$navbar-toggler-background: rgba($color-purple-deep, 0.6);
+$navbar-toggler-background-hover: rgba($color-purple-deep, 0.85);
 $navbar-mobile-bg: rgba(20, 10, 30, 0.9);
+$navbar-mobile-highlight: $color-teal;
 $background-navbar-large: linear-gradient(
   to right,
   rgba(0, 0, 0, 0) 30%,
