@@ -6,6 +6,7 @@
   justify-content: center;
   position: relative;
   background-color: $skills-overlay;
+  background-image: side-vignette();
   clip-path: polygon(0% 3%, 100% 0%, 100% 100%, 0% 100%);
   background-size: cover;
   background-position: center;

@@ -24,19 +24,19 @@ const Education = () => {
       <h1>{t.sections.education}</h1>
       <Container>
         <Row className="pt-1 pb-4 align-items-center">
-          <Col xs={12} sm={12} md={12} lg={12} xl={3}>
+          <Col xs={12} lg={6} xxl={3} className="order-lg-2 order-xxl-1">
             <Row className="justify-content-center mb-2 mr-2 education-box">
               <Courses />
             </Row>
           </Col>
 
-          <Col xs={12} sm={12} md={12} lg={12} xl={6}>
+          <Col xs={12} xxl={6} className="order-lg-1 order-xxl-2">
             <Row className="justify-content-center mb-2 mr-2 education-box">
               <Bachelor />
             </Row>
           </Col>
 
-          <Col xs={12} sm={12} md={12} lg={12} xl={3}>
+          <Col xs={12} lg={6} xxl={3} className="order-lg-3 order-xxl-3">
             <Row className="justify-content-center mb-2 mr-2 education-box">
               <Languages />
             </Row>

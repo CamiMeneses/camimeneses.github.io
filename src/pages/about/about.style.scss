@@ -54,6 +54,16 @@
   z-index: 0;
 }
 
+// Sits above the background and #about-form-1, below the content
+#about::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background: side-vignette();
+}
+
 #about .container {
   width: 100%;
   position: relative;
@@ -63,7 +73,7 @@
 #about .profile {
   margin: 25px;
   width: 24em;
-  max-width: 90vw;
+  max-width: calc(100% - 50px);
   height: auto;
 }
 
@@ -75,6 +85,7 @@
   #about .profile {
     margin: 10px 0px;
     width: 20em;
+    max-width: 100%;
   }
 
   .about-container {

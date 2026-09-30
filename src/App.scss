@@ -10,7 +10,9 @@
 }
 
 .App .container {
-  max-width: 98%;
+  max-width: 1320px;
+  padding-left: clamp(1rem, 4vw, 3rem);
+  padding-right: clamp(1rem, 4vw, 3rem);
 }
 
 .parallax {
