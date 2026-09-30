@@ -1,5 +1,7 @@
 @import "../../themes/theme.scss";
 
+$skills-title-padding-y: min(10vh, 5rem);
+
 #skills {
   display: flex;
   flex-direction: column;
@@ -19,7 +21,7 @@
 
   h1 {
     background-color: $skills-background-title;
-    padding: 10vh 8vh 10vh 120vh;
+    padding: $skills-title-padding-y 8vh $skills-title-padding-y 120vh;
     margin: 0;
     clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 40% 10%);
     text-align: right;
@@ -30,18 +32,13 @@
   }
 }
 
+// Symmetric padding at least as tall as the absolutely positioned title
+// (2 x its vertical padding + one 3em line), so the icons stay centered and
+// never slide under the title triangle, whatever the viewport height
 #skills-box {
   width: 100%;
   margin: 0;
-  padding: 4em 0;
-
-  @include media-breakpoint-down(md) {
-    padding-top: 250px;
-
-    h1 {
-      clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 10%);
-    }
-  }
+  padding: calc(2 * #{$skills-title-padding-y} + 4.5rem) 0;
 }
 
 .skill-column {
@@ -69,10 +66,4 @@
 .skill-row {
   justify-content: center;
   text-align: center;
-}
-
-// Bootstrap's negative row gutters shift the grid off-center
-#skills .row {
-  margin-left: 0;
-  margin-right: 0;
 }

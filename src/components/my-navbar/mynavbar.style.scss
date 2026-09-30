@@ -30,7 +30,7 @@ button.navbar-toggler {
   margin: 8px 0 0 8px;
   border: none;
   border-radius: 50%;
-  background: rgba(255, 255, 255, 0.15);
+  background: $navbar-toggler-background;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -39,7 +39,7 @@ button.navbar-toggler {
 }
 
 button.navbar-toggler:hover {
-  background: rgba(255, 255, 255, 0.25);
+  background: $navbar-toggler-background-hover;
 }
 
 button.navbar-toggler:focus,
@@ -48,7 +48,7 @@ button.navbar-toggler:focus-visible {
   box-shadow: none;
   outline: none;
   border: none;
-  background: rgba(255, 255, 255, 0.2);
+  background: $navbar-toggler-background-hover;
 }
 
 .navbar-toggler .navbar-toggler-icon {
@@ -74,7 +74,7 @@ button.navbar-toggler:focus-visible {
   box-shadow: 0 -4px 0 $navbar-toggler-color;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
   #responsive-navbar-nav {
     text-shadow: none;
     height: 10px;
@@ -108,7 +108,7 @@ button.navbar-toggler:focus-visible {
   }
 }
 
-@media only screen and (max-width: 599px) {
+@media only screen and (max-width: 767px) {
   .navbar-collapse {
     transition: height 0.35s ease;
   }
@@ -124,27 +124,24 @@ button.navbar-toggler:focus-visible {
     backdrop-filter: blur(10px);
     border-radius: 6px;
 
+    // No text-shadow here: the 4-way glow blurred the small labels
     .nav-link {
       color: $navbar-color;
-      padding: 0.4rem 0;
-      font-size: 0.7rem;
+      padding: 0.5rem 0;
+      font-size: 0.85rem;
+      font-weight: 600;
+      letter-spacing: 0.04em;
       border-bottom: 1px solid rgba(255, 255, 255, 0.08);
       transition: color 0.2s ease;
-      @include nav-text-shadow($navbar-color-shadow);
     }
 
     .nav-link:last-child {
       border-bottom: none;
     }
 
-    a.nav-link.active {
-      color: $navbar-active;
-      @include nav-text-shadow($navbar-active-shadow);
-    }
-
+    a.nav-link.active,
     .nav-link:hover {
-      color: $navbar-hover;
-      @include nav-text-shadow($navbar-hover-shadow);
+      color: $navbar-mobile-highlight;
     }
   }
 }
