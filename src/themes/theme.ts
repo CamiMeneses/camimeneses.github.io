@@ -12,7 +12,6 @@ export const colors = {
   light: "#e8e8e8",
   gray: "#444444",
   dark: "#0b0c10",
-  black: "#000000",
 
   // Primary palette - Purples
   purpleLight: "#a682ff",
