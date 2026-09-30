@@ -54,6 +54,16 @@
   z-index: 0;
 }
 
+// Sits above the background and #about-form-1, below the content
+#about::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background: side-vignette();
+}
+
 #about .container {
   width: 100%;
   position: relative;

@@ -1,6 +1,8 @@
 @import "../../themes/theme.scss";
 
 #education {
+  background-image: side-vignette();
+
   h1{
     padding-bottom: 0em;
   }
