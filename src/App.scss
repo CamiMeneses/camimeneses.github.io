@@ -24,7 +24,9 @@
   max-width: 100%;
 }
 
-.row {
+// `.App` raises specificity: every stylesheet re-imports Bootstrap, whose
+// negative row gutters would otherwise win and shift nested rows left
+.App .row {
   margin-left: 0;
   margin-right: 0;
   max-width: 100%;
